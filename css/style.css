@@ -132,6 +132,7 @@ a {
   width: 100%;
   background: transparent;
   padding: 8px;
+  outline: none;
   border: 0;
 }
 
