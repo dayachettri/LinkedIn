@@ -1,0 +1,70 @@
+/*
+- Font sizes (px) 
+- Rem 1rem 1.2rem 1.4rem ...
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+LinkedIn font-sizes
+-1.2rem
+-1.4rem
+-1.6rem
+
+- Spacing system (px)
+- Rem 0.2rem 0.4rem 0.8rem ...
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+- Line heights
+Default: 1
+Small: 1.05
+Medium: 1.2
+Paragraph default: 1.6
+Large: 1.8
+
+- Letter spacing
+-0.5px
+0.75px
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+:root {
+  --white: #fff;
+  --body-bg: #f3f2ef;
+  --black: #191919;
+  --gray: #666;
+  --blue: #0a66c2;
+  --red: #915907;
+  --green: #057642;
+  --hover-light: #ebebeb;
+  --hover-blue: #e2f0f2;
+  --input-bg: #eef3f8;
+  --poppins: 'Poppins', sans-serif;
+  --weight-light: 300;
+  --weight-regular: 400;
+  --weight-bold: 700;
+}
+
+html {
+  box-sizing: border-box;
+  /* 1 rem = 10px */
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: var(--poppins);
+  font-weight: var(--weight-regular);
+  line-height: 1;
+  background: var(--body-bg);
+}
+
+.container {
+  max-width: 120rem;
+}
