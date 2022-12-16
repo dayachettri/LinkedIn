@@ -85,6 +85,12 @@ a {
   padding-right: 5px;
 }
 
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 /*#==================================================== Navbar ======================================================================= */
 
 .navbar-bg {
@@ -337,3 +343,88 @@ a {
 }
 
 /*# Center content  */
+
+/*#======================================================================================= */
+
+/*#right aside */
+.news-block {
+  border-radius: 1rem;
+  background-color: var(--white);
+  padding: 10px;
+}
+
+.aside-right p {
+  font-size: 1.6rem;
+  font-weight: var(--weight-regular);
+}
+
+.aside-right i {
+  font-size: 2rem;
+}
+
+.aside-right-heading {
+  margin: 1.5rem;
+}
+
+.unordered_list {
+  /* border: 1px solid firebrick; */
+  margin: 1.5rem;
+}
+
+.unordered_list ul li {
+  list-style: disc;
+  margin-left: 1.5rem;
+  font-size: 1.4rem;
+  font-weight: var(--weight-regular);
+  margin-top: 1rem;
+}
+
+.unordered_list ul p {
+  font-size: 1.2rem;
+  font-weight: var(--weight-regular);
+  margin-left: 1.5rem;
+  margin-top: 0.7rem;
+  color: var(--light-grey);
+}
+
+.show-more {
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.show-more span {
+  padding: 0.4rem 2.5rem;
+  border-radius: 2.5px;
+  font-weight: var(--weight-regular);
+  font-size: 1.4rem;
+}
+
+.show-more :hover {
+  background-color: var(--light-grey);
+}
+
+.help-center {
+  margin-top: 3rem;
+}
+
+.help-center-row {
+  justify-content: space-evenly;
+  margin-top: 1rem;
+}
+
+.help-center-row a {
+  color: var(--light-grey);
+}
+
+.linkedIn-img {
+  margin-top: 1rem;
+  margin-left: 4rem;
+}
+
+.linkedIn-img img {
+  width: 6rem;
+}
+
+.linkedIn-img span {
+  margin-top: 4rem;
+}
