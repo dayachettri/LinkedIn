@@ -75,18 +75,32 @@ a {
   max-width: 120rem;
 }
 
-/* NAVBAR */
+.grid-3-col {
+  margin: 0 auto;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1.5fr;
+  gap: 2rem;
+  padding-right: 5px;
+}
+
+/*#==================================================== Navbar ======================================================================= */
+
+.navbar-bg {
+  background-color: var(--white);
+  margin-bottom: 2.4rem;
+}
 
 #navbar {
-  padding-left: 12.4%;
-  padding-right: 12.4%;
+  /* padding-left: 12.4%;
+  padding-right: 12.4%; */
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: var(--white);
   position: sticky;
   top: 0;
   z-index: 100;
+  margin: 0 auto;
 }
 
 .logo i {
@@ -125,21 +139,7 @@ a {
 
 /*------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-
-.grid-3-col {
-  margin: 0 auto;
-  justify-content: center;
-  display: grid;
-  grid-template-columns: 1fr 2fr 1.5fr;
-<<<<<<< HEAD
-  gap: 2rem;
-  padding-right: 5px;
-}
-=======
-  gap: 2.4rem;
-}
-
-/*# Left aside */
+/*#================================================================ Left aside =======================================================*/
 
 .aside-left {
   border-radius: 1rem;
@@ -226,6 +226,5 @@ a {
 .item-box i {
   font-size: 1.6rem;
 }
-<<<<<<< HEAD
 
 /*# Center content  */
