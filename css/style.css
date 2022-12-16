@@ -82,7 +82,7 @@ a {
   gap: 2.4rem;
 }
 
-/* Left aside */
+/*# Left aside */
 
 .aside-left {
   border-radius: 1rem;
@@ -169,3 +169,5 @@ a {
 .item-box i {
   font-size: 1.6rem;
 }
+
+/*# Center content  */
