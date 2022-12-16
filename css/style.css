@@ -343,7 +343,96 @@ a {
   padding-top: 1.4rem;
 }
 
-/*# Center content  */
+/*# ========================Center content  */
+/*# =====================================Center content =============================== */
+.post-box{
+  border-radius: 1rem;
+   overflow: hidden;
+   background-color: var(--white);
+   padding: 1rem 1.6rem;
+   height: 12rem;
+   color: var(--gray);
+   font-weight: 500;
+ }
+ .profile-post{
+   display: flex;
+   gap: 1.2rem;
+   align-items: center;
+ }
+ .profile-post img{
+    border-radius: 50%;
+     width: 60px;
+     height: 60px;
+   
+ }
+ .start-post{
+   border: 1px solid var(--gray);
+   border-radius: 2.5rem;
+   width: 100%;
+   text-align:justify;
+   padding: 1.8rem 1rem;
+   
+ }
+ 
+ .start-post p{
+ font-size: 1.4rem;
+ 
+ }
+ .start-post:hover{
+   cursor: pointer;
+   background-color:var(--hover-light);
+ }
+ .attachment{
+   display: flex ;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 1rem;
+  }
+ 
+ .attachment-option {
+   display: flex;
+   /* justify-content: space-around; */
+ align-items: center;
+ font-size: 1.4rem;
+ }
+ .attachment-option span{
+   margin-right: 1rem;
+ }
+ .photo{
+   color: var(--blue);
+ }
+ .video{
+   color: var(--green);
+ }
+ .event{
+   color:var(--mustard);
+ }
+ .article{
+   color:var(--red);
+ }
+ .sortby{
+ margin-top: 1rem;
+ display: flex;
+ justify-content: flex-end;
+ align-items: center;
+ color: var(--gray);
+ }
+ .sortby span{
+   font-weight: 600;
+   margin:0 0.3rem;
+   color: black;
+ }
+ .sortby svg{
+   color: black;
+ }
+ .line{
+   display: grid;
+   grid-template-columns: 5fr 1fr;
+ }
+ .xyz{
+   border-bottom: 1px solid var(--light-grey);
+   margin-bottom: 0.6rem;
+ }
 
 /*#======================================================================================= */
 
