@@ -135,6 +135,10 @@ a {
   border: 0;
 }
 
+.try-premium {
+  color: var(--red);
+}
+
 /* =================================== CENTER ====================================*/
 .navbar-center {
   display: flex;
