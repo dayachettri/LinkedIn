@@ -94,8 +94,8 @@ a {
 }
 
 #navbar {
-  /* padding-left: 12.4%;
-  padding-right: 12.4%; */
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -143,18 +143,10 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 3rem;
+  gap: 4rem;
   cursor: pointer;
-
 }
 
-
-.navbar-right {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 5rem;
-}
 
 .profile-img {
   width: 23px;
@@ -180,7 +172,7 @@ a {
   position: absolute;
 }
 
-.work {
+.work a {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -188,7 +180,7 @@ a {
   cursor: pointer;
 }
 
-.work:hover {
+.work a:hover {
   color: var(--black);
 }
 
@@ -201,13 +193,24 @@ a {
   display: flex;
 }
 
+.nine-dots {
+  color: var(--gray);
+  cursor: pointer;
+}
+
+.nine-dots:hover {
+  color: var(--black);
+}
+
 .try-premium {
+  color: var(--red);
+  text-align: center;
+}
+
+.try-premium a {
   color: var(--red);
 }
 
-.try-premium:hover {
-  color: var(--red);
-}
 
 /*------------------------------------------------------------------------------------------------------------------------------------------------*/
 
