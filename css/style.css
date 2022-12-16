@@ -64,6 +64,11 @@ body {
   font-weight: var(--weight-regular);
   line-height: 1;
   background: var(--body-bg);
+  font-size: 1.2rem;
+}
+
+a {
+  color: var(--black);
 }
 
 .container {
@@ -126,6 +131,99 @@ body {
   justify-content: center;
   display: grid;
   grid-template-columns: 1fr 2fr 1.5fr;
+<<<<<<< HEAD
   gap: 2rem;
   padding-right: 5px;
 }
+=======
+  gap: 2.4rem;
+}
+
+/* Left aside */
+
+.aside-left {
+  border-radius: 1rem;
+  overflow: hidden;
+  background-color: var(--white);
+}
+
+.identity-img {
+  background: url(https://media.licdn.com/dms/image/C4D16AQFSzFIBalvPxA/profile-displaybackgroundimage-shrink_200_800/0/1662794400367?e=1676505600&v=beta&t=1ltsT07gWqRLWHhGrowdrAwjg3xVI6qnLmUjn_mRtno);
+  background-position: center;
+  background-size: cover;
+  height: 5.6rem;
+  display: flex;
+  justify-content: center;
+}
+
+.identity-text img {
+  border-radius: 50%;
+  width: 72px;
+  height: 72px;
+  margin-bottom: 2.4rem;
+}
+
+.identity-text {
+  text-align: center;
+  padding: 1.2rem;
+  border-bottom: 1px solid var(--gray);
+  margin-top: -4.8rem;
+}
+
+.identity-text a {
+  font-size: 1.6rem;
+  font-weight: var(--weight-regular);
+  color: var(--black);
+  display: block;
+}
+
+.identity-text a:hover {
+  text-decoration: underline;
+}
+
+.identity-text p {
+  margin-top: 1.2rem;
+  font-size: 1.2rem;
+  font-weight: var(--weight-light);
+}
+
+.connection-box {
+  padding: 1.2rem;
+  border-bottom: 1px solid var(--gray);
+}
+
+.connections {
+  margin-bottom: 1.2rem;
+}
+
+.connections,
+.views {
+  display: flex;
+  justify-content: space-between;
+  line-height: 1.6;
+}
+
+.connection-box span {
+  color: var(--blue);
+}
+
+.premium-box {
+  padding: 1.2rem;
+  border-bottom: 1px solid var(--gray);
+}
+
+.premium-box a {
+  text-decoration: underline;
+}
+
+.item-box {
+  padding: 1.6rem;
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+}
+
+.item-box i {
+  font-size: 1.6rem;
+}
+>>>>>>> af4c875882d13ff20dae6728141ce46023022224
