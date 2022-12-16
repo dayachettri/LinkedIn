@@ -85,8 +85,6 @@ a {
   padding-right: 5px;
 }
 
-
-
 /*#==================================================== Navbar ======================================================================= */
 
 .navbar-bg {
@@ -137,8 +135,6 @@ a {
   border: 0;
 }
 
-
-
 /* =================================== CENTER ====================================*/
 .navbar-center {
   display: flex;
@@ -147,7 +143,6 @@ a {
   gap: 4rem;
   cursor: pointer;
 }
-
 
 .profile-img {
   width: 23px;
@@ -212,17 +207,15 @@ a {
   color: var(--red);
 }
 
-
 /*------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 /*#================================================================ Left aside =======================================================*/
 
-.aside-left {
+.part-one {
   border-radius: 1rem;
   overflow: hidden;
   background-color: var(--white);
 }
-
 .identity-img {
   background: url(https://media.licdn.com/dms/image/C4D16AQFSzFIBalvPxA/profile-displaybackgroundimage-shrink_200_800/0/1662794400367?e=1676505600&v=beta&t=1ltsT07gWqRLWHhGrowdrAwjg3xVI6qnLmUjn_mRtno);
   background-position: center;
@@ -301,6 +294,46 @@ a {
 
 .item-box i {
   font-size: 1.6rem;
+}
+
+.part-2 {
+  border-radius: 1rem;
+  overflow: hidden;
+  background-color: var(--white);
+  margin-top: 10px;
+  padding: 1.6rem;
+}
+.recent-visit {
+  margin-top: 1.2rem;
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+}
+.recent-visit i {
+  font-size: 1.6rem;
+}
+
+.group-box {
+  margin-top: 2.6rem;
+  color: var(--blue);
+}
+.events {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.8rem 0;
+}
+.events i {
+  color: var(--gray);
+}
+.see-all {
+  padding: 1.6rem;
+  border-bottom: 1px solid var(--gray);
+}
+.discover {
+  text-align: center;
+  font-size: 1.3rem;
+  padding-top: 1.4rem;
 }
 
 /*# Center content  */
