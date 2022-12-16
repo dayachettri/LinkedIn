@@ -24,6 +24,7 @@ Large: 1.8
 0.75px
 */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
 :root {
   --white: #fff;
   --body-bg: #f3f2ef;
@@ -69,10 +70,62 @@ body {
   max-width: 120rem;
 }
 
+/* NAVBAR */
+
+#navbar {
+  padding-left: 12.4%;
+  padding-right: 12.4%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--white);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo i {
+  font-size: 4.5rem;
+  color: var(--blue);
+}
+
+/* CENTER */
+.navbar-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+  cursor: pointer;
+}
+
+.navbar-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5rem;
+}
+
+.profile-img {
+  width: 40px;
+  border-radius: 50%;
+  display: block;
+  cursor: pointer;
+  position: relative;
+}
+
+.work i {
+  font-size: 2.5rem;
+  display: flex;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
 .grid-3-col {
   margin: 0 auto;
   justify-content: center;
   display: grid;
   grid-template-columns: 1fr 2fr 1.5fr;
   gap: 2rem;
+  padding-right: 5px;
 }
