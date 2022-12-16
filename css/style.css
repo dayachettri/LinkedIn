@@ -72,14 +72,15 @@ a {
 }
 
 .container {
-  max-width: 120rem;
+  max-width: 113rem;
 }
 
 .grid-3-col {
   margin: 0 auto;
   justify-content: center;
   display: grid;
-  grid-template-columns: 1fr 2fr 1.5fr;
+  /* grid-template-columns: 1fr 2fr 1.5fr; */
+  grid-template-columns: minmax(0, 5fr) minmax(0, 12fr) minmax(300px, 7fr);
   gap: 2rem;
   padding-right: 5px;
 }
