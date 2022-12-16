@@ -185,13 +185,21 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: var(--gray);
+  cursor: pointer;
+}
+
+.work:hover {
+  color: var(--black);
+}
+
+.work i:hover {
+  color: var(--black);
 }
 
 .work i {
   font-size: 2.5rem;
   display: flex;
-  cursor: pointer;
-  color: var(--gray);
 }
 
 /*------------------------------------------------------------------------------------------------------------------------------------------------*/
