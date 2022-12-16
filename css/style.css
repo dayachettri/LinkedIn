@@ -68,3 +68,11 @@ body {
 .container {
   max-width: 120rem;
 }
+
+.grid-3-col {
+  margin: 0 auto;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1.5fr;
+  gap: 2rem;
+}
