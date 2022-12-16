@@ -84,6 +84,8 @@ a {
   padding-right: 5px;
 }
 
+
+
 /*#==================================================== Navbar ======================================================================= */
 
 .navbar-bg {
@@ -108,14 +110,41 @@ a {
   color: var(--blue);
 }
 
-/* CENTER */
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.search-box {
+  background: var(--hover-light);
+  width: 250px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+}
+
+.search-box i {
+  width: 14px;
+}
+
+.search-box input {
+  width: 100%;
+  background: transparent;
+  padding: 8px;
+  border: 0;
+}
+
+/* =================================== CENTER ====================================*/
 .navbar-center {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 3rem;
   cursor: pointer;
+
 }
+
 
 .navbar-right {
   display: flex;
@@ -125,16 +154,39 @@ a {
 }
 
 .profile-img {
-  width: 40px;
+  width: 23px;
   border-radius: 50%;
   display: block;
   cursor: pointer;
   position: relative;
 }
 
+.online {
+  position: relative;
+}
+
+.online::after {
+  content: '';
+  width: 8px;
+  height: 8px;
+  border: 2px solid var(--white);
+  border-radius: 50%;
+  right: 0px;
+  top: 0px;
+  background: #41db51;
+  position: absolute;
+}
+
+.work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .work i {
   font-size: 2.5rem;
   display: flex;
+  cursor: pointer;
 }
 
 /*------------------------------------------------------------------------------------------------------------------------------------------------*/
