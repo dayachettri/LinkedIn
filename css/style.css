@@ -33,7 +33,7 @@ Large: 1.8
   --light-grey: #979797;
   --blue: #378fe9;
   --red: #e16745;
-  --mustard :#c37d16;
+  --mustard: #c37d16;
   --green: #5f9b41;
   --hover-light: #ebebeb;
   --hover-blue: #e2f0f2;
@@ -63,7 +63,10 @@ html {
 
 body {
   /* font-family: var(--poppins); */
-  font-family: -apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Fira Sans,Ubuntu,Oxygen,Oxygen Sans,Cantarell,Droid Sans,Apple Color Emoji,Segoe UI Emoji,Segoe UI Emoji,Segoe UI Symbol,Lucida Grande,Helvetica,Arial,sans-serif;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell,
+    Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Emoji,
+    Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
   font-weight: var(--weight-regular);
   line-height: 1;
   background: var(--body-bg);
@@ -72,6 +75,12 @@ body {
 
 a {
   color: var(--black);
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 .container {
@@ -86,6 +95,7 @@ a {
   grid-template-columns: minmax(0, 5fr) minmax(0, 12fr) minmax(300px, 7fr);
   gap: 2rem;
   padding-right: 5px;
+  margin-top: 8rem;
 }
 
 .flex {
@@ -99,6 +109,9 @@ a {
 .navbar-bg {
   background-color: var(--white);
   margin-bottom: 2.4rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 #navbar {
@@ -107,9 +120,6 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: sticky;
-  top: 0;
-  z-index: 100;
   margin: 0 auto;
 }
 
@@ -216,6 +226,94 @@ a {
   color: var(--red);
 }
 
+/*# User box center */
+.post {
+  border-radius: 1rem;
+  background-color: var(--white);
+  margin-bottom: 1rem;
+}
+.reactor-box {
+  padding: 1.2rem;
+  border-bottom: 1px solid var(--light-grey);
+}
+.reactor-box i {
+  font-size: 2.4rem;
+}
+
+.reactor {
+  gap: 0.8rem;
+}
+.reactor img {
+  width: 24px;
+  border-radius: 50%;
+}
+
+.reactor i {
+  font-size: 2rem;
+}
+
+.poster-box {
+  padding: 1.2rem;
+}
+
+.poster-box img {
+  width: 48px;
+  border-radius: 50%;
+}
+
+.poster-text {
+  flex-direction: column;
+  line-height: 1.2;
+  align-items: flex-start;
+}
+
+.poster-text p {
+  gap: 0.4rem;
+}
+.middot {
+  font-weight: var(--weight-bold);
+}
+.poster-info {
+  gap: 1rem;
+}
+
+.post-description {
+  padding: 0 1.2rem 1.2rem 1.2rem;
+}
+
+.reaction-count-box {
+  padding: 1.2rem;
+  border-bottom: 1px solid var(--light-grey);
+}
+
+.reaction-count-box .right {
+  gap: 1rem;
+}
+
+.react-box {
+  padding: 0.8rem;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.react-box li {
+  display: flex;
+  color: var(--gray);
+  font-size: 1.6rem;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 5px;
+  gap: 0.2rem;
+  cursor: pointer;
+}
+
+.react-box li:hover {
+  background-color: var(--hover-light);
+}
+
+.react-box i {
+  font-size: 3rem;
+}
 /*------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 /*#================================================================ Left aside =======================================================*/
@@ -311,7 +409,8 @@ a {
   background-color: var(--white);
   margin-top: 10px;
   padding: 1.6rem;
-  color: var(--gray);
+  position: sticky;
+  top: 8rem;
 }
 .recent-visit {
   margin-top: 1.2rem;
@@ -348,96 +447,93 @@ a {
 
 /*# ========================Center content  */
 /*# =====================================Center content =============================== */
-.post-box{
+.post-box {
   border-radius: 1rem;
-   overflow: hidden;
-   background-color: var(--white);
-   padding: 1rem 1.6rem;
-   height: 12rem;
-   color: var(--gray);
-   font-weight: 500;
- }
- .profile-post{
-   display: flex;
-   gap: 1.2rem;
-   align-items: center;
- }
- .profile-post img{
-    border-radius: 50%;
-     width: 60px;
-     height: 60px;
-   
- }
- .start-post{
-   border: 1px solid var(--gray);
-   border-radius: 2.5rem;
-   width: 100%;
-   text-align:justify;
-   padding: 1.8rem 1rem;
-   
- }
- 
- .start-post p{
- font-size: 1.4rem;
- 
- }
- .start-post:hover{
-   cursor: pointer;
-   background-color:var(--hover-light);
- }
- .attachment{
-   display: flex ;
-   justify-content: space-between;
-   align-items: center;
-   margin-top: 1rem;
-  }
- 
- .attachment-option {
-   display: flex;
-   /* justify-content: space-around; */
- align-items: center;
- font-size: 1.4rem;
- }
- .attachment-option span{
-   margin-right: 1rem;
- }
- .photo{
-   color: var(--blue);
- }
- .video{
-   color: var(--green);
- }
- .event{
-   color:var(--mustard);
- }
- .article{
-   color:var(--red);
- }
- .border-line{
+  overflow: hidden;
+  background-color: var(--white);
+  padding: 1rem 1.6rem;
+  height: 12rem;
+  color: var(--gray);
+  font-weight: 500;
+}
+.profile-post {
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+}
+.profile-post img {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+.start-post {
+  border: 1px solid var(--gray);
+  border-radius: 2.5rem;
+  width: 100%;
+  text-align: justify;
+  padding: 1.8rem 1rem;
+}
+
+.start-post p {
+  font-size: 1.4rem;
+}
+.start-post:hover {
+  cursor: pointer;
+  background-color: var(--hover-light);
+}
+.attachment {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.attachment-option {
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+  font-size: 1.4rem;
+}
+.attachment-option span {
+  margin-right: 1rem;
+}
+.photo {
+  color: var(--blue);
+}
+.video {
+  color: var(--green);
+}
+.event {
+  color: var(--mustard);
+}
+.article {
+  color: var(--red);
+}
+.sortby {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: var(--gray);
+}
+.sortby span {
+  font-weight: 600;
+  margin: 0 0.3rem;
+  color: black;
+}
+.sortby svg {
+  color: black;
+}
+.line {
   display: grid;
   grid-template-columns: 5fr 1fr;
+  margin-bottom: 1rem;
 }
-.line{
+.xyz {
   border-bottom: 1px solid var(--light-grey);
   margin-bottom: 0.6rem;
 }
 
- .sortby{
- margin-top: 1rem;
- display: flex;
- justify-content: flex-end;
- align-items: center;
- color: var(--gray);
- }
- .sortby span{
-   font-weight: 600;
-   margin:0 0.3rem;
-   color: black;
- }
- .sortby svg{
-   color: black;
- }
- 
 /*#======================================================================================= */
 
 /*#right aside */
@@ -499,6 +595,8 @@ a {
 
 .help-center {
   margin-top: 3rem;
+  position: sticky;
+  top: 8rem;
 }
 
 .help-center-row {
