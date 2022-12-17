@@ -2,7 +2,7 @@
 
 A LinkedIn clone made using HTML, CSS and JAVASCIRPT.
 
-Contributors:
+Contributors:-
 
 1. Abhilash Singh (TM)
 2. Ashutosh Verma (TM)
