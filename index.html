@@ -6,563 +6,113 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link type="image/png" sizes="120x120" rel="icon" href="./img/favicon.png">
-  <script src="https://unpkg.com/phosphor-icons"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="css/front.css">
   <title>LinkedIn</title>
 </head>
 
 <body>
+  <header>
+    <div class=" logo">
+      <h2>Linked</h2>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+        <path
+          d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" />
+      </svg>
+    </div>
 
-  <div id="navBar"></div>
-
-  <!----------------------------------------------------------------# navbar End ------------------------------------------------------------------>
-
-  <section class="container grid-3-col">
-    <!--# left aside bar -->
-    <aside class="aside-left">
-      <div class="part-one">
-        <div class="identity-box">
-          <div class="identity-img">
-          </div>
-          <div class="identity-text">
-            <img src="https://avatars.githubusercontent.com/u/91982512?v=4" alt="">
-            <a href="">Parkasss lal</a>
-            <p>Full Stack Developer @aircampus</p>
-          </div>
-        </div>
-        <div class="connection-box">
-          <div class="connections">
-            <div class="connections-text">
-              <p>Connections</p>
-              <p>Grow your network</p>
-            </div>
-            <div class="count">
-              <span>80</span>
-            </div>
-          </div>
-          <div class="views">
-            <div class="views-text">
-              <p>who's viewed your profile</p>
-            </div>
-            <div class="count">
-              <span>51</span>
-            </div>
-          </div>
-        </div>
-        <div class="premium-box">
-          <p>Access exclusive tools & insights</p>
-          <a href="">Try premium for free</a>
-        </div>
-        <div class="item-box">
-          <i class="ph-bookmark-simple-fill"></i>
-          <span>My items</span>
-        </div>
-      </div>
-
-      <div class="part-2">
-        <div class="recent-box">
-          <p>Recent</p>
-          <div class="recent-visit"><i class="ph-hash"></i>
-            <span class="recent-site"> aircampus</span>
-          </div>
-        </div>
-        <div class="group-box">
-          <p>Groups</p>
-          <div class="events">
-            <div>Events</div>
-            <div><i class="ph-plus"></i>
-            </div>
-          </div>
-          <p>Followed Hashtags</p>
-        </div>
-        <div class=" recent-visit"><i class="ph-hash"></i>
-          <span class="recent-site"> aircampus</span>
-        </div>
-        <div class="see-all">
-          <p>See all</p>
-        </div>
-        <div class="discover">Discover more</div>
-      </div>
-    </aside>
-
-    <!--# =========================================================Center Content====================================================-->
-    <div class="content-center">
-      <section class="post-box">
-        <dsiv class="profile-post">
-          <div> <img src="https://avatars.githubusercontent.com/u/91982512?v=4" alt="">
-          </div>
-          <div class="start-post">
-            <p>Start a post</p>
-          </div>
-        </dsiv>
-        <div class="attachment">
-          <div class="attachment-option">
-            <span class="photo"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24"
-                fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+    <div class="mainmenu">
+      <nav class="main-nav">
+        <ul>
+          <a href="#">
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                 <path
-                  d="M19 4H5a3 3 0 00-3 3v10a3 3 0 003 3h14a3 3 0 003-3V7a3 3 0 00-3-3zm1 13a1 1 0 01-.29.71L16 14l-2 2-6-6-4 4V7a1 1 0 011-1h14a1 1 0 011 1zm-2-7a2 2 0 11-2-2 2 2 0 012 2z">
-                </path>
-              </svg></span> Photo
-          </div>
-
-          <div class="attachment-option"><span class="video"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24"
-                focusable="false">
-                <path d="M19 4H5a3 3 0 00-3 3v10a3 3 0 003 3h14a3 3 0 003-3V7a3 3 0 00-3-3zm-9 12V8l6 4z"></path>
+                  d="M288 256C288 273.7 273.7 288 256 288C238.3 288 224 273.7 224 256C224 238.3 238.3 224 256 224C273.7 224 288 238.3 288 256zM0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM325.1 306.7L380.6 162.4C388.1 142.1 369 123.9 349.6 131.4L205.3 186.9C196.8 190.1 190.1 196.8 186.9 205.3L131.4 349.6C123.9 369 142.1 388.1 162.4 380.6L306.7 325.1C315.2 321.9 321.9 315.2 325.1 306.7V306.7z" />
               </svg>
+              <p>Discover</p>
+            </li>
+          </a>
 
-            </span>Video</div>
-          <div class="attachment-option"><span class="event"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24"
-                focusable="false">
+          <a href="#">
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
                 <path
-                  d="M3 3v15a3 3 0 003 3h12a3 3 0 003-3V3zm13 1.75A1.25 1.25 0 1114.75 6 1.25 1.25 0 0116 4.75zm-8 0A1.25 1.25 0 116.75 6 1.25 1.25 0 018 4.75zM19 18a1 1 0 01-1 1H6a1 1 0 01-1-1V9h14zm-5.9-3a1 1 0 00-1-1H12a3.12 3.12 0 00-1 .2l-1-.2v-3h3.9v1H11v1.15a3.7 3.7 0 011.05-.15 1.89 1.89 0 012 1.78V15a1.92 1.92 0 01-1.84 2H12a1.88 1.88 0 01-2-1.75 1 1 0 010-.25h1a.89.89 0 001 1h.1a.94.94 0 001-.88z">
-                </path>
+                  d="M224 256c70.7 0 128-57.31 128-128S294.7 0 224 0C153.3 0 96 57.31 96 128S153.3 256 224 256zM274.7 304H173.3c-95.73 0-173.3 77.6-173.3 173.3C0 496.5 15.52 512 34.66 512H413.3C432.5 512 448 496.5 448 477.3C448 381.6 370.4 304 274.7 304zM479.1 320h-73.85C451.2 357.7 480 414.1 480 477.3C480 490.1 476.2 501.9 470 512h138C625.7 512 640 497.6 640 479.1C640 391.6 568.4 320 479.1 320zM432 256C493.9 256 544 205.9 544 144S493.9 32 432 32c-25.11 0-48.04 8.555-66.72 22.51C376.8 76.63 384 101.4 384 128c0 35.52-11.93 68.14-31.59 94.71C372.7 243.2 400.8 256 432 256z" />
               </svg>
-            </span>Event</div>
-          <div class="attachment-option"><span class="article"><svg xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24"
-                height="24" focusable="false">
-                <path d="M21 3v2H3V3zm-6 6h6V7h-6zm0 4h6v-2h-6zm0 4h6v-2h-6zM3 21h18v-2H3zM13 7H3v10h10z"></path>
-              </svg></span>Write article</div>
+              <p>People</p>
+            </li>
+          </a>
+
+          <a href="#">
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                <path
+                  d="M528 0h-480C21.5 0 0 21.5 0 48v320C0 394.5 21.5 416 48 416h192L224 464H152C138.8 464 128 474.8 128 488S138.8 512 152 512h272c13.25 0 24-10.75 24-24s-10.75-24-24-24H352L336 416h192c26.5 0 48-21.5 48-48v-320C576 21.5 554.5 0 528 0zM512 288H64V64h448V288z" />
+              </svg>
+              <p>Learning</p>
+            </li>
+          </a>
+
+          <a href="#">
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <path
+                  d="M320 336c0 8.844-7.156 16-16 16h-96C199.2 352 192 344.8 192 336V288H0v144C0 457.6 22.41 480 48 480h416c25.59 0 48-22.41 48-48V288h-192V336zM464 96H384V48C384 22.41 361.6 0 336 0h-160C150.4 0 128 22.41 128 48V96H48C22.41 96 0 118.4 0 144V256h512V144C512 118.4 489.6 96 464 96zM336 96h-160V48h160V96z" />
+              </svg>
+              <p>Jobs</p>
+            </li>
+          </a>
+        </ul>
+      </nav>
+
+      <div onclick="show()" class="menu-container">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list"
+          viewBox="0 0 16 16">
+          <path fill-rule="evenodd"
+            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+        </svg>
+        <div class="menu-list">
+          <div id="menu-nav">
+            <a><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <path
+                  d="M288 256C288 273.7 273.7 288 256 288C238.3 288 224 273.7 224 256C224 238.3 238.3 224 256 224C273.7 224 288 238.3 288 256zM0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256zM325.1 306.7L380.6 162.4C388.1 142.1 369 123.9 349.6 131.4L205.3 186.9C196.8 190.1 190.1 196.8 186.9 205.3L131.4 349.6C123.9 369 142.1 388.1 162.4 380.6L306.7 325.1C315.2 321.9 321.9 315.2 325.1 306.7V306.7z" />
+              </svg>Discover</a>
+            <a href="#portfolio"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                <path
+                  d="M224 256c70.7 0 128-57.31 128-128S294.7 0 224 0C153.3 0 96 57.31 96 128S153.3 256 224 256zM274.7 304H173.3c-95.73 0-173.3 77.6-173.3 173.3C0 496.5 15.52 512 34.66 512H413.3C432.5 512 448 496.5 448 477.3C448 381.6 370.4 304 274.7 304zM479.1 320h-73.85C451.2 357.7 480 414.1 480 477.3C480 490.1 476.2 501.9 470 512h138C625.7 512 640 497.6 640 479.1C640 391.6 568.4 320 479.1 320zM432 256C493.9 256 544 205.9 544 144S493.9 32 432 32c-25.11 0-48.04 8.555-66.72 22.51C376.8 76.63 384 101.4 384 128c0 35.52-11.93 68.14-31.59 94.71C372.7 243.2 400.8 256 432 256z" />
+              </svg>People</a>
+            <a href="#about"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                <path
+                  d="M528 0h-480C21.5 0 0 21.5 0 48v320C0 394.5 21.5 416 48 416h192L224 464H152C138.8 464 128 474.8 128 488S138.8 512 152 512h272c13.25 0 24-10.75 24-24s-10.75-24-24-24H352L336 416h192c26.5 0 48-21.5 48-48v-320C576 21.5 554.5 0 528 0zM512 288H64V64h448V288z" />
+              </svg>Learning</a>
+            <a href="#contact"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                <path
+                  d="M320 336c0 8.844-7.156 16-16 16h-96C199.2 352 192 344.8 192 336V288H0v144C0 457.6 22.41 480 48 480h416c25.59 0 48-22.41 48-48V288h-192V336zM464 96H384V48C384 22.41 361.6 0 336 0h-160C150.4 0 128 22.41 128 48V96H48C22.41 96 0 118.4 0 144V256h512V144C512 118.4 489.6 96 464 96zM336 96h-160V48h160V96z" />
+              </svg>Jobs</a>
+          </div>
         </div>
-      </section>
-      <div class="line">
-        <div class="xyz"></div>
-        <div class="sortby">Sort by: <span>Top</span> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"
-            data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16"
-            focusable="false">
-            <path d="M8 11L3 6h10z" fill-rule="evenodd"></path>
-          </svg></div>
       </div>
 
-      <section class="posts">
-        <!-- <div class="post">
-          <div class="reactor-box flex">
-            <div class="reactor flex">
-              <img src="https://avatars.githubusercontent.com/u/91982512?v=4" alt="reactor-image">
-              <p>Prakash Dey <span>likes this</span> </p>
-            </div>
-            <i class="ph-dots-three-bold"></i>
-          </div>
-
-          <div class="poster-box flex">
-            <div class="poster-info flex">
-              <img src="https://avatars.githubusercontent.com/u/91982512?v=4" alt="">
-              <div class="poster-text flex">
-                <p class="poster-name">Vaibhav Aggrawal</p>
-                <p class="poster-job">Software Engineer</p>
-                <p class="posted-time flex">
-                  <span>1w</span>
-                  <span class="middot">&middot;</span>
-                  <i class="ph-globe-hemisphere-east-fill"></i>
-                </p>
-              </div>
-            </div>
-            <div class="follow flex">
-              <i class="ph-plus-bold"></i>
-              <p>Follow</p>
-            </div>
-          </div>
-
-          <div class="post-description">
-            <p>Hello my name is prakash Dey and im a senior javascript developer.</p>
-          </div>
-
-          <div class="post-image">
-            <img
-              src="https://media.licdn.com/dms/image/C4D22AQEQJzn6RpsYcg/feedshare-shrink_800/0/1670322284638?e=1674086400&v=beta&t=Yi-Iv-IzWexf2LxaljPm5HEMxb2JhbSc6Pe4GmQq9TY"
-              alt="">
-          </div>
-
-          <div class="reaction-count-box flex">
-            <div class="left">
-              <p>Vaibhav and 219 others</p>
-            </div>
-
-            <div class="right flex">
-              <p>35 comments</p>
-              &middot;
-              <p>82 reposts</p>
-            </div>
-          </div>
-
-          <ul class="react-box flex">
-            <li>
-              <i class="ph-thumbs-up-bold"></i>
-              <span>Like</span>
-            </li>
-            <li>
-              <i class="ph-chat-circle-dots-bold"></i>
-              <span>Comment</span>
-            </li>
-            <li>
-              <i class="ph-arrows-clockwise-bold"></i>
-              <span>Repost</span>
-            </li>
-            <li>
-              <i class="ph-paper-plane-tilt-bold"></i>
-              <span>Send</span>
-            </li>
-          </ul>
-        </div> -->
-      </section>
-    </div>
-
-    <!-- ====================================================right aside============================================= -->
-    <aside class="aside-right">
-      <section class="news-block">
-        <div class="aside-right-heading flex">
-          <p>LinkedIn News</p>
-          <i class="ph-info-fill"></i>
-        </div>
-        <div class="unordered_list">
-          <ul>
-            <li><a href="#">Risk and compliance hiring picks up</a></li>
-            <p>18h ago . 682 readers</p>
-            <li><a href="#">Firms to hire more from campuses</a></li>
-            <p>4d ago . 6820 readers</p>
-            <li><a href="#">Shikhar Dhawan bats for sports tech</a></li>
-            <p>2d ago . 2282 readers</p>
-            <li><a href="#">Housing sales boom across metros</a></li>
-            <p>3d ago . 3682 readers</p>
-            <li><a href="#">Bumble Bee flights raises $37M</a></li>
-            <p>5d ago . 2682 readers</p>
-            <li><a href="#">More student option to study abroad</a></li>
-            <p>2d ago . 1682 readers</p>
-            <li><a href="#">Shrinking demand for large offices?</a></li>
-            <p>1d ago . 5682 readers</p>
-            <li><a href="#">Making it in tech</a></li>
-            <p>2d ago . 1282 readers</p>
-            <li><a href="#">Trends shaping India's tech sector</a></li>
-            <p>6d ago . 582 readers</p>
-            <li><a href="#">What's possible in the mataverse?</a></li>
-            <p>7d ago . 382 readers</p>
-            <li><a href="#">M&A deals touch record high</a></li>
-            <p>3d ago . 1231 readers</p>
-          </ul>
-          <div class="show-more">
-            <span>Show more</span>
-          </div>
-        </div>
-      </section>
-
-      <div class="help-center">
-        <div class="help-center-row flex">
-          <a href="#">About</a>
-          <a href="#">Accessibility</a>
-          <a href="#">Help Center</a>
-        </div>
-        <div class="help-center-row flex">
-          <a href="#">Privacy & Terms</a>
-          <a href="#">Ad Choices</a>
-        </div>
-        <div class="help-center-row flex">
-          <a href="#">Advertising</a>
-          <a href="#">Business Services</a>
-        </div>
-        <div class="help-center-row flex">
-          <a href="#">Get the LinkedIn app</a>
-          <a href="#">More</a>
-        </div>
-        <div class="linkedIn-img">
-          <img src="/img/Linkedin-Logo-JPG.jpg" alt="linkedIn-img">
-          <span>LinkedIn Corporation &copy; 2022</span>
-        </div>
+      <div class="maincta">
+        <button class="join">Join now</button>
+        <button class="sign">Sign in</button>
       </div>
-    </aside>
 
-  </section>
 
-  <!-- =========================================small message block============================================= -->
+  </header>
 
-  <section class="messege_block flex">
-    <div class="messege_block-img flex">
-      <img src="https://avatars.githubusercontent.com/u/91982512?v=4" alt="">
-      <p>Messaging</p>
+  <section class="hero">
+    <div class="left-section">
+      <h1>Welcome to your<br>professional community</h1>
+      <input type="text" name="input" placeholder="Email or phone number" required>
+      <input type="password" name="pass" placeholder="Password" required>
+      <a href="#">Forgot password?</a>
+      <a href="/pages/home.html"><input class="mainbtn" type="button" value="Sign in"></a>
     </div>
-    <div class="message_block-controls">
-      <i class="ph-dots-three-fill"></i>
-      <i class="ph-note-pencil-fill"></i>
-      <i class="ph-caret-up-fill"></i>
+    <div class="right-section">
+
     </div>
   </section>
-
-  <!-- ===========================================big message block================================================ -->
-
-  <section class="message_complete_block display_block">
-    <div class="flex border">
-      <div class="messege_block-img flex">
-        <img src="https://avatars.githubusercontent.com/u/91982512?v=4" alt="prakash sir">
-        <p>Messaging</p>
-      </div>
-      <div class="message_block-controls">
-        <i class="ph-dots-three-fill"></i>
-        <i class="ph-note-pencil-fill"></i>
-        <i class="ph-caret-down-fill"></i>
-      </div>
-    </div>
-    <div class="message_search flex">
-      <div class="search-box">
-        <i class="ph-magnifying-glass"></i>
-        <input type="text" placeholder="Search">
-      </div>
-      <i class="ph-list"></i>
-    </div>
-
-    <div class="chats flex">
-      <div class="img_chat">
-        <img src="https://avatars.githubusercontent.com/u/91982512?v=4" alt="prakash sir">
-        <div>
-          <p>Melissa Torres</p>
-          <span>You:Hi</span>
-        </div>
-      </div>
-      <p class="time">1:12 AM</p>
-    </div>
-
-    <div class="chats flex">
-      <div class="img_chat">
-        <img src="https://avatars.githubusercontent.com/u/91982512?v=4" alt="prakash sir">
-        <div>
-          <p>Melissa Torres</p>
-          <span>You:Hi</span>
-        </div>
-      </div>
-      <p class="time">1:12 AM</p>
-    </div>
-
-    <div class="chats flex">
-      <div class="img_chat">
-        <img src="https://avatars.githubusercontent.com/u/91982512?v=4" alt="prakash sir">
-        <div>
-          <p>Melissa Torres</p>
-          <span>You:Hi</span>
-        </div>
-      </div>
-      <p class="time">1:12 AM</p>
-    </div>
-
-    <div class="chats flex">
-      <div class="img_chat">
-        <img src="https://avatars.githubusercontent.com/u/91982512?v=4" alt="prakash sir">
-        <div>
-          <p>Melissa Torres</p>
-          <span>You:Hi</span>
-        </div>
-      </div>
-      <p class="time">1:12 AM</p>
-    </div>
-  </section>
-
-  <!--============================================= Work popup Block =============================================-->
-
-  <section class="work_popup">
-    <div class="work_header flex">
-      <h2>Work</h2>
-      <h2><i class="ph-x"></i></h2>
-    </div>
-    <div class="work_first-block">
-      <div class="work_first-block-heading">
-        <h3>Visit More LinkedIn Products</h3>
-      </div>
-
-      <div class="visit_links">
-        <div class="svg-and-text">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" data-supported-dps="40x40" width="40" height="40"
-            focusable="false" class="svg_box">
-            <defs>
-              <linearGradient id="app-learning-@1-a" x1="7.18" y1="6.98" x2="13.8" y2="20.22"
-                gradientUnits="userSpaceOnUse">
-                <stop offset="0" stop-color="#33aada"></stop>
-                <stop offset="1" stop-color="#0091ca"></stop>
-              </linearGradient>
-              <linearGradient id="app-learning-@1-b" x1="12.96" y1="-17.55" x2="27.9" y2="24.33"
-                gradientUnits="userSpaceOnUse">
-                <stop offset="0" stop-color="#665ed0"></stop>
-                <stop offset="1" stop-color="#0073b1"></stop>
-              </linearGradient>
-            </defs>
-            <path d="M20 30H8a1 1 0 01-1-1V11a1 1 0 011-1h12v20z" fill="url(#app-learning-@1-a)"></path>
-            <path d="M20 10h12a1 1 0 011 1v18a1 1 0 01-1 1H20V10z" fill="url(#app-learning-@1-b)"></path>
-            <path fill="#33aada" d="M9 19h8v2H9zM9 23h8v2H9zM9 15h8v2H9z"></path>
-            <path fill="#006097" d="M23 19h8v2h-8zM23 23h8v2h-8zM23 15h8v2h-8z"></path>
-            <path d="M17.41 15.25l7.46 4.52a.27.27 0 010 .46l-7.46 4.52a.27.27 0 01-.41-.23v-9a.27.27 0 01.41-.27z"
-              fill="#fff"></path>
-          </svg>
-          <p>Learning</p>
-        </div>
-
-        <div class="svg-and-text">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" data-supported-dps="40x40" width="40" height="40"
-            focusable="false" class="svg_box">
-            <defs>
-              <linearGradient id="app-talent-insights-medium-a" x1="34.05" y1="44.47" x2="13.67" y2="19.5"
-                gradientUnits="userSpaceOnUse">
-                <stop offset="0" stop-color="#665ed0"></stop>
-                <stop offset="1" stop-color="#0073b1"></stop>
-              </linearGradient>
-            </defs>
-            <path d="M25 6H10a1 1 0 00-1 1v25a1 1 0 001 1h20a1 1 0 001-1V12z" fill="#caedff"></path>
-            <path fill="#65c3e8" d="M25 6v6h6l-6-6z"></path>
-            <path d="M20 19a4 4 0 114-4 4 4 0 01-4 4zm3 2h-6v12h6zm8 11v-8h-5v9h4a1 1 0 001-1zm-17-5H9v5a1 1 0 001 1h4z"
-              fill="url(#app-talent-insights-medium-a)"></path>
-          </svg>
-          <p>Insights</p>
-        </div>
-
-        <div class="svg-and-text">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" data-supported-dps="40x40" width="40" height="40"
-            focusable="false" class="svg_box">
-            <defs>
-              <linearGradient id="app-jobs-posting-@1-a" x1="-6.68" y1="-1" x2="25.05" y2="26.36"
-                gradientUnits="userSpaceOnUse">
-                <stop offset="0" stop-color="#665ed0"></stop>
-                <stop offset="1" stop-color="#0073b1"></stop>
-              </linearGradient>
-            </defs>
-            <path fill="none" stroke="#caedff" stroke-miterlimit="10" stroke-width="2"
-              d="M20 8.67l-4 6.66M20 8.67l4 6.66"></path>
-            <rect x="8" y="14" width="24" height="16" rx="1" ry="1" fill="url(#app-jobs-posting-@1-a)"></rect>
-            <path fill="#65c3e8" d="M12 18h16v3H12z"></path>
-            <path fill="#33aada" d="M15 23h10v3H15z"></path>
-            <circle cx="20" cy="9" r="2" fill="#65c3e8"></circle>
-          </svg>
-          <p>Post a job</p>
-        </div>
-
-        <div class="svg-and-text">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" data-supported-dps="40x40" width="40" height="40"
-            focusable="false" class="svg_box">
-            <defs>
-              <linearGradient id="app-ads-@1-a" x1="34.78" y1="3.84" x2="14.66" y2="25.84"
-                gradientUnits="userSpaceOnUse">
-                <stop offset="0" stop-color="#665ed0"></stop>
-                <stop offset="1" stop-color="#0073b1"></stop>
-              </linearGradient>
-            </defs>
-            <g fill="url(#app-ads-@1-a)">
-              <path d="M20 11.88A8.13 8.13 0 1111.88 20 8.13 8.13 0 0120 11.88M20 9a11 11 0 1011 11A11 11 0 0020 9z">
-              </path>
-              <circle cx="20" cy="20" r="4"></circle>
-            </g>
-            <circle cx="20" cy="20" r="2" transform="rotate(-45 20.002 19.995)" fill="#33aada"></circle>
-            <path fill="#33aada" d="M24.246 12.932l2.829 2.828-5.657 5.657-2.828-2.829z"></path>
-            <path fill="#33aada" d="M29.19 16.46l-4.95-.7-.7-4.95 4.94-4.95L29 11l5.14.52-4.95 4.94z"></path>
-          </svg>
-          <p>Advertise</p>
-        </div>
-
-        <div class="svg-and-text">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" data-supported-dps="40x40" width="40" height="40"
-            focusable="false" class="svg_box">
-            <defs>
-              <linearGradient id="app-sales-navigator-@1-a" x1="40.53" y1="-53.4" x2="20.23" y2="19.17"
-                gradientUnits="userSpaceOnUse">
-                <stop offset="0" stop-color="#665ed0"></stop>
-                <stop offset="1" stop-color="#0073b1"></stop>
-              </linearGradient>
-            </defs>
-            <circle cx="20" cy="20" r="14" fill="url(#app-sales-navigator-@1-a)"></circle>
-            <path d="M17.17 17.17L27.42 12a.4.4 0 01.18 0 .39.39 0 01.4.39.42.42 0 010 .19l-5.17 10.25z" fill="#fff">
-            </path>
-            <path d="M17.17 17.17L12 27.42a.42.42 0 000 .19.39.39 0 00.37.38.45.45 0 00.21 0l10.25-5.12z"
-              fill="#98d8f4">
-            </path>
-            <circle cx="20" cy="20" r="4" fill="#fff"></circle>
-            <circle cx="20" cy="20" r="2" fill="#0073b1"></circle>
-          </svg>
-          <p>Find Leads</p>
-        </div>
-
-        <div class="svg-and-text">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" data-supported-dps="40x40" width="40" height="40"
-            focusable="false" class="svg_box">
-            <defs>
-              <linearGradient id="app-groups-@1-b" x1="1.84" y1="-24.59" x2="20.66" y2="25.05"
-                gradientUnits="userSpaceOnUse">
-                <stop offset="0" stop-color="#665ed0"></stop>
-                <stop offset="1" stop-color="#0073b1"></stop>
-              </linearGradient>
-              <clipPath id="app-groups-@1-a">
-                <path d="M18.17 9.15a11 11 0 00-7.76 16.23l-2 5.6a.47.47 0 00.63.59l5.21-2.23a11 11 0 103.92-20.19z"
-                  fill="none"></path>
-              </clipPath>
-            </defs>
-            <path d="M18.17 9.15a11 11 0 00-7.76 16.23l-2 5.6a.47.47 0 00.63.59l5.21-2.23a11 11 0 103.92-20.19z"
-              fill="#caedff"></path>
-            <circle cx="29" cy="16" r="3" fill="#0091ca"></circle>
-            <circle cx="11" cy="16" r="3" fill="#0091ca"></circle>
-            <g clip-path="url(#app-groups-@1-a)">
-              <path d="M20 18a4 4 0 114-4 4 4 0 01-4 4zm3 2h-6v16h6V20z" fill="url(#app-groups-@1-b)"></path>
-              <path fill="#0091ca" d="M26 21h6v14h-6zM8 21h6v14H8z"></path>
-            </g>
-          </svg>
-          <p>Groups</p>
-        </div>
-
-        <div class="svg-and-text">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" data-supported-dps="40x40" width="40" height="40"
-            focusable="false" class="svg_box">
-            <circle cx="20" cy="12" r="4" fill="#0073b1"></circle>
-            <path
-              d="M31.88 13.46L16.17 29.17 18 31a1.37 1.37 0 002 0l14.71-14.71a1.13 1.13 0 00.29-.8.89.89 0 00-.29-.61l-1.41-1.42a1 1 0 00-1.42 0z"
-              fill="#0091ca"></path>
-            <path
-              d="M21.83 29.17L20 31a1.35 1.35 0 01-1 .4 1.36 1.36 0 01-1-.4l-8.71-8.71a1 1 0 010-1.41l1.41-1.41a1.07 1.07 0 01.76-.29.94.94 0 01.65.29z"
-              fill="#33aada" opacity=".8"></path>
-            <path fill="#0073b1" d="M19 26.34l4-4V18h-6v6.34l2 2z"></path>
-          </svg>
-          <p>Service Marketplace</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="work_second-block">
-      <div class="work_second-block-heading">
-        <h3>LinkedIn Business Sevices</h3>
-      </div>
-      <ul class="service_list">
-        <li>
-          <h3>Talent Solutions</h3>
-          <p>Find, attract and recruit talent</p>
-        </li>
-        <li>
-          <h3>Sales Solutions</h3>
-          <p>Unlock sales opportunities</p>
-        </li>
-        <li>
-          <h3>Post a job for free</h3>
-          <p>Get your job in front of quality candidates</p>
-        </li>
-        <li>
-          <h3>Marketing Solutions</h3>
-          <p>Acquire customers and grow your business</p>
-        </li>
-        <li>
-          <h3>Learning Solutions</h3>
-          <p>Develop talent across your organization</p>
-        </li>
-      </ul>
-      <div class="work_second-block-footer flex">
-        <p>Create a Company Page</p>
-        <i class="ph-plus-bold"></i>
-        </div>
-    </div>
-  </section>
-
-
-
-  <!-- javascript  -->
-  <script src="./script/script.js"></script>
 </body>
 
 </html>
-
-<script type="module">
-  import navbar from "/script/script.js";
-  document.querySelector("#navBar").innerHTML = navbar();
-</script>

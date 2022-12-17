@@ -1,0 +1,265 @@
+* {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: 0.4s;
+}
+
+body {
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
+}
+
+.logo svg {
+  height: 25px;
+  fill: #0a66c2;
+  margin-left: 2px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  color: #0a66c2;
+}
+
+.mainmenu svg {
+  height: 20px;
+  fill: rgba(0, 0, 0, 0.5);
+}
+
+.mainmenu,
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+li {
+  list-style: none;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
+  margin-right: 25px;
+}
+
+a {
+  text-decoration: none;
+}
+
+li:hover {
+  color: black;
+}
+
+li:hover > svg {
+  fill: black;
+}
+
+.maincta {
+  display: flex;
+  align-items: center;
+}
+
+.join {
+  background-color: transparent;
+  border: none;
+  margin-left: 15px;
+  font-size: 1.1rem;
+  padding: 5px 15px;
+  border-radius: 4px;
+  position: relative;
+  text-align: center;
+}
+
+.join:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+}
+
+.join::before {
+  content: '';
+  height: 100%;
+  width: 2px;
+  background-color: rgba(0, 0, 0, 0.1);
+  position: absolute;
+  left: -10px;
+  top: 0;
+  z-index: 2;
+}
+
+.sign {
+  background-color: transparent;
+  border: 1px solid #0a66c2;
+  color: #0a66c2;
+  border-radius: 20px;
+  padding: 5px 15px;
+  font-size: 1.1rem;
+}
+
+.sign:hover {
+  background-color: #0a66c210;
+  cursor: pointer;
+}
+
+.left-section {
+  margin: auto 100px;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+
+.left-section input {
+  width: 350px;
+  height: 50px;
+  padding: 5px 10px;
+  font-size: 1.2rem;
+  margin-top: 15px;
+}
+
+.left-section h1 {
+  font-size: 3.2rem;
+  font-weight: 100;
+  margin-bottom: 25px;
+  color: #8f5849;
+}
+
+a {
+  margin: 15px 0;
+  color: black;
+}
+
+.mainbtn {
+  background-color: #0a66c2;
+  border-radius: 40px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.mainbtn:hover {
+  background-color: #073c70;
+}
+
+section {
+  display: flex;
+  height: calc(100vh - 73px);
+  position: relative;
+}
+
+.right-section {
+  background-image: url('https://media.licdn.com/media//AAYQAgSrAAgAAQAAAAAAADCLr3coQt8AQiyj4giyWxfjsg.svg');
+  height: calc(100vh - 73px);
+  width: 50vw;
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+  z-index: -1;
+  position: absolute;
+  right: 0;
+}
+
+.menu-container {
+  display: none;
+  justify-content: center;
+  align-content: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.menu-container svg {
+  width: 30px;
+  height: 30px;
+}
+
+#menu-nav {
+  display: none;
+}
+
+#menu-nav svg {
+  height: 20px;
+  margin-right: 8px;
+}
+
+.menu-container:hover #menu-nav {
+  background-color: white;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 200px;
+  display: grid;
+  align-content: center;
+  align-items: center;
+  box-shadow: 0 15px 15px 0 #00000020;
+  z-index: 9;
+}
+
+.menu-list a {
+  padding: 15px 0 15px 15px;
+  margin: 0;
+  text-decoration: none;
+  color: black;
+  border-bottom: 1px solid #ececec;
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: 0.5s;
+}
+
+.menu-list a:nth-child(4) {
+  border-bottom: none;
+}
+
+.menu-list a:hover {
+  padding-left: 30px;
+}
+
+@media screen and (max-width: 950px) {
+  .right-section {
+    display: none;
+  }
+  .left-section {
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+  }
+  .left-section h1 {
+    width: 100%;
+    text-align: center;
+  }
+  .main-nav {
+    display: none;
+  }
+  header {
+    padding: 40px 100px 0;
+  }
+  .menuicon {
+    display: flex;
+    margin-left: 20px;
+  }
+  .menuicon svg {
+    width: 30px;
+    height: 30px;
+  }
+  .menu-container {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 703px) {
+  .left-section h1 {
+    font-size: 2rem;
+  }
+  header {
+    padding: 40px 40px 0;
+  }
+  .left-section {
+    margin: auto 0;
+  }
+  .left-section input {
+    width: 55vw;
+  }
+}
