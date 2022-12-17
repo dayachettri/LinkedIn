@@ -686,3 +686,306 @@ img {
 .linkedIn-img span {
   margin-top: 4rem;
 }
+
+/* ================================================ Message block ====================================================*/
+
+.messege_block {
+  width: 22%;
+  height: 4.5rem;
+  background-color: var(--white);
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  border-radius: 5px 5px 0px 0px;
+  padding: 1rem;
+  box-shadow: 0px 0px 4px var(--light-grey);
+}
+
+.messege_block-img img {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  /* margin-bottom: 2.4rem; */
+}
+
+.messege_block-img p {
+  margin-left: 5px;
+  font-size: 1.3rem;
+  font-weight: var(--weight-regular);
+}
+
+.message_block-controls i {
+  font-size: 2rem;
+  margin-right: 5px;
+  padding: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.message_block-controls i:hover {
+  background-color: var(--light-grey);
+}
+
+.display_block {
+  display: none;
+}
+
+.message_complete_block {
+  width: 22%;
+  background-color: var(--white);
+  border-radius: 5px 5px 0px 0px;
+  padding: 1rem;
+  box-shadow: 0px 0px 4px var(--light-grey);
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+
+.border {
+  border-bottom: 1px solid var(--light-grey);
+  padding-bottom: 1rem;
+}
+
+.message_search {
+  background: var(--hover-light);
+  margin-top: 1rem;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.message_search input {
+  background: var(--hover-light);
+  border: none;
+}
+
+.message_search>i {
+  margin-right: 1rem;
+}
+
+.chats {
+  margin-top: 2rem;
+  border-bottom: 1px solid var(--light-grey);
+  padding: 10px;
+}
+
+.chats img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-right: 7px
+}
+
+.img_chat {
+  display: flex;
+}
+
+.img_chat p {
+  font-size: 14px;
+  margin-bottom: 5px;
+  font-weight: var(--weight-regular);
+}
+
+.chats .time {
+  margin-bottom: 3.2rem;
+}
+
+/* ================================================ Message block ====================================================*/
+
+.messege_block {
+  width: 22%;
+  height: 4.5rem;
+  background-color: var(--white);
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  border-radius: 5px 5px 0px 0px;
+  padding: 1rem;
+  box-shadow: 0px 0px 4px var(--light-grey);
+}
+
+.messege_block-img img {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  /* margin-bottom: 2.4rem; */
+}
+
+.messege_block-img p {
+  margin-left: 5px;
+  font-size: 1.3rem;
+  font-weight: var(--weight-regular);
+}
+
+.message_block-controls i {
+  font-size: 2rem;
+  margin-right: 5px;
+  padding: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.message_block-controls i:hover {
+  background-color: var(--light-grey);
+}
+
+.display_block {
+  display: none;
+}
+
+.message_complete_block {
+  width: 22%;
+  background-color: var(--white);
+  border-radius: 5px 5px 0px 0px;
+  padding: 1rem;
+  box-shadow: 0px 0px 4px var(--light-grey);
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+
+.border {
+  border-bottom: 1px solid var(--light-grey);
+  padding-bottom: 1rem;
+}
+
+.message_search {
+  background: var(--hover-light);
+  margin-top: 1rem;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.message_search input {
+  background: var(--hover-light);
+  border: none;
+}
+
+.message_search>i {
+  margin-right: 1rem;
+}
+
+.chats {
+  margin-top: 2rem;
+  border-bottom: 1px solid var(--light-grey);
+  padding: 10px;
+}
+
+.chats img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-right: 7px
+}
+
+.img_chat {
+  display: flex;
+}
+
+.img_chat p {
+  font-size: 14px;
+  margin-bottom: 5px;
+  font-weight: var(--weight-regular);
+}
+
+.chats .time {
+  margin-bottom: 3.2rem;
+}
+
+/* ============================= Work popup ================================= */
+
+.work_popup {
+  background-color: var(--white);
+  width: 28%;
+  padding: 2rem;
+  border-radius: 1.5rem 0 0 1.5rem;
+}
+
+.work_header {
+  font-weight: var(--weight-bold);
+  font-size: 1.6rem;
+}
+
+.work_first-block {
+  border: 0.5px solid var(--light-grey);
+  margin-top: 3rem;
+  border-radius: 10px;
+}
+
+.work_first-block-heading {
+  border-bottom: 0.5px solid var(--light-grey);
+  padding: 2rem;
+}
+
+.work_first-block-heading h3 {
+  font-size: 1.5rem;
+}
+
+.visit_links {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.svg_box {
+  border: 1px solid var(--light-grey);
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 2rem;
+  margin-top: 3rem;
+}
+
+.svg_box:hover {
+  box-shadow: 0px 0 5px 2px var(--light-grey);
+}
+
+.svg-and-text p {
+  color: var(--gray);
+  margin-left: 1.8rem;
+  margin-top: .8rem;
+  margin-bottom: 2rem;
+}
+
+.work_second-block {
+  border: 0.5px solid var(--light-grey);
+  margin-top: 1rem;
+  border-radius: 10px;
+}
+
+.work_second-block-heading {
+  border-bottom: 0.5px solid var(--light-grey);
+  padding: 2rem;
+}
+
+.work_second-block-heading h3 {
+  font-size: 1.5rem;
+}
+
+.service_list {
+  padding: 0rem 2rem;
+}
+
+.service_list li {
+  margin-top: 1.5rem;
+}
+
+.service_list p {
+  color: var(--gray);
+  margin-top: 3px;
+}
+
+.work_second-block-footer {
+  border-top: 0.5px solid var(--light-grey);
+  margin-top: 1rem;
+  padding: 1.5rem 2rem;
+  justify-content: start;
+}
+
+.work_second-block-footer p {
+  font-weight: var(--weight-bold);
+  font-size: 1.4rem;
+  /* margin-bottom: 1rem; */
+}
+
+.work_second-block-footer i {
+  font-size: 1.7rem;
+  margin-left: 5px;
+}
