@@ -38,22 +38,6 @@ const userData = [
   {
     reactorImage:
       'https://media.licdn.com/dms/image/C4E03AQEgiylGPPDJHQ/profile-displayphoto-shrink_400_400/0/1589355915977?e=1676505600&v=beta&t=j9BclcehrATV_hDgGruYX0IACrLRVy8kZgJyJBiQJ_g',
-    reactBy: 'Shivam Singh',
-    authorImage: 'https://avatars.githubusercontent.com/u/19223819?v=4',
-    authorName: 'Harikesh chaudhary',
-    jobTitle: 'Backend Developer | Mern | Html | Css',
-    postTime: '1w',
-    postDescription:
-      'I’m happy to share that I’m starting a new position as Backend Developer at',
-    image:
-      'https://media.licdn.com/dms/image/C5622AQHJt3GQtHC0Iw/feedshare-shrink_800/0/1670073665306?e=1674086400&v=beta&t=qmCSF8u3fcZ0vjvupID2aRc9WPCtbtAkbl-n7c5CZAw',
-    reactionCount: 7358,
-    commentCount: 32,
-    repostCount: 25,
-  },
-  {
-    reactorImage:
-      'https://media.licdn.com/dms/image/C4E03AQEgiylGPPDJHQ/profile-displayphoto-shrink_400_400/0/1589355915977?e=1676505600&v=beta&t=j9BclcehrATV_hDgGruYX0IACrLRVy8kZgJyJBiQJ_g',
     reactBy: 'Devik roy',
     authorImage: 'https://avatars.githubusercontent.com/u/19223819?v=4',
     authorName: 'Rahul Singh',
@@ -666,6 +650,22 @@ const userData = [
     reactionCount: 1132,
     commentCount: 3,
     repostCount: 1,
+  },
+  {
+    reactorImage:
+      'https://media.licdn.com/dms/image/C4E03AQEgiylGPPDJHQ/profile-displayphoto-shrink_400_400/0/1589355915977?e=1676505600&v=beta&t=j9BclcehrATV_hDgGruYX0IACrLRVy8kZgJyJBiQJ_g',
+    reactBy: 'Parkasss naade',
+    authorImage: 'https://avatars.githubusercontent.com/u/19223819?v=4',
+    authorName: 'Baibhav Aggrabal',
+    jobTitle: 'Backend Developer | Mern | Html | Css',
+    postTime: '1w',
+    postDescription:
+      'I’m happy to share that I’m starting a new position as Serial Killer at Aircampus',
+    image:
+      'https://images.hindustantimes.com/img/2022/10/13/550x309/Twitter_Video_Chucky_Dog_1665650427991_1665650440939_1665650440939.PNG',
+    reactionCount: 7358,
+    commentCount: 32,
+    repostCount: 25,
   },
 ];
 
