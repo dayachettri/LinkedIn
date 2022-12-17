@@ -14,7 +14,7 @@ function navbar() {
       </div>
 
       <div class="navbar-center">
-        <div class="work"><a href="/index.html"><i class="ph-house-fill"></i>Home</a></div>
+        <div class="work"><a href="/pages/home.html"><i class="ph-house-fill"></i>Home</a></div>
         <div class="work"><a href="/pages/network.html"><i class="ph-users-three-fill"></i>My Network</a></div>
         <div class="work"><a href="/pages/jobs.html"><i class="ph-suitcase-simple-fill"></i>Jobs</a></div>
         <div class="work"><a href="/pages/message.html"><i class="ph-chat-teardrop-dots-fill"></i>Messaging</a></div>
@@ -673,7 +673,7 @@ const postContainer = document.querySelector('.posts');
 // userData
 
 const renderHTML = function () {
-  for (let i = 0; i < userData.length; i++) {
+  for (let i = 0; i < 5000; i++) {
     const html = `
           <div class="post">
           <div class="reactor-box flex">
@@ -755,7 +755,7 @@ viewBox="0 0 24 24">
           </ul>
         </div>
   `;
-    // userData.push(userData[i]);
+    userData.push(userData[i]);
     postContainer.insertAdjacentHTML('afterbegin', html);
   }
 };
