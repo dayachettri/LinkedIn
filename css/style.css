@@ -522,3 +522,105 @@ a {
 .linkedIn-img span {
   margin-top: 4rem;
 }
+
+/* ================================================ Message block ====================================================*/
+
+.messege_block {
+  width: 22%;
+  height: 4.5rem;
+  background-color: var(--white);
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  border-radius: 5px 5px 0px 0px;
+  padding: 1rem;
+  box-shadow: 0px 0px 4px var(--light-grey);
+}
+
+.messege_block-img img {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  /* margin-bottom: 2.4rem; */
+}
+
+.messege_block-img p {
+  margin-left: 5px;
+  font-size: 1.3rem;
+  font-weight: var(--weight-regular);
+}
+
+.message_block-controls i {
+  font-size: 2rem;
+  margin-right: 5px;
+  padding: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.message_block-controls i:hover {
+  background-color: var(--light-grey);
+}
+
+.display_block {
+  display: none;
+}
+
+.message_complete_block {
+  width: 22%;
+  background-color: var(--white);
+  border-radius: 5px 5px 0px 0px;
+  padding: 1rem;
+  box-shadow: 0px 0px 4px var(--light-grey);
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+
+.border {
+  border-bottom: 1px solid var(--light-grey);
+  padding-bottom: 1rem;
+}
+
+.message_search {
+  background: var(--hover-light);
+  margin-top: 1rem;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.message_search input {
+  background: var(--hover-light);
+  border: none;
+}
+
+.message_search>i {
+  margin-right: 1rem;
+}
+
+.chats {
+  margin-top: 2rem;
+  border-bottom: 1px solid var(--light-grey);
+  padding: 10px;
+}
+
+.chats img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-right: 7px
+}
+
+.img_chat {
+  display: flex;
+}
+
+.img_chat p {
+  font-size: 14px;
+  margin-bottom: 5px;
+  font-weight: var(--weight-regular);
+}
+
+.chats .time {
+  margin-bottom: 3.2rem;
+}
