@@ -31,9 +31,10 @@ Large: 1.8
   --black: #191919;
   --gray: #666;
   --light-grey: #979797;
-  --blue: #0a66c2;
-  --red: #915907;
-  --green: #057642;
+  --blue: #378fe9;
+  --red: #e16745;
+  --mustard: #c37d16;
+  --green: #5f9b41;
   --hover-light: #ebebeb;
   --hover-blue: #e2f0f2;
   --input-bg: #eef3f8;
@@ -61,7 +62,11 @@ html {
 }
 
 body {
-  font-family: var(--poppins);
+  /* font-family: var(--poppins); */
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell,
+    Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Emoji,
+    Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
   font-weight: var(--weight-regular);
   line-height: 1;
   background: var(--body-bg);
@@ -410,16 +415,14 @@ img {
 .recent-visit {
   margin-top: 1.2rem;
   display: flex;
-  gap: 1.2rem;
+  gap: 0.8rem;
   align-items: center;
+  font-weight: 600;
 }
-.recent-visit i {
-  font-size: 1.6rem;
-}
-
 .group-box {
   margin-top: 2.6rem;
   color: var(--blue);
+  font-weight: 500;
 }
 .events {
   display: flex;
@@ -431,13 +434,15 @@ img {
   color: var(--gray);
 }
 .see-all {
-  padding: 1.6rem;
+  padding: 1rem 2rem;
   border-bottom: 1px solid var(--gray);
+  font-weight: 600;
 }
 .discover {
   text-align: center;
   font-size: 1.3rem;
   padding-top: 1.4rem;
+  font-weight: 600;
 }
 
 /*# ========================Center content  */
