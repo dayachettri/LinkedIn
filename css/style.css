@@ -623,7 +623,7 @@ img {
 }
 
 .unordered_list p {
-  color: gray;
+  color: var(--gray);
 }
 
 .unordered_list ul li {
@@ -655,7 +655,7 @@ img {
 }
 
 .show-more :hover {
-  background-color: var(--light-grey);
+  background-color: var(--gray);
 }
 
 .help-center {
@@ -723,7 +723,7 @@ img {
 }
 
 .message_block-controls i:hover {
-  background-color: var(--light-grey);
+  background-color: var(--gray);
 }
 
 .display_block {
@@ -735,14 +735,14 @@ img {
   background-color: var(--white);
   border-radius: 5px 5px 0px 0px;
   padding: 1rem;
-  box-shadow: 0px 0px 4px var(--light-grey);
+  box-shadow: 0px 0px 4px var(--silver);
   position: fixed;
   right: 0;
   bottom: 0;
 }
 
 .border {
-  border-bottom: 1px solid var(--light-grey);
+  border-bottom: 1px solid var(--silver);
   padding-bottom: 1rem;
 }
 
@@ -758,13 +758,13 @@ img {
   border: none;
 }
 
-.message_search>i {
+.message_search > i {
   margin-right: 1rem;
 }
 
 .chats {
   margin-top: 2rem;
-  border-bottom: 1px solid var(--light-grey);
+  border-bottom: 1px solid var(--silver);
   padding: 10px;
 }
 
@@ -772,7 +772,7 @@ img {
   border-radius: 50%;
   width: 50px;
   height: 50px;
-  margin-right: 7px
+  margin-right: 7px;
 }
 
 .img_chat {
@@ -800,7 +800,7 @@ img {
   bottom: 0;
   border-radius: 5px 5px 0px 0px;
   padding: 1rem;
-  box-shadow: 0px 0px 4px var(--light-grey);
+  box-shadow: 0px 0px 4px var(--silver);
 }
 
 .messege_block-img img {
@@ -825,7 +825,7 @@ img {
 }
 
 .message_block-controls i:hover {
-  background-color: var(--light-grey);
+  background-color: var(--gray);
 }
 
 .display_block {
@@ -837,14 +837,14 @@ img {
   background-color: var(--white);
   border-radius: 5px 5px 0px 0px;
   padding: 1rem;
-  box-shadow: 0px 0px 4px var(--light-grey);
+  box-shadow: 0px 0px 4px var(--silver);
   position: fixed;
   right: 0;
   bottom: 0;
 }
 
 .border {
-  border-bottom: 1px solid var(--light-grey);
+  border-bottom: 1px solid var(--silver);
   padding-bottom: 1rem;
 }
 
@@ -860,13 +860,13 @@ img {
   border: none;
 }
 
-.message_search>i {
+.message_search > i {
   margin-right: 1rem;
 }
 
 .chats {
   margin-top: 2rem;
-  border-bottom: 1px solid var(--light-grey);
+  border-bottom: 1px solid var(--silver);
   padding: 10px;
 }
 
@@ -874,7 +874,7 @@ img {
   border-radius: 50%;
   width: 50px;
   height: 50px;
-  margin-right: 7px
+  margin-right: 7px;
 }
 
 .img_chat {
@@ -906,13 +906,13 @@ img {
 }
 
 .work_first-block {
-  border: 0.5px solid var(--light-grey);
+  border: 0.5px solid var(--silver);
   margin-top: 3rem;
   border-radius: 10px;
 }
 
 .work_first-block-heading {
-  border-bottom: 0.5px solid var(--light-grey);
+  border-bottom: 0.5px solid var(--silver);
   padding: 2rem;
 }
 
@@ -926,7 +926,7 @@ img {
 }
 
 .svg_box {
-  border: 1px solid var(--light-grey);
+  border: 1px solid var(--silver);
   border-radius: 5px;
   cursor: pointer;
   margin-left: 2rem;
@@ -934,24 +934,24 @@ img {
 }
 
 .svg_box:hover {
-  box-shadow: 0px 0 5px 2px var(--light-grey);
+  box-shadow: 0px 0 5px 2px var(--silver);
 }
 
 .svg-and-text p {
   color: var(--gray);
   margin-left: 1.8rem;
-  margin-top: .8rem;
+  margin-top: 0.8rem;
   margin-bottom: 2rem;
 }
 
 .work_second-block {
-  border: 0.5px solid var(--light-grey);
+  border: 0.5px solid var(--silver);
   margin-top: 1rem;
   border-radius: 10px;
 }
 
 .work_second-block-heading {
-  border-bottom: 0.5px solid var(--light-grey);
+  border-bottom: 0.5px solid var(--silver);
   padding: 2rem;
 }
 
@@ -973,7 +973,7 @@ img {
 }
 
 .work_second-block-footer {
-  border-top: 0.5px solid var(--light-grey);
+  border-top: 0.5px solid var(--silver);
   margin-top: 1rem;
   padding: 1.5rem 2rem;
   justify-content: start;
