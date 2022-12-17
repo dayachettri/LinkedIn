@@ -1,4 +1,39 @@
 'use strict';
+/*--------------------------------------------------------------Navbar-----------------------------------------------------------------*/
+
+function navbar() {
+  return `
+   <section class="navbar-bg">
+    <div id="navbar" class="container">
+      <div class="navbar-left">
+        <a href="index.html" class="logo"><i class="ph-linkedin-logo-fill"></i></a>
+        <div class="search-box">
+          <i class="ph-magnifying-glass"></i>
+          <input type="text" placeholder="Search">
+        </div>
+      </div>
+
+      <div class="navbar-center">
+        <div class="work"><a href="index.html"><i class="ph-house-fill"></i>Home</a></div>
+        <div class="work"><a href="network.html"><i class="ph-users-three-fill"></i>My Network</a></div>
+        <div class="work"><a href="jobs.html"><i class="ph-suitcase-simple-fill"></i>Jobs</a></div>
+        <div class="work"><a href="message.html"><i class="ph-chat-teardrop-dots-fill"></i>Messaging</a></div>
+        <div class="work"><a href="notification.html"><i class="ph-bell-fill"></i>Notifications</a></div>
+        <div class="online">
+          <div class="work"><img src="img/profile.jpg" class="profile-img">Me</div>
+        </div>
+        <div class="work nine-dots"><i class="ph-dots-nine-bold"></i>Work</div>
+        <div class="work try-premium"><a class="try-premium" href="#">Try Premium for </a>free</div>
+
+      </div>
+    </div>
+  </section>
+  `;
+}
+export default navbar;
+
+/*------------------------------------------------------------Navbar End-----------------------------------------------------------------*/
+
 
 const userData = [
   {
