@@ -133,6 +133,10 @@ img {
   gap: 1.2rem;
 }
 
+.search {
+  display: none;
+}
+
 .search-box {
   background: var(--input-bg);
   width: 250px;
@@ -193,19 +197,20 @@ img {
   align-items: center;
   color: var(--gray);
   cursor: pointer;
+  padding: 5px;
 }
 
 .work a:hover {
   color: var(--black);
 }
 
-.work i:hover {
-  color: var(--black);
-}
-
 .work i {
   font-size: 2.5rem;
   display: flex;
+}
+
+.work i:hover {
+  color: var(--black);
 }
 
 .nine-dots {
@@ -785,7 +790,7 @@ img {
   border: none;
 }
 
-.message_search > i {
+.message_search>i {
   margin-right: 1rem;
 }
 
@@ -887,7 +892,7 @@ img {
   border: none;
 }
 
-.message_search > i {
+.message_search>i {
   margin-right: 1rem;
 }
 
