@@ -17,12 +17,12 @@
 
 <body>
 
-  <div id="navBar"></div>
-
-  <!----------------------------------------------------------------# navbar End ------------------------------------------------------------------>
+  <div id="navBar">
+    <!--# --------------------- RENDERED THROUGH JAVASCRIPT --------------------- -->
+  </div>
 
   <section class="container grid-3-col">
-    <!--# left aside bar -->
+    <!--# --------------------------- LEFT ASIDE BAR ---------------------------- -->
     <aside class="aside-left">
       <div class="part-one">
         <div class="identity-box">
@@ -89,7 +89,7 @@
       </div>
     </aside>
 
-    <!--# =========================================================Center Content====================================================-->
+    <!--# ------------------------- RENDERED JAVASCRIPT ------------------------- -->
     <div class="content-center">
       <section class="post-box">
         <dsiv class="profile-post">
@@ -141,79 +141,11 @@
       </div>
 
       <section class="posts">
-        <!-- <div class="post">
-          <div class="reactor-box flex">
-            <div class="reactor flex">
-              <img src="https://avatars.githubusercontent.com/u/91982512?v=4" alt="reactor-image">
-              <p>Prakash Dey <span>likes this</span> </p>
-            </div>
-            <i class="ph-dots-three-bold"></i>
-          </div>
-
-          <div class="poster-box flex">
-            <div class="poster-info flex">
-              <img src="https://avatars.githubusercontent.com/u/91982512?v=4" alt="">
-              <div class="poster-text flex">
-                <p class="poster-name">Vaibhav Aggrawal</p>
-                <p class="poster-job">Software Engineer</p>
-                <p class="posted-time flex">
-                  <span>1w</span>
-                  <span class="middot">&middot;</span>
-                  <i class="ph-globe-hemisphere-east-fill"></i>
-                </p>
-              </div>
-            </div>
-            <div class="follow flex">
-              <i class="ph-plus-bold"></i>
-              <p>Follow</p>
-            </div>
-          </div>
-
-          <div class="post-description">
-            <p>Hello my name is prakash Dey and im a senior javascript developer.</p>
-          </div>
-
-          <div class="post-image">
-            <img
-              src="https://media.licdn.com/dms/image/C4D22AQEQJzn6RpsYcg/feedshare-shrink_800/0/1670322284638?e=1674086400&v=beta&t=Yi-Iv-IzWexf2LxaljPm5HEMxb2JhbSc6Pe4GmQq9TY"
-              alt="">
-          </div>
-
-          <div class="reaction-count-box flex">
-            <div class="left">
-              <p>Vaibhav and 219 others</p>
-            </div>
-
-            <div class="right flex">
-              <p>35 comments</p>
-              &middot;
-              <p>82 reposts</p>
-            </div>
-          </div>
-
-          <ul class="react-box flex">
-            <li>
-              <i class="ph-thumbs-up-bold"></i>
-              <span>Like</span>
-            </li>
-            <li>
-              <i class="ph-chat-circle-dots-bold"></i>
-              <span>Comment</span>
-            </li>
-            <li>
-              <i class="ph-arrows-clockwise-bold"></i>
-              <span>Repost</span>
-            </li>
-            <li>
-              <i class="ph-paper-plane-tilt-bold"></i>
-              <span>Send</span>
-            </li>
-          </ul>
-        </div> -->
+        <!--# RENDERED THROUGH JAVASCRIPT  -->
       </section>
     </div>
 
-    <!-- ====================================================right aside============================================= -->
+    <!--# ----------------------------- RIGHT ASIDE ----------------------------- -->
     <aside class="aside-right">
       <section class="news-block">
         <div class="aside-right-heading flex">
@@ -277,7 +209,7 @@
     </aside>
   </section>
 
-  <!-- =========================================small message block============================================= -->
+  <!--# ------------------------- SMALL MESSAGE BLOCK ------------------------- -->
 
   <section class="messege_block flex">
     <div class="messege_block-img flex">
@@ -291,7 +223,7 @@
     </div>
   </section>
 
-  <!-- ===========================================big message block================================================ -->
+  <!--# -------------------------- BIG MESSAGE BLOCK -------------------------- -->
 
   <section class="message_complete_block display_block">
     <div class="flex border">
@@ -358,7 +290,7 @@
     </div>
   </section>
 
-  <!--============================================= Work popup Block =============================================-->
+  <!--# -------------------------- Work popup Block --------------------------- -->
 
   <section class="work_popup display_block">
     <div class="work_header flex">
@@ -555,19 +487,21 @@
   </section>
 
 
-  <!-- ==============================================Post Popup========================== -->
-  <section class="post-popup">
+  <!--# ----------------------------- POST POPUP ------------------------------ -->
+  <section class="post-popup display_block">
     <div class="create-box">
       <p class="create-post">Create Post</p>
-      <div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor"
+      <div class="close-postPopup">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor"
           class="mercado-match" width="24" height="24" focusable="false">
           <path
             d="M13.42 12L20 18.58 18.58 20 12 13.42 5.42 20 4 18.58 10.58 12 4 5.42 5.42 4 12 10.58 18.58 4 20 5.42z">
           </path>
-        </svg></div>
+        </svg>
+      </div>
     </div>
     <div class="post-img-box flex">
-      <img src="https://avatars.githubusercontent.com/u/91982512?v=4" alt="Profile pic">
+      <img src="https://avatars.githubusercontent.com/u/91982512?v=4" alt="Profile pic" />
       <div class="profile-person">
         <p><span class="profile-person-name">Prakasss Lal</span></p>
         <p class="anyone flex">
@@ -587,51 +521,37 @@
     </div>
 
     <div>
-      <textarea type="text" class="talk-about" placeholder="What do you want to talk about?" rows="6"
-        cols="50"></textarea>
+      <textarea type="text" class="talk-about" placeholder="What do you want to talk about?" cols="32"
+        rows="5"></textarea>
     </div>
     <div class="hashtag">Add hashtag</div>
     <div class="post-popup-footer">
       <div class="icons-footer">
-        <div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor"
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor"
             class="mercado-match" width="24" height="24" focusable="false">
             <path
               d="M19 4H5a3 3 0 00-3 3v10a3 3 0 003 3h14a3 3 0 003-3V7a3 3 0 00-3-3zm1 13a1 1 0 01-.29.71L16 14l-2 2-6-6-4 4V7a1 1 0 011-1h14a1 1 0 011 1zm-2-7a2 2 0 11-2-2 2 2 0 012 2z">
             </path>
-          </svg></div>
-        <div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor"
+          </svg>
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor"
             class="mercado-match" width="24" height="24" focusable="false">
             <path d="M19 4H5a3 3 0 00-3 3v10a3 3 0 003 3h14a3 3 0 003-3V7a3 3 0 00-3-3zm-9 12V8l6 4z"></path>
-          </svg></div>
-        <div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor"
+          </svg>
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor"
             class="mercado-match" width="24" height="24" focusable="false">
             <path d="M3 3v15a3 3 0 003 3h9v-6h6V3zm9 8H6v-1h6zm6-3H6V7h12zm-2 8h5l-5 5z"></path>
-          </svg></div>
-        <div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor"
-            class="mercado-match" width="24" height="24" focusable="false">
-            <path
-              d="M17 6V5a3 3 0 00-3-3h-4a3 3 0 00-3 3v1H2v4a3 3 0 003 3h14a3 3 0 003-3V6zM9 5a1 1 0 011-1h4a1 1 0 011 1v1H9zm10 9a4 4 0 003-1.38V17a3 3 0 01-3 3H5a3 3 0 01-3-3v-4.38A4 4 0 005 14z">
-            </path>
-          </svg></div>
-        <div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor"
-            class="mercado-match" width="24" height="24" focusable="false">
-            <path
-              d="M22 11.1L20.47 10a1.09 1.09 0 01-.4-1.25l.62-1.81a1.11 1.11 0 00-.7-1.4 1.07 1.07 0 00-.35-.06h-2a1.09 1.09 0 01-1.05-.76l-.59-2A1.09 1.09 0 0015 2a1.11 1.11 0 00-.66.22l-1.69 1.17a1.13 1.13 0 01-1.31 0L9.75 2.22a1.11 1.11 0 00-1.55.16 1.07 1.07 0 00-.2.38L7.41 4.7a1.09 1.09 0 01-1 .76h-2a1.11 1.11 0 00-1.16 1.06 1.34 1.34 0 00.06.4l.63 1.82a1.1 1.1 0 01-.4 1.26L2 11.11a1.1 1.1 0 00-.26 1.53 1.28 1.28 0 00.26.26L3.53 14a1.09 1.09 0 01.4 1.25l-.62 1.8a1.11 1.11 0 00.7 1.4 1.07 1.07 0 00.35.06h2a1.09 1.09 0 011 .76l.64 2a1.12 1.12 0 001.1.73 1.05 1.05 0 00.64-.22l1.6-1.17a1.1 1.1 0 011.31 0l1.6 1.17a1.14 1.14 0 001.75-.55l.62-1.93a1.11 1.11 0 011.05-.76h2a1.11 1.11 0 001.11-1.11 1 1 0 00-.06-.35l-.63-1.82a1.11 1.11 0 01.38-1.26L22 12.89a1.07 1.07 0 00.5-.89 1.1 1.1 0 00-.5-.9zM7 11v-1h10v1zm2 3v-1h6v1z">
-            </path>
-          </svg></div>
-        <div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor"
-            class="mercado-match" width="24" height="24" focusable="false">
-            <path d="M23 20v1H1v-1zM8 9H2v10h6zm7-6H9v16h6zm7 11h-6v5h6z"></path>
-          </svg></div>
-        <div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor"
-            class="mercado-match" width="24" height="24" focusable="false">
-            <path d="M14 12a2 2 0 11-2-2 2 2 0 012 2zM4 10a2 2 0 102 2 2 2 0 00-2-2zm16 0a2 2 0 102 2 2 2 0 00-2-2z">
-            </path>
-          </svg></div>
-        <div class="or-key"> |</div>
-        <div class="footer-anyone"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"
-            data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16"
-            focusable="false">
+          </svg>
+        </div>
+
+        <div class="or-key">|</div>
+        <div class="footer-anyone">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor"
+            class="mercado-match" width="16" height="16" focusable="false">
             <path
               d="M5 8h5v1H5zm11-.5v.08a6 6 0 01-2.75 5L8 16v-3H5.5A5.51 5.51 0 010 7.5 5.62 5.62 0 015.74 2h4.76A5.5 5.5 0 0116 7.5zm-2 0A3.5 3.5 0 0010.5 4H5.74A3.62 3.62 0 002 7.5 3.53 3.53 0 005.5 11H10v1.33l2.17-1.39A4 4 0 0014 7.58zM5 7h6V6H5z">
             </path>
@@ -639,11 +559,12 @@
           <p>Anyone</p>
         </div>
       </div>
-      <div class="footer-post">Post</div>
+      <button class="footer-post">Post</button>
     </div>
   </section>
 
-
+  <!--# OVERLAY  -->
+  <div class="overlay hidden"></div>
   <!-- javascript  -->
   <script src="/script/script.js"></script>
 </body>
