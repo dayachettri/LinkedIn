@@ -826,9 +826,11 @@ img {
   border-radius: 1rem 0 0 1rem;
   position: absolute;
   right: 0;
-  top: 5.5rem;
+  top: 6.3rem;
   overflow: auto;
   cursor: pointer;
+  z-index: 20;
+  box-shadow: 0 0 10px var(--silver);
 }
 
 .work_header {
@@ -1048,4 +1050,24 @@ img {
   border: none;
   font-family: inherit;
   cursor: pointer;
+}
+
+/*# --------------------------------- OVERLAY -------------------------------- */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.hidden {
+  display: none;
+}
+
+.disable-scroll {
+  overflow: hidden;
+  max-height: 100vh;
 }

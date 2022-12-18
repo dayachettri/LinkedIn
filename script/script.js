@@ -751,25 +751,33 @@ document.body.addEventListener('click', e => {
   console.log(e.target);
   if (e.target.parentElement.classList.contains('nine-dots')) {
     workPopup.classList.remove('display_block');
+    overlay.classList.remove('hidden');
+    document.body.classList.add('disable-scroll');
   }
 });
 
 togglerWork.addEventListener('click', function () {
   workPopup.classList.add('display_block');
+  overlay.classList.add('hidden');
+  document.body.classList.remove('disable-scroll');
 });
 
 //# ------------------------------- POST POPUP ------------------------------- */
-
+const overlay = document.querySelector('.overlay');
 const postInput = document.querySelector('.start-post');
 const postPopup = document.querySelector('.post-popup');
 const closePostPopup = document.querySelector('.close-postPopup');
 
 postInput.addEventListener('click', function () {
   postPopup.classList.remove('display_block');
+  overlay.classList.remove('hidden');
+  document.body.classList.add('disable-scroll');
 });
 
 closePostPopup.addEventListener('click', function () {
   postPopup.classList.add('display_block');
+  overlay.classList.add('hidden');
+  document.body.classList.remove('disable-scroll');
 });
 
 //# ------------------------------- CREATE POST ------------------------------ */
@@ -866,6 +874,10 @@ viewBox="0 0 24 24">
 
   postBox.insertAdjacentHTML('afterbegin', html);
   postPopup.classList.add('display_block');
+  overlay.classList.add('hidden');
+  document.body.classList.remove('disable-scroll');
   postText.value = '';
   count === userData.length - 1 ? (count = 0) : count++;
 });
+
+//# --------------------------------- OVERLAY -------------------------------- */
