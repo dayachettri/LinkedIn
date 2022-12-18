@@ -728,7 +728,7 @@ img {
 /*# ------------------------------ MESSAGE BLOCK ----------------------------- */
 
 .messege_block {
-  width: 22%;
+  width: 300px;
   height: 4.5rem;
   background-color: var(--white);
   position: fixed;
