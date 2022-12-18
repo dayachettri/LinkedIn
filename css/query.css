@@ -14,10 +14,59 @@
     grid-template-columns: minmax(0, 1fr);
     max-width: 576px;
   }
+
   .message_complete_block {
     display: none;
   }
+
   .messege_block {
     display: none;
   }
 }
+
+
+
+
+/*-------------------------------------------------------------Navbar start----------------------------------------------------------*/
+
+@media(max-width:1024px) {
+
+  .search-box,
+  .search-box input {
+    display: none;
+  }
+
+  .search {
+    display: initial;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--gray);
+  }
+
+  .search:hover {
+    color: var(--black);
+  }
+
+  .navbar-center {
+    margin-right: 150px;
+  }
+
+  .logo {
+    padding-right: 20px;
+  }
+}
+
+@media(max-width:768px) {
+  .work span {
+    display: none;
+  }
+}
+
+@media(max-width:414px) {
+  .navbar-center {
+    gap: 1.5rem;
+  }
+}
+
+/*-------------------------------------------------------Navbar End---------------------------------------------------------------*/
