@@ -24,7 +24,6 @@ Large: 1.8
 0.75px
 */
 
-
 :root {
   --white: #fff;
   --body-bg: #f3f2ef;
@@ -104,7 +103,7 @@ img {
   align-items: center;
 }
 
-/*#==================================================== Navbar ======================================================================= */
+/*# --------------------------------- NAVBAR --------------------------------- */
 
 .navbar-bg {
   background-color: var(--white);
@@ -112,6 +111,7 @@ img {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 10;
 }
 
 #navbar {
@@ -159,7 +159,6 @@ img {
   border: 0;
 }
 
-/* =================================== CENTER ====================================*/
 .navbar-center {
   display: flex;
   justify-content: space-between;
@@ -232,7 +231,7 @@ img {
   color: var(--red);
 }
 
-/*# User box center */
+/*# ----------------------------- POST BOX CENTER ---------------------------- */
 .post {
   border-radius: 1rem;
   background-color: var(--white);
@@ -360,9 +359,7 @@ img {
   font-size: 3rem;
 }
 
-/*------------------------------------------------------------------------------------------------------------------------------------------------*/
-
-/*#================================================================ Left aside =======================================================*/
+/*# ------------------------------- LEFT ASIDE ------------------------------- */
 
 .part-one {
   border-radius: 1rem;
@@ -516,8 +513,7 @@ img {
   font-weight: var(--weight-bold);
 }
 
-/*# ========================Center content  */
-/*# =====================================Center content =============================== */
+/*# ----------------------------- CREATE POST BOX ---------------------------- */
 .post-box {
   border-radius: 1rem;
   overflow: hidden;
@@ -620,9 +616,7 @@ img {
   margin-bottom: 0.6rem;
 }
 
-/*#======================================================================================= */
-
-/*#right aside */
+/*# ------------------------------- RIGHT ASIDE ------------------------------ */
 .news-block {
   border-radius: 1rem;
   background-color: var(--white);
@@ -720,7 +714,7 @@ img {
   margin-top: 4rem;
 }
 
-/* ================================================ Message block ====================================================*/
+/*# ------------------------------ MESSAGE BLOCK ----------------------------- */
 
 .messege_block {
   width: 22%;
@@ -791,7 +785,7 @@ img {
   border: none;
 }
 
-.message_search>i {
+.message_search > i {
   margin-right: 1rem;
 }
 
@@ -822,109 +816,7 @@ img {
   margin-bottom: 3.2rem;
 }
 
-/* ================================================ Message block ====================================================*/
-
-.messege_block {
-  width: 300px;
-  height: 4.5rem;
-  background-color: var(--white);
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  border-radius: 5px 5px 0px 0px;
-  padding: 1rem;
-  box-shadow: 0px 0px 4px var(--silver);
-}
-
-.messege_block-img img {
-  border-radius: 50%;
-  width: 35px;
-  height: 35px;
-  /* margin-bottom: 2.4rem; */
-}
-
-.messege_block-img p {
-  margin-left: 5px;
-  font-size: 1.3rem;
-  font-weight: var(--weight-regular);
-}
-
-.message_block-controls i {
-  font-size: 2rem;
-  margin-right: 5px;
-  padding: 5px;
-  border-radius: 50%;
-  cursor: pointer;
-}
-
-.message_block-controls i:hover {
-  background-color: var(--gray);
-}
-
-.display_block {
-  display: none;
-}
-
-.message_complete_block {
-  width: 300px;
-  background-color: var(--white);
-  border-radius: 5px 5px 0px 0px;
-  padding: 1rem;
-  box-shadow: 0px 0px 4px var(--silver);
-  position: fixed;
-  right: 0;
-  bottom: 0;
-}
-
-.border {
-  border-bottom: 1px solid var(--silver);
-  padding-bottom: 1rem;
-}
-
-.message_search {
-  background: var(--hover-light);
-  margin-top: 1rem;
-  border-radius: 5px;
-  font-size: 20px;
-}
-
-.message_search input {
-  background: var(--hover-light);
-  border: none;
-}
-
-.message_search>i {
-  margin-right: 1rem;
-}
-
-.chats {
-  margin-top: 2rem;
-  border-bottom: 1px solid var(--silver);
-  padding: 10px;
-}
-
-.chats img {
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  margin-right: 7px;
-}
-
-.img_chat {
-  display: flex;
-}
-
-.img_chat p {
-  font-size: 14px;
-  margin-bottom: 5px;
-  font-weight: var(--weight-regular);
-}
-
-.chats .time {
-  margin-bottom: 3.2rem;
-}
-
-/* ============================= Work popup ================================= */
+/*# ------------------------------- WORK POPUP ------------------------------- */
 
 .work_popup {
   background-color: var(--white);
@@ -1029,19 +921,28 @@ img {
   margin-left: 5px;
 }
 
+/*# ------------------------------- POST POPUP ------------------------------- */
 
-
-/*==========================================Start a post popup-----------------------------------*/
 .post-popup {
-  width: 45%;
+  max-width: 552px;
+  /* max-height: px; */
   background-color: var(--white);
   border-radius: 1rem;
-  /* display: block; */
+  position: absolute;
+  margin: 0 auto;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 0px 10px var(--silver);
+}
+
+.close-postPopup {
+  cursor: pointer;
 }
 
 .create-post {
   font-size: 2rem;
-  margin: 1rem 0;
+  padding: 1rem 0;
 }
 
 .create-box {
@@ -1060,7 +961,7 @@ img {
 
 .post-img-box {
   justify-content: left;
-  margin-top: 1rem;
+  padding-top: 1rem;
 }
 
 .profile-person {
@@ -1075,7 +976,7 @@ img {
   border: 1.5px solid var(--silver);
   border-radius: 1.6rem;
   margin-top: 0.4rem;
-  padding: .2rem 1rem;
+  padding: 0.2rem 1rem;
   color: var(--charcoal);
 }
 
@@ -1086,9 +987,12 @@ img {
 .talk-about {
   font-size: 1.6rem;
   border: none;
-  margin: 1.8rem;
+  padding: 0.5rem;
   resize: none;
   outline: none;
+  font-family: inherit;
+  max-width: 90%;
+  max-height: 120px;
 }
 
 .hashtag {
@@ -1119,7 +1023,6 @@ img {
   font-size: 3rem;
   color: var(--silver);
   margin-bottom: 1rem;
-
 }
 
 .footer-anyone {

@@ -728,7 +728,7 @@ viewBox="0 0 24 24">
 
 window.addEventListener('load', renderHTML);
 
-// Message popup toggle
+//# -------------------------- Message popup toggle -------------------------- */
 
 const togglerDown = document.querySelector('.ph-caret-down-fill');
 const togglerUp = document.querySelector('.ph-caret-up-fill');
@@ -752,6 +752,16 @@ togglerWork.addEventListener('click', function () {
   workPopup.classList.toggle('display_block');
 });
 
-// nineDots.addEventListener("click",function(){
-//   workPopup.classList.remove("display_block")
-// });
+//# ------------------------------- POST POPUP ------------------------------- */
+
+const postInput = document.querySelector('.start-post');
+const postPopup = document.querySelector('.post-popup');
+const closePostPopup = document.querySelector('.close-postPopup');
+
+postInput.addEventListener('click', function () {
+  postPopup.classList.remove('display_block');
+});
+
+closePostPopup.addEventListener('click', function () {
+  postPopup.classList.add('display_block');
+});
