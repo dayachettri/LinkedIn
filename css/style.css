@@ -33,6 +33,7 @@ Large: 1.8
   --silver: #caccce;
   --blue: #0077b5;
   --red: #dd5143;
+  --amber-80: #5d3b09;
   --orange: #e68523;
   --green: #5f9b41;
   --hover-light: #ebebeb;
@@ -132,6 +133,7 @@ img {
   display: flex;
   align-items: center;
   gap: 1.2rem;
+  padding-left: 0.5rem;
 }
 
 .search {
@@ -140,7 +142,7 @@ img {
 
 .search-box {
   background: var(--input-bg);
-  width: 250px;
+  width: 292px;
   border-radius: 5px;
   display: flex;
   align-items: center;
@@ -154,7 +156,7 @@ img {
 .search-box input {
   width: 100%;
   background: transparent;
-  padding: 8px;
+  padding: 10px;
   outline: none;
   border: 0;
 }
@@ -163,7 +165,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 4rem;
+  gap: 3rem;
   cursor: pointer;
 }
 
@@ -213,9 +215,14 @@ img {
   color: var(--black);
 }
 
+.nav-network {
+  text-align: center;
+}
+
 .nine-dots {
   color: var(--gray);
   cursor: pointer;
+  margin-left: 1rem;
 }
 
 .nine-dots:hover {
@@ -228,7 +235,11 @@ img {
 }
 
 .try-premium a {
-  color: var(--red);
+  color: var(--amber-80);
+}
+
+.three-dot {
+  display: none;
 }
 
 /*# ----------------------------- POST BOX CENTER ---------------------------- */
