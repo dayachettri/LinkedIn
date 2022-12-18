@@ -895,9 +895,15 @@ img {
 
 .work_popup {
   background-color: var(--white);
-  width: 28%;
+  width: 380px;
+  height: 90vh;
   padding: 2rem;
-  border-radius: 1.5rem 0 0 1.5rem;
+  border-radius: 1rem 0 0 1rem;
+  position: absolute;
+  right: 0;
+  top: 5.5rem;
+  overflow: auto;
+  cursor: pointer;
 }
 
 .work_header {
