@@ -742,7 +742,7 @@ togglerDown.addEventListener('click', function () {
   messageBlock.classList.add('display_block');
 });
 
-// =====================================work popup
+// work popup
 
 const togglerWork = document.querySelector('.ph-x');
 const workPopup = document.querySelector('.work_popup');
@@ -755,19 +755,3 @@ togglerWork.addEventListener('click', function () {
 // nineDots.addEventListener("click",function(){
 //   workPopup.classList.remove("display_block")
 // });
-
-// =======================================Post popup
-
-const postInput = document.querySelector(".start-post");
-const postPopup = document.querySelector(".post-popup");
-const closePostPopup = document.querySelector(".close-postPopup");
-
-postInput.addEventListener("click",function(){
-  postPopup.classList.remove("display_block");
-});
-
-closePostPopup.addEventListener("click",function(){
-  postPopup.classList.add("display_block");
-});
-
-
