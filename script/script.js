@@ -673,7 +673,7 @@ const postContainer = document.querySelector('.posts');
 // userData
 
 const renderHTML = function () {
-  for (let i = 0; i < 5; i++) {
+  for (let i = 0; i < userData.length; i++) {
     const html = `
           <div class="post">
           <div class="reactor-box flex">
@@ -778,17 +778,14 @@ togglerDown.addEventListener('click', function () {
 
 // work popup
 
-const togglerWork = document.querySelector(".ph-x");
-const workPopup = document.querySelector(".work_popup");
-const nineDots = document.querySelector(".ph-dots-nine-bold");
+const togglerWork = document.querySelector('.ph-x');
+const workPopup = document.querySelector('.work_popup');
+const nineDots = document.querySelector('.ph-dots-nine-bold');
 
-togglerWork.addEventListener("click",function(){
-  workPopup.classList.toggle("display_block")
+togglerWork.addEventListener('click', function () {
+  workPopup.classList.toggle('display_block');
 });
 
 // nineDots.addEventListener("click",function(){
 //   workPopup.classList.remove("display_block")
 // });
-
-
-
