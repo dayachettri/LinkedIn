@@ -24,7 +24,6 @@ Large: 1.8
 0.75px
 */
 
-
 :root {
   --white: #fff;
   --body-bg: #f3f2ef;
@@ -177,7 +176,7 @@ img {
 }
 
 .online::after {
-  content: '';
+  content: "";
   width: 8px;
   height: 8px;
   border: 2px solid var(--white);
@@ -233,10 +232,12 @@ img {
   background-color: var(--white);
   margin-bottom: 1rem;
 }
+
 .reactor-box {
   padding: 1.2rem;
   border-bottom: 1px solid var(--silver);
 }
+
 .reactor-box i {
   font-size: 2.4rem;
 }
@@ -246,16 +247,18 @@ img {
   color: var(--charcoal);
   font-weight: var(--weight-bold);
 }
+
 .reactor p span {
   font-weight: var(--weight-lighter);
   color: var(--gray);
 }
+
 .reactor img {
   width: 24px;
   border-radius: 50%;
 }
 
-[class^='ph-dots'] {
+[class^="ph-dots"] {
   color: var(--gray);
 }
 
@@ -302,6 +305,7 @@ img {
 .middot {
   font-weight: var(--weight-bold);
 }
+
 .poster-info {
   gap: 1rem;
 }
@@ -349,6 +353,7 @@ img {
 .react-box i {
   font-size: 3rem;
 }
+
 /*------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 /*#================================================================ Left aside =======================================================*/
@@ -358,6 +363,7 @@ img {
   overflow: hidden;
   background-color: var(--white);
 }
+
 .identity-img {
   background: url(https://media.licdn.com/dms/image/C4D16AQFSzFIBalvPxA/profile-displaybackgroundimage-shrink_200_800/0/1662794400367?e=1676505600&v=beta&t=1ltsT07gWqRLWHhGrowdrAwjg3xVI6qnLmUjn_mRtno);
   background-position: center;
@@ -460,10 +466,12 @@ img {
   font-weight: var(--weight-bold);
   color: var(--gray);
 }
+
 .recent-box p {
   font-weight: var(--weight-regular);
   color: var(--charcoal);
 }
+
 .recent-visit {
   margin-top: 1.2rem;
   display: flex;
@@ -471,25 +479,30 @@ img {
   align-items: center;
   font-weight: var(--weight-bold);
 }
+
 .group-box {
   margin-top: 2.6rem;
   color: var(--blue);
-  font-weight:var(--weight-bold);
+  font-weight: var(--weight-bold);
 }
+
 .events {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 1.8rem 0;
 }
+
 .events i {
   color: var(--gray);
 }
+
 .see-all {
   padding: 1rem 2rem;
   border-bottom: 1px solid var(--silver);
   font-weight: var(--weight-bold);
 }
+
 .discover {
   text-align: center;
   font-size: 1.4rem;
@@ -508,16 +521,19 @@ img {
   color: var(--gray);
   font-weight: var(--weight-bold);
 }
+
 .profile-post {
   display: flex;
   gap: 1.2rem;
   align-items: center;
 }
+
 .profile-post img {
   border-radius: 50%;
   width: 60px;
   height: 60px;
 }
+
 .start-post {
   border: 1px solid var(--silver);
   border-radius: 2.5rem;
@@ -529,10 +545,12 @@ img {
 .start-post p {
   font-size: 1.4rem;
 }
+
 .start-post:hover {
   cursor: pointer;
   background-color: var(--hover-light);
 }
+
 .attachment {
   display: flex;
   justify-content: space-between;
@@ -546,21 +564,27 @@ img {
   align-items: center;
   font-size: 1.4rem;
 }
+
 .attachment-option span {
   margin-right: 1rem;
 }
+
 .photo {
   color: var(--blue);
 }
+
 .video {
   color: var(--green);
 }
+
 .event {
   color: var(--orange);
 }
+
 .article {
   color: var(--red);
 }
+
 .sortby {
   margin-top: 1rem;
   display: flex;
@@ -568,19 +592,23 @@ img {
   align-items: center;
   color: var(--gray);
 }
+
 .sortby span {
   font-weight: var(--weight-bold);
   margin: 0 0.3rem;
   color: var(--charcoal);
 }
+
 .sortby svg {
   color: var(--charcoal);
 }
+
 .line {
   display: grid;
   grid-template-columns: 5fr 1fr;
   margin-bottom: 1rem;
 }
+
 .xyz {
   border-bottom: 1px solid var(--silver);
   margin-bottom: 0.6rem;
@@ -995,96 +1023,123 @@ img {
   margin-left: 5px;
 }
 
-
-
 /*==========================================Start a post popup-----------------------------------*/
-.post-popup{
-  width: 45%;
+
+.post-popup {
+  max-width: 552px;
+  /* max-height: px; */
   background-color: var(--white);
   border-radius: 1rem;
-  /* display: block; */
+  position: absolute;
+  margin: 0 auto;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 0px 10px var(--silver);
 }
-.create-post{
+
+.close-postPopup {
+  cursor: pointer;
+}
+
+.create-post {
   font-size: 2rem;
-  margin: 1rem 0;
+  padding: 1rem 0;
 }
-.create-box{
+
+.create-box {
   border-bottom: 1.4px solid var(--silver);
   display: flex;
   justify-content: space-between;
-   padding:1.2rem 1rem;
-   align-items: center;
+  padding: 1.2rem 1rem;
+  align-items: center;
 }
-.post-popup img{
+
+.post-popup img {
   width: 12%;
   border-radius: 50%;
   margin: 10px;
 }
-.post-img-box{
+
+.post-img-box {
   justify-content: left;
-  margin-top: 1rem;
+  padding-top: 1rem;
 }
-.profile-person{
+
+.profile-person {
   font-size: 1.6rem;
 }
-.profile-person-name{
+
+.profile-person-name {
   font-weight: var(--weight-bold);
 }
 
-.anyone{
-  border:1.5px solid var(--silver);
+.anyone {
+  border: 1.5px solid var(--silver);
   border-radius: 1.6rem;
   margin-top: 0.4rem;
-  padding: .2rem 1rem;
+  padding: 0.2rem 1rem;
   color: var(--charcoal);
 }
-.anyone span{
+
+.anyone span {
   padding: 0.5rem;
 }
-.talk-about{
+
+.talk-about {
   font-size: 1.6rem;
-  border:none;
-  margin: 1.8rem;
+  border: none;
+  padding: 0.5rem;
   resize: none;
-outline: none;
+  outline: none;
+  font-family: inherit;
+  max-width: 90%;
+  max-height: 120px;
 }
-.hashtag{
+
+.hashtag {
   color: var(--blue);
-  font-weight:var(--weight-bold);
+  font-weight: var(--weight-bold);
   font-size: 1.6rem;
   padding-left: 1rem;
 }
-.icons-footer{
+
+.icons-footer {
   display: flex;
   align-items: center;
 }
-.icons-footer svg{
+
+.icons-footer svg {
   margin-right: 1rem;
 }
-.post-popup-footer{
+
+.post-popup-footer {
   color: var(--gray);
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 2rem 1rem;
 }
-.or-key{
+
+.or-key {
   font-size: 3rem;
   color: var(--silver);
   margin-bottom: 1rem;
-  
 }
-.footer-anyone{
+
+.footer-anyone {
   display: flex;
-align-items: center;
-padding: 1rem;
+  align-items: center;
+  padding: 1rem;
 }
-.footer-anyone p{
+
+.footer-anyone p {
   font-size: 1.4rem;
-  font-weight:var(--weight-bold);
-  padding-left:0.4rem ;
+  font-weight: var(--weight-bold);
+  padding-left: 0.4rem;
 }
-.footer-post{
+
+.footer-post {
   padding: 0.8rem 1.6rem;
   background-color: var(--silver);
   font-size: 1.8rem;
