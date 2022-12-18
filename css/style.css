@@ -24,6 +24,7 @@ Large: 1.8
 0.75px
 */
 
+
 :root {
   --white: #fff;
   --body-bg: #f3f2ef;
@@ -180,7 +181,7 @@ img {
 }
 
 .online::after {
-  content: "";
+  content: '';
   width: 8px;
   height: 8px;
   border: 2px solid var(--white);
@@ -263,7 +264,7 @@ img {
   border-radius: 50%;
 }
 
-[class^="ph-dots"] {
+[class^='ph-dots'] {
   color: var(--gray);
 }
 
@@ -1028,28 +1029,19 @@ img {
   margin-left: 5px;
 }
 
-/*==========================================Start a post popup-----------------------------------*/
 
+
+/*==========================================Start a post popup-----------------------------------*/
 .post-popup {
-  max-width: 552px;
-  /* max-height: px; */
+  width: 45%;
   background-color: var(--white);
   border-radius: 1rem;
-  position: absolute;
-  margin: 0 auto;
-  top: 35%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  box-shadow: 0px 0px 10px var(--silver);
-}
-
-.close-postPopup {
-  cursor: pointer;
+  /* display: block; */
 }
 
 .create-post {
   font-size: 2rem;
-  padding: 1rem 0;
+  margin: 1rem 0;
 }
 
 .create-box {
@@ -1068,7 +1060,7 @@ img {
 
 .post-img-box {
   justify-content: left;
-  padding-top: 1rem;
+  margin-top: 1rem;
 }
 
 .profile-person {
@@ -1083,7 +1075,7 @@ img {
   border: 1.5px solid var(--silver);
   border-radius: 1.6rem;
   margin-top: 0.4rem;
-  padding: 0.2rem 1rem;
+  padding: .2rem 1rem;
   color: var(--charcoal);
 }
 
@@ -1094,12 +1086,9 @@ img {
 .talk-about {
   font-size: 1.6rem;
   border: none;
-  padding: 0.5rem;
+  margin: 1.8rem;
   resize: none;
   outline: none;
-  font-family: inherit;
-  max-width: 90%;
-  max-height: 120px;
 }
 
 .hashtag {
@@ -1130,6 +1119,7 @@ img {
   font-size: 3rem;
   color: var(--silver);
   margin-bottom: 1rem;
+
 }
 
 .footer-anyone {
