@@ -101,8 +101,12 @@
 }
 
 @media(max-width:427px) {
+  #navbar {
+    justify-content: center;
+  }
+
   .navbar-center {
-    gap: 1.5rem;
+    gap: 1.3rem;
   }
 
   .online {
