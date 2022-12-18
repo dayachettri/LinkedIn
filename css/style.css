@@ -1039,9 +1039,13 @@ img {
 }
 
 .footer-post {
-  padding: 0.8rem 1.6rem;
+  padding: 0.5rem 1.6rem;
   background-color: var(--silver);
   font-size: 1.8rem;
   color: var(--gray);
   border-radius: 1.6rem;
+  outline: none;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
 }
