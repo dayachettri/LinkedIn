@@ -775,3 +775,20 @@ togglerUp.addEventListener('click', function () {
 togglerDown.addEventListener('click', function () {
   messageBlock.classList.add('display_block');
 });
+
+// work popup
+
+const togglerWork = document.querySelector(".ph-x");
+const workPopup = document.querySelector(".work_popup");
+const nineDots = document.querySelector(".ph-dots-nine-bold");
+
+togglerWork.addEventListener("click",function(){
+  workPopup.classList.toggle("display_block")
+});
+
+// nineDots.addEventListener("click",function(){
+//   workPopup.classList.remove("display_block")
+// });
+
+
+
