@@ -1,0 +1,23 @@
+@media (max-width: 990px) {
+  .aside-right {
+    display: none;
+  }
+
+  .grid-3-col {
+    max-width: 720px;
+    grid-template-columns: minmax(0, 7fr) minmax(0, 17fr);
+  }
+}
+
+@media (max-width: 770px) {
+  .grid-3-col {
+    grid-template-columns: minmax(0, 1fr);
+    max-width: 576px;
+  }
+  .message_complete_block {
+    display: none;
+  }
+  .messege_block {
+    display: none;
+  }
+}

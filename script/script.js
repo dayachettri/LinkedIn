@@ -761,3 +761,17 @@ viewBox="0 0 24 24">
 };
 
 window.addEventListener('load', renderHTML);
+
+// Message popup toggle
+
+const togglerDown = document.querySelector('.ph-caret-down-fill');
+const togglerUp = document.querySelector('.ph-caret-up-fill');
+const messageBlock = document.querySelector('.message_complete_block');
+
+togglerUp.addEventListener('click', function () {
+  messageBlock.classList.remove('display_block');
+});
+
+togglerDown.addEventListener('click', function () {
+  messageBlock.classList.add('display_block');
+});

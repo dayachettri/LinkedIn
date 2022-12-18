@@ -731,7 +731,7 @@ img {
 }
 
 .message_complete_block {
-  width: 22%;
+  width: 300px;
   background-color: var(--white);
   border-radius: 5px 5px 0px 0px;
   padding: 1rem;
@@ -792,7 +792,7 @@ img {
 /* ================================================ Message block ====================================================*/
 
 .messege_block {
-  width: 22%;
+  width: 300px;
   height: 4.5rem;
   background-color: var(--white);
   position: fixed;
@@ -833,7 +833,7 @@ img {
 }
 
 .message_complete_block {
-  width: 22%;
+  width: 300px;
   background-color: var(--white);
   border-radius: 5px 5px 0px 0px;
   padding: 1rem;
