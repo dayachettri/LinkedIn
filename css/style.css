@@ -64,6 +64,11 @@ html {
   list-style-type: none;
   text-decoration: none;
 }
+body::-webkit-scrollbar {
+  display: none;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
 
 body {
   font-family: var(--helvetica);
@@ -1124,6 +1129,12 @@ img {
   border: none;
   font-family: inherit;
   cursor: pointer;
+  transition: all 0.3s;
+}
+
+.footer-post:hover {
+  background-color: var(--blue);
+  color: var(--white);
 }
 
 /*# --------------------------------- OVERLAY -------------------------------- */
