@@ -13,9 +13,31 @@
   <link rel="stylesheet" href="/css/style.css">
   <link rel="stylesheet" href="/css/query.css">
   <title>Feed | LinkedIn</title>
+
 </head>
 
-<body>
+<body onload="myFunction()">
+
+  <!--# --------------------- PRELOADER --------------------- -->
+  <div id="loader-bg">
+    <div class="container-load">
+      <div class="div">
+        <div class="part1">
+          Linked
+        </div>
+        <div class="part2">
+          in
+        </div>
+      </div>
+
+      <div class="loader">
+        <div class="loading">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--# --------------------- PRELOADER END --------------------- -->
 
   <div id="navBar">
     <!--# --------------------- RENDERED THROUGH JAVASCRIPT --------------------- -->
@@ -583,6 +605,17 @@
 
   <!-- javascript  -->
   <script src="/script/script.js"></script>
+
+
+
+  <script>
+    let preloader = document.querySelector("#loader-bg");
+
+    setTimeout(function () {
+      preloader.style.display = "none";
+    }, 5000)
+
+  </script>
 </body>
 
 </html>

@@ -106,7 +106,7 @@
   }
 
   .navbar-center {
-    gap: 1.5rem;
+    gap: 1.3rem;
   }
 
   .online {
@@ -117,17 +117,3 @@
     font-size: 20px;
   }
 }
-
-/* @media(max-width:360px) {
-
-
-
-
-  .threeDot-content {
-    display: none;
-  }
-
-  .three-dot {
-    display: initial;
-  }
-} */
