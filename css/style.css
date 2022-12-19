@@ -703,7 +703,7 @@ img {
   margin-bottom: 1rem;
 }
 
-.xyz {
+.sort_line {
   border-bottom: 1px solid var(--silver);
   margin-bottom: 0.6rem;
 }
@@ -1162,4 +1162,138 @@ img {
 .disable-scroll {
   overflow: hidden;
   max-height: 100vh;
+}
+
+/*--==============================COMMENT BOX================   --*/
+/* =============================ADD-COMMENT============================  --*/
+.create_comment_box {
+  background-color: var(--white);
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  padding: 10px;
+  padding-bottom: 4rem;
+  user-select: none;
+  color: var(--gray);
+  margin-top: -20px;
+}
+
+.cmnt_box {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.cmnt_img {
+  width: 40px;
+  margin-right: 8px;
+}
+
+.cmnt_img {
+  border-radius: 50%;
+}
+
+.cmnt_area {
+  width: 90%;
+  display: flex;
+  padding: 0.8rem;
+  justify-content: space-between;
+  border: 1.6px solid var(--silver);
+  border-radius: 2rem;
+}
+
+.add_comment {
+  border: none;
+  outline: none;
+}
+
+.emoji {
+  display: flex;
+  gap: 2rem;
+}
+
+/*=======================================================READ COMMENT===========================================*/
+.read_comment {
+  background-color: var(--white);
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  padding: 10px;
+  user-select: none;
+  color: var(--gray);
+  margin-top: -10px;
+}
+
+.read_cmnt_box {
+  display: flex;
+  justify-content: flex-start;
+}
+.cmnt_text_box{
+  flex-grow: 1;
+}
+.cmnt_text {
+  margin-left: 0.8rem;
+  padding: 8px;
+  font-size: 1.3rem;
+  color: var(--black);
+  background-color: var(--body-bg);
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.cmntr_name {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.occupation {
+  padding: 0.2rem 0;
+  font-size: 0.9em;
+  color: var(--gray);
+}
+
+.cmntr_name:hover {
+  cursor: pointer;
+}
+
+.cmntr_img {
+  width: 40px;
+}
+
+.cmntr_img img {
+  border-radius: 50%;
+}
+
+.cmnt_reaction {
+  display: flex;
+  gap: 0.7rem;
+  font-size: 1.3rem;
+  padding: 0.8rem;
+}
+
+.cmnt_msg_text {
+  padding: 1rem 0;
+}
+
+.load_more {
+  font-size: 1.4rem;
+  padding: 1rem 2rem;
+  color: var(--gray);
+  font-weight: var(--weight-bold);
+}
+
+.load_more:hover {
+  background-color: var(--hover-light);
+  max-width: max-content;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.like:hover {
+  background-color: var(--hover-light);
+  cursor: pointer;
+}
+
+.reply:hover {
+  background-color: var(--hover-light);
+  cursor: pointer;
 }
