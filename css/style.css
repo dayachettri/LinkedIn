@@ -64,6 +64,17 @@ html {
   list-style-type: none;
   text-decoration: none;
 }
+body::-webkit-scrollbar {
+  display: none;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
 
 body {
   font-family: var(--helvetica);
@@ -192,6 +203,7 @@ img {
   position: fixed;
   top: 0;
   width: 100%;
+  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.1);
   z-index: 10;
 }
 
@@ -835,9 +847,9 @@ img {
 .message_complete_block {
   width: 300px;
   background-color: var(--white);
-  border-radius: 5px 5px 0px 0px;
+  border-radius: 10px 10px 0px 0px;
   padding: 1rem;
-  box-shadow: 0px 0px 4px var(--silver);
+  box-shadow: 0px 0px 10px var(--silver);
   position: fixed;
   right: 0;
   bottom: 0;
@@ -1124,6 +1136,12 @@ img {
   border: none;
   font-family: inherit;
   cursor: pointer;
+  transition: all 0.3s;
+}
+
+.footer-post:hover {
+  background-color: var(--blue);
+  color: var(--white);
 }
 
 /*# --------------------------------- OVERLAY -------------------------------- */

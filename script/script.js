@@ -639,7 +639,7 @@ const postContainer = document.querySelector('.posts');
 // userData
 
 const renderHTML = function () {
-  for (let i = 0; i < userData.length; i++) {
+  for (let i = 0; i < 500; i++) {
     const html = `
           <div class="post">
           <div class="reactor-box flex">
@@ -721,7 +721,7 @@ viewBox="0 0 24 24">
           </ul>
         </div>
   `;
-    // userData.push(userData[i]);
+    userData.push(userData[i]);
     postContainer.insertAdjacentHTML('afterbegin', html);
   }
 };
