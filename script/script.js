@@ -730,8 +730,8 @@ window.addEventListener('load', renderHTML);
 
 //# -------------------------- Message popup toggle -------------------------- */
 
-const togglerDown = document.querySelector('.ph-caret-down-fill');
-const togglerUp = document.querySelector('.ph-caret-up-fill');
+const togglerDown = document.querySelector('.downArrow');
+const togglerUp = document.querySelector('.upArrow');
 const messageBlock = document.querySelector('.message_complete_block');
 
 togglerUp.addEventListener('click', function () {
@@ -743,6 +743,7 @@ togglerDown.addEventListener('click', function () {
 });
 
 //# ------------------------------- WORK POPUP ------------------------------- */
+
 const togglerWork = document.querySelector('.ph-x');
 const workPopup = document.querySelector('.work_popup');
 const workIcon = document.querySelector('.nine-dots');

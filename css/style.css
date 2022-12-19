@@ -813,25 +813,20 @@ img {
   border-radius: 50%;
   width: 35px;
   height: 35px;
-  /* margin-bottom: 2.4rem; */
 }
 
 .messege_block-img p {
   margin-left: 5px;
-  font-size: 1.3rem;
-  font-weight: var(--weight-regular);
+  font-size: 1.4rem;
+  font-weight: var(--weight-bold);
 }
 
-.message_block-controls i {
-  font-size: 2rem;
-  margin-right: 5px;
-  padding: 5px;
+.message_block-controls .mercado-match {
+  margin-right: 1rem;
   border-radius: 50%;
+  color: var(--charcoal);
   cursor: pointer;
-}
-
-.message_block-controls i:hover {
-  background-color: var(--gray);
+  font-family: inherit;
 }
 
 .display_block {
@@ -855,18 +850,17 @@ img {
 }
 
 .message_search {
-  background: var(--hover-light);
+  background: #eef3f8;
   margin-top: 1rem;
   border-radius: 5px;
   font-size: 20px;
 }
 
 .message_search input {
-  background: var(--hover-light);
   border: none;
 }
 
-.message_search>i {
+.message_search svg {
   margin-right: 1rem;
 }
 
