@@ -102,13 +102,15 @@
   </header>
 
   <section class="hero">
-    <div class="left-section">
-      <h1>Welcome to your<br>professional community</h1>
-      <input type="text" name="input" placeholder="Email or phone number" required>
-      <input type="password" name="pass" placeholder="Password" required>
-      <a href="#">Forgot password?</a>
-      <a href="/pages/home.html"><input class="mainbtn" type="button" value="Sign in"></a>
-    </div>
+    <form action="/pages/home.html">
+      <div class="left-section">
+        <h1>Welcome to your<br>professional community</h1>
+        <input type="email" name="input" placeholder="Email or phone number" required>
+        <input type="password" name="pass" placeholder="Password" required>
+        <a href="#">Forgot password?</a>
+        <a href="/pages/home.html"><input class="mainbtn" type="submit" value="Sign in"></a>
+      </div>
+    </form>
     <div class="right-section">
 
     </div>
