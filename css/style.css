@@ -106,7 +106,6 @@ img {
 
 /*--------------------------------preloader-----------------------------*/
 
-
 #loader-bg {
   font-family: 'Lato', sans-serif;
   background: #fff;
@@ -156,15 +155,17 @@ img {
 .loader {
   height: 5px;
   align-self: center;
-  width: 15rem;
+  width: 17rem;
   background-color: lightgrey;
+  border-radius: 5px;
 }
 
 .loading {
   background-color: #0e76a8;
-  width: 5rem;
+  width: 7rem;
   height: 5px;
   animation: animation 1.8s infinite;
+  border-radius: 5px;
 }
 
 @keyframes animation {
@@ -182,8 +183,6 @@ img {
 }
 
 /*----------------------Preloader End---------------------*/
-
-
 
 /*# --------------------------------- NAVBAR --------------------------------- */
 
@@ -804,9 +803,9 @@ img {
   position: fixed;
   right: 0;
   bottom: 0;
-  border-radius: 5px 5px 0px 0px;
+  border-radius: 10px 10px 0 0;
   padding: 1rem;
-  box-shadow: 0px 0px 4px var(--light-grey);
+  box-shadow: 0px 0px 10px var(--silver);
 }
 
 .messege_block-img img {
