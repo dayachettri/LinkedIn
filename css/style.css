@@ -115,6 +115,10 @@ img {
   align-items: center;
 }
 
+.not-allowed:hover {
+  cursor: not-allowed;
+}
+
 /*--------------------------------preloader-----------------------------*/
 
 #loader-bg {
@@ -1226,7 +1230,7 @@ img {
   display: flex;
   justify-content: flex-start;
 }
-.cmnt_text_box{
+.cmnt_text_box {
   flex-grow: 1;
 }
 .cmnt_text {

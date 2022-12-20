@@ -843,7 +843,8 @@ const postText = document.querySelector('.talk-about');
 let count = 0;
 let postData = [];
 btnPost.addEventListener('click', () => {
-  const html = `
+  if (postText.value) {
+    const html = `
            <div class="post" data-id="${count}">
           <div class="poster-box flex">
             <div class="poster-info flex">
@@ -916,20 +917,21 @@ viewBox="0 0 24 24">
           </ul>
         </div>
   `;
-  //todo:
-  // const fragment = document.createRange().createContextualFragment(html);
-  //todo:
-  const obj = {
-    id: count++,
-    likes: 0,
-    comments: 0,
-  };
-  postData.push(obj);
-  postBox.insertAdjacentHTML('afterbegin', html);
-  postPopup.classList.add('display_block');
-  overlay.classList.add('hidden');
-  document.body.classList.remove('disable-scroll');
-  postText.value = '';
+    //todo:
+    // const fragment = document.createRange().createContextualFragment(html);
+    //todo:
+    const obj = {
+      id: count++,
+      likes: 0,
+      comments: 0,
+    };
+    postData.push(obj);
+    postBox.insertAdjacentHTML('afterbegin', html);
+    postPopup.classList.add('display_block');
+    overlay.classList.add('hidden');
+    document.body.classList.remove('disable-scroll');
+    postText.value = '';
+  }
 });
 
 document.body.addEventListener('click', function (e) {
