@@ -720,8 +720,7 @@ viewBox="0 0 24 24">
             </li>
           </ul>
           
-        </div>
-                <section class="create_comment_box">
+          <section class="create_comment_box">
           <div class="cmnt_box">
             <img class="cmnt_img" src="https://avatars.githubusercontent.com/u/91982512?v=4" alt="">
             <div class="cmnt_area">
@@ -744,7 +743,8 @@ viewBox="0 0 24 24">
 
           </div>
         </section>
-                <section class="read_comment" style="margin-bottom:2rem";>
+
+                        <section class="read_comment" style="margin-bottom:2rem";>
           <div class="read_cmnt_box">
             <div class="cmntr_img">
               <img
@@ -772,9 +772,10 @@ viewBox="0 0 24 24">
             </div>
           </div>
           <p class="load_more">Load more comments</p>
-
-
         </section>
+        </div>
+               
+
   `;
     userData.push(userData[i]);
     postContainer.insertAdjacentHTML('afterbegin', html);
@@ -817,7 +818,7 @@ togglerWork.addEventListener('click', function () {
   document.body.classList.remove('disable-scroll');
 });
 
-//# ------------------------------- POST POPUP ------------------------------- */
+//# ------------------------------- POST POPUP------------------------------- */
 const overlay = document.querySelector('.overlay');
 const postInput = document.querySelector('.start-post');
 const postPopup = document.querySelector('.post-popup');
@@ -844,85 +845,126 @@ let count = 0;
 let postData = [];
 btnPost.addEventListener('click', () => {
   const html = `
-           <div class="post" data-id="${count}">
-          <div class="poster-box flex">
-            <div class="poster-info flex">
-              <img src="https://avatars.githubusercontent.com/u/91982512?v=4" alt="">
-              <div class="poster-text flex">
-                <p class="poster-name">Prakasss lal</p>
-                <p class="poster-job">Senior Web Developer</p>
-                <p class="posted-time flex">
-                  <span>1s ago</span>
-                  <span class="middot">&middot;</span>
-                  <i class="ph-globe-hemisphere-east-fill"></i>
-                </p>
-              </div>
-            </div>
-            <div class="follow flex">
-              <i class="ph-plus-bold"></i>
-              <p>Follow</p>
-            </div>
+    <div class="post" data-id="${count}">
+      <div class="poster-box flex">
+        <div class="poster-info flex">
+          <img
+            src="https://avatars.githubusercontent.com/u/91982512?v=4"
+            alt=""
+          />
+          <div class="poster-text flex">
+            <p class="poster-name">Prakasss lal</p>
+            <p class="poster-job">Senior Web Developer</p>
+            <p class="posted-time flex">
+              <span>1s ago</span>
+              <span class="middot">&middot;</span>
+              <i class="ph-globe-hemisphere-east-fill"></i>
+            </p>
           </div>
-
-          <div class="post-description">
-            <p>${postText.value}</p>
-          </div>
-
-          <div class="post-image">
-            <img
-              src=""
-              alt="">
-          </div>
-
-          <div class="reaction-count-box flex">
-            <div class="left">
-              <p class="likes-count"></p>
-            </div>
-
-            <div class="right flex">
-              <p></p>
-              &middot;
-              <p></p>
-            </div>
-          </div>
-
-          <ul class="react-box flex">
-            <li>
-              <svg class="btn-like" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
-  <path d="M19.46 11l-3.91-3.91a7 7 0 01-1.69-2.74l-.49-1.47A2.76 2.76 0 0010.76 1 2.75 2.75 0 008 3.74v1.12a9.19 9.19 0 00.46 2.85L8.89 9H4.12A2.12 2.12 0 002 11.12a2.16 2.16 0 00.92 1.76A2.11 2.11 0 002 14.62a2.14 2.14 0 001.28 2 2 2 0 00-.28 1 2.12 2.12 0 002 2.12v.14A2.12 2.12 0 007.12 22h7.49a8.08 8.08 0 003.58-.84l.31-.16H21V11zM19 19h-1l-.73.37a6.14 6.14 0 01-2.69.63H7.72a1 1 0 01-1-.72l-.25-.87-.85-.41A1 1 0 015 17l.17-1-.76-.74A1 1 0 014.27 14l.66-1.09-.73-1.1a.49.49 0 01.08-.7.48.48 0 01.34-.11h7.05l-1.31-3.92A7 7 0 0110 4.86V3.75a.77.77 0 01.75-.75.75.75 0 01.71.51L12 5a9 9 0 002.13 3.5l4.5 4.5H19z"></path>
-</svg>
-              <span class="btn-like" style="user-select: none;">Like</span>
-            </li>
-            <li>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
-  <path d="M7 9h10v1H7zm0 4h7v-1H7zm16-2a6.78 6.78 0 01-2.84 5.61L12 22v-4H8A7 7 0 018 4h8a7 7 0 017 7zm-2 0a5 5 0 00-5-5H8a5 5 0 000 10h6v2.28L19 15a4.79 4.79 0 002-4z"></path>
-</svg>
-              <span style="user-select: none;">Comment</span>
-            </li>
-            <li class="repost-li">
-<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-width="24" height="24"
-viewBox="0 0 24 24">
-    <path d="M 7.1601562 3 L 8.7617188 5 L 18 5 C 18.551 5 19 5.448 19 6 L 19 15 L 16 15 L 20 20 L 24 15 L 21 15 L 21 6 C 21 4.346 19.654 3 18 3 L 7.1601562 3 z M 4 4 L 0 9 L 3 9 L 3 18 C 3 19.654 4.346 21 6 21 L 16.839844 21 L 15.238281 19 L 6 19 C 5.449 19 5 18.552 5 18 L 5 9 L 8 9 L 4 4 z"></path>
-</svg>
-              <span style="user-select: none;">Repost</span>
-            </li>
-            <li>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
-  <path d="M21 3L0 10l7.66 4.26L16 8l-6.26 8.34L14 24l7-21z"></path>
-</svg>
-              <span style="user-select: none;">Send</span>
-            </li>
-          </ul>
         </div>
+        <div class="follow flex">
+          <i class="ph-plus-bold"></i>
+          <p>Follow</p>
+        </div>
+      </div>
+
+      <div class="post-description">
+        <p>${postText.value}</p>
+      </div>
+
+      <div class="post-image">
+        <img src="" alt="" />
+      </div>
+
+      <div class="reaction-count-box flex">
+        <div class="left">
+          <p class="likes-count"></p>
+        </div>
+
+        <div class="right flex">
+          <p></p>
+          &middot;
+          <p></p>
+        </div>
+      </div>
+
+      <ul class="react-box flex">
+        <li>
+          <svg
+            class="btn-like"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            data-supported-dps="24x24"
+            fill="currentColor"
+            class="mercado-match"
+            width="24"
+            height="24"
+            focusable="false"
+          >
+            <path
+              d="M19.46 11l-3.91-3.91a7 7 0 01-1.69-2.74l-.49-1.47A2.76 2.76 0 0010.76 1 2.75 2.75 0 008 3.74v1.12a9.19 9.19 0 00.46 2.85L8.89 9H4.12A2.12 2.12 0 002 11.12a2.16 2.16 0 00.92 1.76A2.11 2.11 0 002 14.62a2.14 2.14 0 001.28 2 2 2 0 00-.28 1 2.12 2.12 0 002 2.12v.14A2.12 2.12 0 007.12 22h7.49a8.08 8.08 0 003.58-.84l.31-.16H21V11zM19 19h-1l-.73.37a6.14 6.14 0 01-2.69.63H7.72a1 1 0 01-1-.72l-.25-.87-.85-.41A1 1 0 015 17l.17-1-.76-.74A1 1 0 014.27 14l.66-1.09-.73-1.1a.49.49 0 01.08-.7.48.48 0 01.34-.11h7.05l-1.31-3.92A7 7 0 0110 4.86V3.75a.77.77 0 01.75-.75.75.75 0 01.71.51L12 5a9 9 0 002.13 3.5l4.5 4.5H19z"
+            ></path>
+          </svg>
+          <span class="btn-like" style="user-select: none;">Like</span>
+        </li>
+        <li>
+          <svg class="btn-comment"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            data-supported-dps="24x24"
+            fill="currentColor"
+            class="mercado-match"
+            width="24"
+            height="24"
+            focusable="false"
+          >
+            <path
+              d="M7 9h10v1H7zm0 4h7v-1H7zm16-2a6.78 6.78 0 01-2.84 5.61L12 22v-4H8A7 7 0 018 4h8a7 7 0 017 7zm-2 0a5 5 0 00-5-5H8a5 5 0 000 10h6v2.28L19 15a4.79 4.79 0 002-4z"
+            ></path>
+          </svg>
+          <span class="btn-comment" style="user-select: none;">Comment</span>
+        </li>
+        <li class="repost-li">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            x="0px"
+            y="0px"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M 7.1601562 3 L 8.7617188 5 L 18 5 C 18.551 5 19 5.448 19 6 L 19 15 L 16 15 L 20 20 L 24 15 L 21 15 L 21 6 C 21 4.346 19.654 3 18 3 L 7.1601562 3 z M 4 4 L 0 9 L 3 9 L 3 18 C 3 19.654 4.346 21 6 21 L 16.839844 21 L 15.238281 19 L 6 19 C 5.449 19 5 18.552 5 18 L 5 9 L 8 9 L 4 4 z"
+            ></path>
+          </svg>
+          <span style="user-select: none;">Repost</span>
+        </li>
+        <li>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            data-supported-dps="24x24"
+            fill="currentColor"
+            class="mercado-match"
+            width="24"
+            height="24"
+            focusable="false"
+          >
+            <path d="M21 3L0 10l7.66 4.26L16 8l-6.26 8.34L14 24l7-21z"></path>
+          </svg>
+          <span style="user-select: none;">Send</span>
+        </li>
+      </ul>
+    </div>
   `;
   //todo:
   // const fragment = document.createRange().createContextualFragment(html);
   //todo:
   const obj = {
     id: count++,
-    likes: 0,
-    comments: 0,
+    likesCount: 0,
+    commentCount: 0,
+    comments: [],
   };
   postData.push(obj);
   postBox.insertAdjacentHTML('afterbegin', html);
@@ -932,6 +974,7 @@ viewBox="0 0 24 24">
   postText.value = '';
 });
 
+//# --------------------------------- LIKE FN -------------------------------- */
 document.body.addEventListener('click', function (e) {
   if (
     e.target.classList.contains('btn-like') &&
@@ -939,11 +982,45 @@ document.body.addEventListener('click', function (e) {
   ) {
     for (let i = 0; i < postData.length; i++) {
       if (e.target.closest('.post').dataset.id == postData[i].id) {
-        postData[i].likes++;
-        e.target.parentElement.parentElement.previousElementSibling.children[0].children[0].textContent = `Parkasss nadee and ${postData[i].likes} others`;
+        postData[i].likesCount++;
+        e.target.parentElement.parentElement.previousElementSibling.children[0].children[0].textContent = `Parkasss nadee and ${postData[i].likesCount} others`;
       }
     }
   }
 });
 
-//# --------------------------------- OVERLAY -------------------------------- */
+//# ----------------------------------- COMMENT FN ----------------------------------- */
+document.body.addEventListener('click', function (e) {
+  if (e.target.classList.contains('btn-comment')) {
+    const html = `
+            <section class="create_comment_box">
+          <div class="cmnt_box">
+            <img class="cmnt_img" src="https://avatars.githubusercontent.com/u/91982512?v=4" alt="">
+            <div class="cmnt_area">
+              <input class="add_comment" placeholder="Add a comment...">
+              <div class="emoji">
+                <div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24"
+                    fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                    <path
+                      d="M8 10.5A1.5 1.5 0 119.5 12 1.5 1.5 0 018 10.5zm6.5 1.5a1.5 1.5 0 10-1.5-1.5 1.5 1.5 0 001.5 1.5zm7.5 0A10 10 0 1112 2a10 10 0 0110 10zm-2 0a8 8 0 10-8 8 8 8 0 008-8zm-8 4a6 6 0 01-4.24-1.76l-.71.76a7 7 0 009.89 0l-.71-.71A6 6 0 0112 16z">
+                    </path>
+                  </svg></div>
+                <div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24"
+                    fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                    <path
+                      d="M19 4H5a3 3 0 00-3 3v10a3 3 0 003 3h14a3 3 0 003-3V7a3 3 0 00-3-3zm1 13a1 1 0 01-.29.71L16 14l-2 2-6-6-4 4V7a1 1 0 011-1h14a1 1 0 011 1zm-2-7a2 2 0 11-2-2 2 2 0 012 2z">
+                    </path>
+                  </svg></div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+    `;
+    const fragment = document.createRange().createContextualFragment(html);
+    e.target.parentElement.parentElement.parentElement.insertAdjacentHTML(
+      'beforeend',
+      html
+    );
+  }
+});
