@@ -1,0 +1,86 @@
+.profile_popup {
+  left: auto;
+  max-height: calc(100vh - 64px);
+  overflow-y: auto;
+  padding: 0;
+  right: 0;
+  width: 288px;
+  margin-top: 40rem;
+  background-color: var(--white);
+}
+
+.me_container {
+  border-bottom: 1px solid var(--silver);
+}
+
+.profile_detail {
+  justify-content: start;
+  align-items: flex-start;
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+.profile_detail img {
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  margin-bottom: 2.4rem;
+}
+
+.profile_content {
+  padding: 1rem;
+}
+
+.profile_content a {
+  font-size: 1.5rem;
+  font-weight: var(--weight-bold);
+}
+
+.profile_content p {
+  color: var(--charcoal);
+  margin-top: 6px;
+}
+
+.view_profile {
+  border: 1.5px solid var(--blue);
+  padding: 0.3rem 0;
+  /* margin: 0 auto; */
+  cursor: pointer;
+}
+
+.view_profile:hover {
+  outline: 1px solid var(--blue);
+  background-color: var(--light-blue);
+}
+
+.view_profile a {
+  color: var(--blue);
+  font-weight: var(--weight-bolder);
+  font-size: 1.4rem;
+}
+
+.btn_link {
+  border-radius: 50px;
+  text-align: center;
+  font-weight: var(--weight-bold);
+}
+
+.upper_profile {
+  padding: 0 1rem;
+  margin-bottom: 1rem;
+}
+
+.me_popup_account {
+  margin-top: 1rem;
+}
+
+.me_popup_account {
+  
+}
+
+.me_popup_manage {
+margin-top: 1rem;
+}
+
+.sign_out {
+  margin-top: 1rem;
+}

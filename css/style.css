@@ -32,6 +32,7 @@ Large: 1.8
   --gray: #86888a;
   --silver: #caccce;
   --blue: #0077b5;
+  --light-blue: #d1e5f0;
   --red: #dd5143;
   --amber-80: #5d3b09;
   --orange: #e68523;
@@ -46,6 +47,7 @@ Large: 1.8
   --weight-lighter: 200;
   --weight-regular: 400;
   --weight-bold: 600;
+  --weight-bolder: 700;
 }
 
 html {
