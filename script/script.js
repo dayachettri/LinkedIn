@@ -989,7 +989,7 @@ document.body.addEventListener('click', function (e) {
   }
 });
 
-//# ----------------------------------- COMMENT FN ----------------------------------- */
+//# ----------------------------------- COMMENT INPUT RENDER FN ----------------------------------- */
 document.body.addEventListener('click', function (e) {
   if (e.target.classList.contains('btn-comment')) {
     const html = `
@@ -1013,14 +1013,74 @@ document.body.addEventListener('click', function (e) {
                   </svg></div>
               </div>
             </div>
-
           </div>
+          <button class="btn-post-comment hidden">Post</button>
         </section>
     `;
-    const fragment = document.createRange().createContextualFragment(html);
     e.target.parentElement.parentElement.parentElement.insertAdjacentHTML(
       'beforeend',
       html
     );
+  }
+});
+
+//# --------------------- COMMENT POST BUTTON HIDE AND SHOW FN -------------------- */
+
+document.body.addEventListener('input', function (e) {
+  if (e.target.classList.contains('add_comment') && e.target.value.length > 0) {
+    e.target.parentElement.parentElement.nextElementSibling.classList.remove(
+      'hidden'
+    );
+  } else e.target.parentElement.parentElement.nextElementSibling.classList.add('hidden');
+});
+
+//# --------------------------- ADD COMMENT FN --------------------------- */
+
+document.body.addEventListener('click', function (e) {
+  if (e.target.classList.contains('btn-post-comment')) {
+    for (let i = 0; i < postData.length; i++) {
+      if (e.target.parentElement.parentElement.dataset.id == postData[i].id) {
+        postData[i].comments.push(
+          e.target.parentElement.children[0].children[1].children[0].value
+        );
+        postData[i].commentCount++;
+        e.target.parentElement.parentElement.children[3].children[1].children[0].textContent = `${postData[i].commentCount} Comments.`;
+      }
+    }
+    //# render comment html
+    const html = `
+            <section class="read_comment">
+          <div class="read_cmnt_box">
+            <div class="cmntr_img">
+              <img
+                src="${userData[0].reactorImage}"
+                alt="">
+            </div>
+
+
+            <div class="cmnt_text_box">
+
+              <div class="cmnt_text">
+                <div class="flex">
+                  <div class="cmntr_name">
+                    <h4>Parkasss lal</h4> <span>• 3rd+</span>
+                  </div>
+                  <div class="time">1s •••</div>
+                </div>
+                <p class="occupation">Software Developer | 19k + followers </p>
+                <p class="cmnt_msg_text">${e.target.parentElement.children[0].children[1].children[0].value}</p>
+              </div>
+              <div class="cmnt_reaction">
+                <p class="like">Like</p>
+                <p>|</p>
+                <p class="reply">Reply</p>
+              </div>
+            </div>
+          </div>
+        </section>
+    `;
+    e.target.parentElement.parentElement.insertAdjacentHTML('beforeend', html);
+    e.target.parentElement.children[0].children[1].children[0].value = '';
+    e.target.classList.add('hidden');
   }
 });
