@@ -774,7 +774,7 @@ viewBox="0 0 24 24">
           <p class="load_more">Load more comments</p>
         </section>
         </div>
-               
+        
 
   `;
     userData.push(userData[i]);
@@ -844,7 +844,8 @@ const postText = document.querySelector('.talk-about');
 let count = 0;
 let postData = [];
 btnPost.addEventListener('click', () => {
-  const html = `
+  if (postText.value) {
+    const html = `
     <div class="post" data-id="${count}">
       <div class="poster-box flex">
         <div class="poster-info flex">
@@ -957,21 +958,24 @@ btnPost.addEventListener('click', () => {
       </ul>
     </div>
   `;
-  //todo:
-  // const fragment = document.createRange().createContextualFragment(html);
-  //todo:
-  const obj = {
-    id: count++,
-    likesCount: 0,
-    commentCount: 0,
-    comments: [],
-  };
-  postData.push(obj);
-  postBox.insertAdjacentHTML('afterbegin', html);
-  postPopup.classList.add('display_block');
-  overlay.classList.add('hidden');
-  document.body.classList.remove('disable-scroll');
-  postText.value = '';
+    //todo:
+    // const fragment = document.createRange().createContextualFragment(html);
+    //todo:
+    const obj = {
+      id: count++,
+      likesCount: 0,
+      commentCount: 0,
+      comments: [],
+    };
+    postData.push(obj);
+    postBox.insertAdjacentHTML('afterbegin', html);
+    postPopup.classList.add('display_block');
+    overlay.classList.add('hidden');
+    document.body.classList.remove('disable-scroll');
+    postText.value = '';
+  } else {
+    alert('अबे कुछ तो लिखो बे');
+  }
 });
 
 //# --------------------------------- LIKE FN -------------------------------- */
@@ -992,12 +996,13 @@ document.body.addEventListener('click', function (e) {
 //# ----------------------------------- COMMENT INPUT RENDER FN ----------------------------------- */
 document.body.addEventListener('click', function (e) {
   if (e.target.classList.contains('btn-comment')) {
+    e.target.classList.add('active');
     const html = `
             <section class="create_comment_box">
           <div class="cmnt_box">
             <img class="cmnt_img" src="https://avatars.githubusercontent.com/u/91982512?v=4" alt="">
             <div class="cmnt_area">
-              <input class="add_comment" placeholder="Add a comment...">
+              <input class="add_comment active" placeholder="Add a comment...">
               <div class="emoji">
                 <div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24"
                     fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
@@ -1025,8 +1030,8 @@ document.body.addEventListener('click', function (e) {
 });
 
 //# --------------------- COMMENT POST BUTTON HIDE AND SHOW FN -------------------- */
-
-document.body.addEventListener('input', function (e) {
+const postsContainer = document.querySelector('.posts'); //# DONT TOUCH THIS.
+postContainer.addEventListener('input', function (e) {
   if (e.target.classList.contains('add_comment') && e.target.value.length > 0) {
     e.target.parentElement.parentElement.nextElementSibling.classList.remove(
       'hidden'
