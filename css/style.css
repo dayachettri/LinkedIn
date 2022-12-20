@@ -1020,16 +1020,16 @@ img {
 
 .post-popup {
   max-width: 552px;
-  /* max-height: px; */
   background-color: var(--white);
   border-radius: 1rem;
   position: absolute;
   margin: 0 auto;
-  top: 35%;
+  top: 37%;
   left: 50%;
   transform: translate(-50%, -50%);
   box-shadow: 0px 0px 10px var(--silver);
   z-index: 20;
+  padding: 0.5rem 2rem;
 }
 
 .close-postPopup {
