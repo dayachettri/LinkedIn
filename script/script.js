@@ -996,13 +996,15 @@ document.body.addEventListener('click', function (e) {
 //# ----------------------------------- COMMENT INPUT RENDER FN ----------------------------------- */
 document.body.addEventListener('click', function (e) {
   if (e.target.classList.contains('btn-comment')) {
-    e.target.classList.add('active');
-    const html = `
+    if (e.target.parentElement.parentElement.nextElementSibling) return;
+    else {
+      e.target.classList.add('active');
+      const html = `
             <section class="create_comment_box">
           <div class="cmnt_box">
             <img class="cmnt_img" src="https://avatars.githubusercontent.com/u/91982512?v=4" alt="">
             <div class="cmnt_area">
-              <input class="add_comment active" placeholder="Add a comment...">
+              <input class="add_comment" placeholder="Add a comment...">
               <div class="emoji">
                 <div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24"
                     fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
@@ -1022,10 +1024,11 @@ document.body.addEventListener('click', function (e) {
           <button class="btn-post-comment hidden">Post</button>
         </section>
     `;
-    e.target.parentElement.parentElement.parentElement.insertAdjacentHTML(
-      'beforeend',
-      html
-    );
+      e.target.parentElement.parentElement.parentElement.insertAdjacentHTML(
+        'beforeend',
+        html
+      );
+    }
   }
 });
 
