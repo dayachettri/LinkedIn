@@ -31,14 +31,3 @@ togglerUp.addEventListener('click', function () {
 togglerDown.addEventListener('click', function () {
   messageBlock.classList.add('display_block');
 });
-
-// export default workPopup;
-
-// #--------------------------Me(profile) popup----------------------------
-
-const profilePopup = document.querySelector('.profile_popup');
-document.body.addEventListener('click', e => {
-  if (e.target.classList.contains('profile-img')) {
-    profilePopup.classList.toggle('display_block');
-  }
-});

@@ -1094,3 +1094,28 @@ document.body.addEventListener('click', e => {
     profilePopup.classList.toggle('display_block');
   }
 });
+
+// #------------------------------- PHOTO POPUP---------------------------------
+
+const photoPopup = document.querySelector('.photo_popup');
+const imgAttachment = document.querySelector('.img_attachment');
+const cross = document.querySelector('.cross');
+const cancelBtn = document.querySelector('.btn-cancel');
+
+imgAttachment.addEventListener('click', () => {
+  photoPopup.classList.remove('display_block');
+  overlay.classList.remove('hidden');
+  document.body.classList.add('disable-scroll');
+});
+
+cross.addEventListener('click', function () {
+  photoPopup.classList.add('display_block');
+  overlay.classList.add('hidden');
+  document.body.classList.remove('disable-scroll');
+});
+
+cancelBtn.addEventListener('click', function () {
+  photoPopup.classList.add('display_block');
+  overlay.classList.add('hidden');
+  document.body.classList.remove('disable-scroll');
+});
