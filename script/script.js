@@ -963,6 +963,11 @@ btnPost.addEventListener('click', () => {
     postText.value = '';
   } else {
     alert('अबे कुछ तो लिखो बे');
+    alert('एक बार बोला न कुछ दाल');
+    alert('अबे भाई ने बोला कुछ डालने का मतलब डालने का');
+    alert('अबे साले अँधा है क्या अलर्ट नहीं दीखता है ?');
+    alert('मेरेको लगता है तेरा गेम बजाना ही पड़ेगा');
+    alert('निकल पहली फुर्सत में निकल');
   }
 });
 
@@ -1078,5 +1083,14 @@ document.body.addEventListener('click', function (e) {
     e.target.parentElement.parentElement.insertAdjacentHTML('beforeend', html);
     e.target.parentElement.children[0].children[1].children[0].value = '';
     e.target.classList.add('hidden');
+  }
+});
+
+// #--------------------------Me(profile) popup----------------------------
+
+const profilePopup = document.querySelector('.profile_popup');
+document.body.addEventListener('click', e => {
+  if (e.target.classList.contains('profile-img')) {
+    profilePopup.classList.toggle('display_block');
   }
 });

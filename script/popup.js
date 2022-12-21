@@ -5,7 +5,6 @@ const workPopup = document.querySelector('.work_popup');
 const workIcon = document.querySelector('.nine-dots');
 
 document.body.addEventListener('click', e => {
-  console.log(e.target);
   if (e.target.parentElement.classList.contains('nine-dots')) {
     workPopup.classList.remove('display_block');
     overlay.classList.remove('hidden');
@@ -34,3 +33,12 @@ togglerDown.addEventListener('click', function () {
 });
 
 // export default workPopup;
+
+// #--------------------------Me(profile) popup----------------------------
+
+const profilePopup = document.querySelector('.profile_popup');
+document.body.addEventListener('click', e => {
+  if (e.target.classList.contains('profile-img')) {
+    profilePopup.classList.toggle('display_block');
+  }
+});

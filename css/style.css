@@ -32,6 +32,7 @@ Large: 1.8
   --gray: #86888a;
   --silver: #caccce;
   --blue: #0077b5;
+  --light-blue: #d1e5f0;
   --red: #dd5143;
   --amber-80: #5d3b09;
   --orange: #e68523;
@@ -46,6 +47,7 @@ Large: 1.8
   --weight-lighter: 200;
   --weight-regular: 400;
   --weight-bold: 600;
+  --weight-bolder: 700;
 }
 
 html {
@@ -1239,7 +1241,7 @@ img {
   background-color: rgb(64, 64, 114);
 }
 
-/*=======================================================READ COMMENT===========================================*/
+/*#=======================================================READ COMMENT===========================================*/
 .read_comment {
   background-color: var(--white);
   border-bottom-left-radius: 1rem;
@@ -1339,163 +1341,119 @@ img {
   cursor: pointer;
 }
 
-/*--------------------------------- ME POPUP--------------------------------------- */
+/*#----------------------------------ME(PROFILE) POPUP-------------------------------  */
 
-.part-one {
-  border-radius: 1rem;
-  overflow: hidden;
+.profile_popup {
+  max-height: calc(100vh - 64px);
+  overflow-y: auto;
+  width: 288px;
   background-color: var(--white);
+  border-radius: 10px 0 10px 10px;
+  box-shadow: 0 0 10px var(--silver);
+  position: fixed;
+  top: 6rem;
+  right: 22%;
+  z-index: 1000;
 }
 
-.identity-img {
-  background: url(https://media.licdn.com/dms/image/C4D16AQFSzFIBalvPxA/profile-displaybackgroundimage-shrink_200_800/0/1662794400367?e=1676505600&v=beta&t=1ltsT07gWqRLWHhGrowdrAwjg3xVI6qnLmUjn_mRtno);
-  background-position: center;
-  background-size: cover;
-  height: 5.6rem;
-  display: flex;
-  justify-content: center;
+.me_container {
+  border-bottom: 1px solid var(--silver);
 }
 
-.identity-text img {
+.profile_detail {
+  justify-content: start;
+  align-items: flex-start;
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+.profile_detail img {
   border-radius: 50%;
-  width: 72px;
-  height: 72px;
+  width: 55px;
+  height: 55px;
   margin-bottom: 2.4rem;
 }
 
-.identity-text {
-  text-align: center;
-  padding: 1.2rem;
-  border-bottom: 1px solid var(--silver);
-  margin-top: -4.8rem;
+.profile_content {
+  padding: 1rem;
 }
 
-.identity-text a {
-  font-size: 1.6rem;
+.profile_content a {
+  font-size: 1.5rem;
   font-weight: var(--weight-bold);
+}
+
+.profile_content p {
   color: var(--charcoal);
-  display: block;
+  margin-top: 6px;
 }
 
-.identity-text a:hover {
-  text-decoration: underline;
+.view_profile {
+  border: 1.5px solid var(--blue);
+  padding: 0.3rem 0;
+  cursor: pointer;
 }
 
-.identity-text p {
-  margin-top: 1.2rem;
-  font-size: 1.2rem;
-  font-weight: var(--weight-light);
-  color: var(--gray);
+.view_profile:hover {
+  outline: 1px solid var(--blue);
+  background-color: var(--light-blue);
 }
 
-.connection-box {
-  padding: 1.2rem;
-  border-bottom: 1px solid var(--silver);
-  font-weight: var(--weight-bold);
-  color: var(--gray);
-}
-
-.connections {
-  margin-bottom: 1.2rem;
-}
-
-.connections,
-.views {
-  display: flex;
-  justify-content: space-between;
-  line-height: 1.6;
-}
-
-.connection-box span {
+.view_profile a {
   color: var(--blue);
+  font-weight: var(--weight-bolder);
+  font-size: 1.4rem;
 }
 
-.premium-box {
-  padding: 1.2rem;
+.btn_link {
+  border-radius: 50px;
+  text-align: center;
+  font-weight: var(--weight-bold);
+}
+
+.upper_profile {
+  padding: 0 1rem;
+  margin-bottom: 1rem;
+}
+
+.for_border {
   border-bottom: 1px solid var(--silver);
-  color: var(--gray);
+  padding-bottom: 1rem;
 }
 
-.premium-box a {
-  margin-top: 0.4rem;
-  display: inline-block;
-  text-decoration: underline;
-  font-weight: var(--weight-bold);
-  color: var(--charcoal);
+.me_popup_account {
+  margin-top: 1.5rem;
+  padding: 0 0 0 1rem;
 }
 
-.item-box {
-  padding: 1.6rem;
-  display: flex;
-  gap: 1.2rem;
-  align-items: center;
-  color: var(--charcoal);
-  font-weight: var(--weight-bold);
-}
-
-.item-box i {
+.me_popup_account li {
   font-size: 1.6rem;
+  margin-top: 1rem;
   color: var(--gray);
 }
 
-.part-2 {
-  border-radius: 1rem;
-  overflow: hidden;
-  background-color: var(--white);
-  margin-top: 10px;
-  padding: 1.6rem;
-  position: sticky;
-  top: 8rem;
-  font-weight: var(--weight-bold);
-  color: var(--gray);
-}
-
-.recent-box p {
-  font-weight: var(--weight-regular);
+.me_popup_account h3 {
   color: var(--charcoal);
 }
 
-.recent-visit {
-  margin-top: 1.2rem;
-  display: flex;
-  gap: 0.8rem;
-  align-items: center;
-  font-weight: var(--weight-bold);
+.me_popup_manage {
+  margin-top: 1.5rem;
+  padding: 0 0 0 1rem;
 }
 
-.group-box {
-  margin-top: 2.6rem;
-  color: var(--blue);
-  font-weight: var(--weight-bold);
-}
-
-.events {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 1.8rem 0;
-}
-
-.events i {
+.me_popup_manage li {
+  font-size: 1.6rem;
+  margin-top: 1rem;
   color: var(--gray);
 }
 
-.see-all {
-  padding: 1rem 2rem;
-  border-bottom: 1px solid var(--silver);
-  font-weight: var(--weight-bold);
+.me_popup_manage h3 {
+  color: var(--charcoal);
 }
 
-.discover {
-  text-align: center;
-  font-size: 1.4rem;
-  padding-top: 1.4rem;
-  font-weight: var(--weight-bold);
-}
-
-.discover {
-  text-align: center;
-  font-size: 1.4rem;
-  padding-top: 1.4rem;
-  font-weight: var(--weight-bold);
+.sign_out {
+  margin-top: 1.5rem;
+  font-size: 1.6rem;
+  padding: 0 0 0 1rem;
+  padding-bottom: 1rem;
+  color: var(--gray);
 }
