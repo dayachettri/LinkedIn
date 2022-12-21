@@ -1104,7 +1104,7 @@ document.body.addEventListener('click', e => {
 
 const photoPopup = document.querySelector('.photo_popup');
 const imgAttachment = document.querySelector('.img_attachment');
-const cross = document.querySelector('.cross');
+const cross = document.querySelector('.img-cross');
 const cancelBtn = document.querySelector('.btn-cancel');
 
 imgAttachment.addEventListener('click', () => {
@@ -1121,6 +1121,31 @@ cross.addEventListener('click', function () {
 
 cancelBtn.addEventListener('click', function () {
   photoPopup.classList.add('display_block');
+  overlay.classList.add('hidden');
+  document.body.classList.remove('disable-scroll');
+});
+
+// #------------------------------- VIDEO POPUP---------------------------------
+
+const videoPopup = document.querySelector('.video_popup');
+const vidAttachment = document.querySelector('.vid_attachment');
+const vidcross = document.querySelector('.vid_cross');
+const vidCancelBtn = document.querySelector('.vidCancel');
+
+vidAttachment.addEventListener('click', () => {
+  videoPopup.classList.remove('display_block');
+  overlay.classList.remove('hidden');
+  document.body.classList.add('disable-scroll');
+});
+
+vidcross.addEventListener('click', function () {
+  videoPopup.classList.add('display_block');
+  overlay.classList.add('hidden');
+  document.body.classList.remove('disable-scroll');
+});
+
+vidCancelBtn.addEventListener('click', function () {
+  videoPopup.classList.add('display_block');
   overlay.classList.add('hidden');
   document.body.classList.remove('disable-scroll');
 });
