@@ -834,26 +834,6 @@ let postData = [];
 btnPost.addEventListener('click', () => {
   if (postText.value) {
     const html = `
-<<<<<<< HEAD
-           <div class="post" data-id="${count}">
-          <div class="poster-box flex">
-            <div class="poster-info flex">
-              <img src="https://avatars.githubusercontent.com/u/91982512?v=4" alt="">
-              <div class="poster-text flex">
-                <p class="poster-name">Prakasss lal</p>
-                <p class="poster-job">Senior Web Developer</p>
-                <p class="posted-time flex">
-                  <span>1s ago</span>
-                  <span class="middot">&middot;</span>
-                  <i class="ph-globe-hemisphere-east-fill"></i>
-                </p>
-              </div>
-            </div>
-            <div class="follow flex">
-              <i class="ph-plus-bold"></i>
-              <p>Follow</p>
-            </div>
-=======
     <div class="post" data-id="${count}">
       <div class="poster-box flex">
         <div class="poster-info flex">
@@ -869,7 +849,6 @@ btnPost.addEventListener('click', () => {
               <span class="middot">&middot;</span>
               <i class="ph-globe-hemisphere-east-fill"></i>
             </p>
->>>>>>> 4c574a9311413f79de29a15664f89aaee463cbdb
           </div>
         </div>
         <div class="follow flex">
