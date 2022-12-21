@@ -1,0 +1,115 @@
+/*#----------------------------------ME(PROFILE) POPUP-------------------------------  */
+
+.profile_popup {
+  max-height: calc(100vh - 64px);
+  overflow-y: auto;
+  width: 288px;
+  background-color: var(--white);
+  border-radius: 10px 0 10px 10px;
+  box-shadow: 0 0 10px var(--silver);
+  position: fixed;
+  top: 6.5rem;
+  right: 31rem;
+}
+
+.me_container {
+  border-bottom: 1px solid var(--silver);
+}
+
+.profile_detail {
+  justify-content: start;
+  align-items: flex-start;
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+.profile_detail img {
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  margin-bottom: 2.4rem;
+}
+
+.profile_content {
+  padding: 1rem;
+}
+
+.profile_content a {
+  font-size: 1.5rem;
+  font-weight: var(--weight-bold);
+}
+
+.profile_content p {
+  color: var(--charcoal);
+  margin-top: 6px;
+}
+
+.view_profile {
+  border: 1.5px solid var(--blue);
+  padding: 0.3rem 0;
+  cursor: pointer;
+}
+
+.view_profile:hover {
+  outline: 1px solid var(--blue);
+  background-color: var(--light-blue);
+}
+
+.view_profile a {
+  color: var(--blue);
+  font-weight: var(--weight-bolder);
+  font-size: 1.4rem;
+}
+
+.btn_link {
+  border-radius: 50px;
+  text-align: center;
+  font-weight: var(--weight-bold);
+}
+
+.upper_profile {
+  padding: 0 1rem;
+  margin-bottom: 1rem;
+}
+
+.for_border {
+  border-bottom: 1px solid var(--silver);
+  padding-bottom: 1rem;
+}
+
+.me_popup_account {
+  margin-top: 1.5rem;
+  padding: 0 0 0 1rem;
+}
+
+.me_popup_account li {
+  font-size: 1.6rem;
+  margin-top: 1rem;
+  color: var(--gray);
+}
+
+.me_popup_account h3 {
+  color: var(--charcoal);
+}
+
+.me_popup_manage {
+  margin-top: 1.5rem;
+  padding: 0 0 0 1rem;
+}
+
+.me_popup_manage li {
+  font-size: 1.6rem;
+  margin-top: 1rem;
+  color: var(--gray);
+}
+
+.me_popup_manage h3 {
+  color: var(--charcoal);
+}
+
+.sign_out {
+  margin-top: 1.5rem;
+  font-size: 1.6rem;
+  padding: 0 0 0 1rem;
+  padding-bottom: 1rem;
+  color: var(--gray);
+}
