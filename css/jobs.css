@@ -1,12 +1,15 @@
+/*#----------------------------------ME(PROFILE) POPUP-------------------------------  */
+
 .profile_popup {
-  left: auto;
   max-height: calc(100vh - 64px);
   overflow-y: auto;
-  padding: 0;
-  right: 0;
   width: 288px;
-  margin-top: 40rem;
   background-color: var(--white);
+  border-radius: 10px 0 10px 10px;
+  box-shadow: 0 0 10px var(--silver);
+  position: fixed;
+  top: 6.5rem;
+  right: 31rem;
 }
 
 .me_container {
@@ -43,7 +46,6 @@
 .view_profile {
   border: 1.5px solid var(--blue);
   padding: 0.3rem 0;
-  /* margin: 0 auto; */
   cursor: pointer;
 }
 
@@ -69,18 +71,45 @@
   margin-bottom: 1rem;
 }
 
-.me_popup_account {
-  margin-top: 1rem;
+.for_border {
+  border-bottom: 1px solid var(--silver);
+  padding-bottom: 1rem;
 }
 
 .me_popup_account {
-  
+  margin-top: 1.5rem;
+  padding: 0 0 0 1rem;
+}
+
+.me_popup_account li {
+  font-size: 1.6rem;
+  margin-top: 1rem;
+  color: var(--gray);
+}
+
+.me_popup_account h3 {
+  color: var(--charcoal);
 }
 
 .me_popup_manage {
-margin-top: 1rem;
+  margin-top: 1.5rem;
+  padding: 0 0 0 1rem;
+}
+
+.me_popup_manage li {
+  font-size: 1.6rem;
+  margin-top: 1rem;
+  color: var(--gray);
+}
+
+.me_popup_manage h3 {
+  color: var(--charcoal);
 }
 
 .sign_out {
-  margin-top: 1rem;
+  margin-top: 1.5rem;
+  font-size: 1.6rem;
+  padding: 0 0 0 1rem;
+  padding-bottom: 1rem;
+  color: var(--gray);
 }

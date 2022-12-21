@@ -1080,3 +1080,12 @@ document.body.addEventListener('click', function (e) {
     e.target.classList.add('hidden');
   }
 });
+
+// #--------------------------Me(profile) popup----------------------------
+
+const profilePopup = document.querySelector('.profile_popup');
+document.body.addEventListener('click', e => {
+  if (e.target.classList.contains('profile-img')) {
+    profilePopup.classList.toggle('display_block');
+  }
+});
