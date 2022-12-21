@@ -87,7 +87,7 @@ const userData = [
     authorName: 'Swen Mehra',
     jobTitle: 'Senior UX/UI Designer at Auspicious',
     postTime: '1w',
-    postDescription: 'What do you think about it',
+    postDescription: 'Right now Abhilash & Ashutosh to Daya.😎',
     image:
       'https://media.tenor.com/Rw1hAv1o_6sAAAAC/phir-hera-pheri-rajpal-yadav.gif',
     reactionCount: 10,
@@ -962,11 +962,6 @@ btnPost.addEventListener('click', () => {
     document.body.classList.remove('disable-scroll');
     postText.value = '';
   } else {
-    alert('अबे कुछ तो लिखो बे');
-    alert('एक बार बोला न कुछ दाल');
-    alert('अबे भाई ने बोला कुछ डालने का मतलब डालने का');
-    alert('अबे साले अँधा है क्या अलर्ट नहीं दीखता है ?');
-    alert('मेरेको लगता है तेरा गेम बजाना ही पड़ेगा');
     alert('निकल पहली फुर्सत में निकल');
   }
 });
