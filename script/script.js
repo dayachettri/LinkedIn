@@ -11,8 +11,7 @@ const userData = [
     postTime: '1w',
     postDescription:
       'Being disabled should not mean being disqualified from having access',
-    image:
-      'https://media.licdn.com/dms/image/C4D22AQFKNFv2mgGjmA/feedshare-shrink_2048_1536/0/1670493795453?e=1674086400&v=beta&t=AE8klLZhPP9CbCfIo660l0Uo4m8dLJIwg8441zTnwv8',
+    image: 'https://media.tenor.com/xX9Vw2oazLQAAAAC/hera-pheri.gif',
     reactionCount: 688,
     commentCount: 103,
     repostCount: 82,
@@ -28,7 +27,7 @@ const userData = [
     postDescription:
       'HR is someone who is equally hated by the management as well as the employees.',
     image:
-      'https://media.licdn.com/dms/image/C5622AQFu-p2mWaErfA/feedshare-shrink_800/0/1671038385950?e=1674086400&v=beta&t=qnGBtbgp5s8kw-PucLQqbBUp2lkhup-w6KaaAR44SC0',
+      'https://media.tenor.com/jYXFcawrWYoAAAAd/hera-pheri-fir-hera-pheri.gif',
     reactionCount: 14630,
     commentCount: 334,
     repostCount: 1,
@@ -44,7 +43,7 @@ const userData = [
     postDescription:
       'HR is someone who is equally hated by the management as well as the employees.',
     image:
-      'https://media.licdn.com/dms/image/C4D22AQHTVYkDIsYQVw/feedshare-shrink_800/0/1671038752999?e=1674086400&v=beta&t=S6A1dB-SmclrnRQRFYS-6Wqt-Cowzqqq5oBuLxiWcbM',
+      'https://i.pinimg.com/originals/7c/a4/38/7ca438ffb31e762e6f359cbb2d1c5bb7.gif',
     reactionCount: 31,
     commentCount: 21,
     repostCount: 4,
@@ -59,8 +58,7 @@ const userData = [
     postTime: 'Complete mobile responsive web',
     postDescription:
       'Please do like share and subscribe to our YouTube channel guide me through for career guidance and job updates.',
-    image:
-      'https://media.licdn.com/dms/image/D4D22AQE3gRkb5Z_pRg/feedshare-shrink_800/0/1670643324698?e=1674086400&v=beta&t=vZQQmVNYc4fZMusY3Rm19ViTi3w8i-g8bYCjt5qk2Ps',
+    image: 'https://media.tenor.com/q62aZ99xd4EAAAAC/hera-pheri-baburao.gif',
     reactionCount: 31,
     commentCount: 121,
     repostCount: 69,
@@ -76,7 +74,7 @@ const userData = [
     postDescription:
       'Im beyond thrilled to announce that I have been selected to join the BVEC Code',
     image:
-      'https://media.licdn.com/dms/image/C4E22AQFV8v1Wu2ZxLQ/feedshare-shrink_2048_1536/0/1669821529476?e=1674086400&v=beta&t=DMhFFcercFoN13QFlL3ZVKWFvRXAqmdMz1b-BAWTsbA',
+      'https://i.pinimg.com/originals/58/f3/10/58f310fabc2682ac5a6ff3ad1027d8af.gif',
     reactionCount: 24,
     commentCount: 3,
     repostCount: 1,
@@ -91,7 +89,7 @@ const userData = [
     postTime: '1w',
     postDescription: 'What do you think about it',
     image:
-      'https://media.licdn.com/dms/image/C4E22AQGj_7DTrCKhng/feedshare-shrink_800/0/1669721039747?e=1674086400&v=beta&t=5IsRSPpjBp_x2Z1iXVU3GE3SDE4A_E2ATq_hmKhj7wE',
+      'https://media.tenor.com/Rw1hAv1o_6sAAAAC/phir-hera-pheri-rajpal-yadav.gif',
     reactionCount: 10,
     commentCount: 12,
     repostCount: 54,
@@ -107,7 +105,7 @@ const userData = [
     postDescription:
       'The database is an important part of software and management solution',
     image:
-      'https://media.licdn.com/dms/image/C4D22AQG79HDVB3dh0Q/feedshare-shrink_2048_1536/0/1670234398370?e=1674086400&v=beta&t=jOCqIZysRIMb38F4T9W4Dops-N7VX5N5DBPWSMC8Q9A',
+      'https://i.pinimg.com/originals/7b/7d/a0/7b7da0e5fef735db6649e6e34b98a520.gif',
     reactionCount: 327,
     commentCount: 39,
     repostCount: 29,
@@ -123,7 +121,7 @@ const userData = [
     postDescription:
       'With so much hype around the Metaverse, it’s easy to be sceptical.',
     image:
-      'https://media.licdn.com/dms/image/C4D22AQFBNSM7qttfgw/feedshare-shrink_800/0/1670350511807?e=1674086400&v=beta&t=5ujl7Q0vSUO-XUnXC3M3JD0lwZbr3XqGrC0pfTpDOBA',
+      'https://media.tenor.com/vOq7Ylk9gwQAAAAC/phir-hera-pheri-tere-pass-koi-aur-rasta-hai.gif',
     reactionCount: 2421,
     commentCount: 124,
     repostCount: 237,
@@ -138,7 +136,7 @@ const userData = [
     postTime: '1w',
     postDescription: '2000 + interview questions for programmers !!!!',
     image:
-      'https://media.licdn.com/dms/image/C5622AQEgHiPWkLZ0CA/feedshare-shrink_800/0/1670181563864?e=1674086400&v=beta&t=zbKP3wz4xmQTSxmFP5xiiohIW7Kb1snY3sYtykJN5So',
+      'https://media.tenor.com/f-LAF4ntdpgAAAAC/hera-pheri-maal-kidhar-hai.gif',
     reactionCount: 279,
     commentCount: 76,
     repostCount: 32,
@@ -153,7 +151,7 @@ const userData = [
     postTime: '1w',
     postDescription: 'Thats where the money is 😂😂',
     image:
-      'https://media.licdn.com/dms/image/C5622AQEUuNsBprGS2g/feedshare-shrink_800/0/1671129680330?e=1674086400&v=beta&t=Kb2khLGpDDagJjtIfP2F_FBy4p7oVaxiyq58kZl-19A',
+      'https://i.pinimg.com/originals/d5/ac/65/d5ac653c3cbbb49cbdc181955e7f4680.gif',
     reactionCount: 8024,
     commentCount: 241,
     repostCount: 39,
@@ -169,7 +167,7 @@ const userData = [
     postDescription:
       'Being disabled should not mean being disqualified from having access',
     image:
-      'https://media.licdn.com/dms/image/C4D22AQE-SrzHHlr6ww/feedshare-shrink_800/0/1669299312647?e=1674086400&v=beta&t=oUW8s8jnKDyCoY2EdSIIu4vRsz_FCX5WvRYp1Wy5LFw',
+      'https://media.tenor.com/IGYZtNLXHIwAAAAC/sunda-ko-aa-mast-naha-dho-ke-aa-paresh-rawal-baburao.gif',
     reactionCount: 689,
     commentCount: 103,
     repostCount: 82,
@@ -185,7 +183,7 @@ const userData = [
     postDescription:
       'I’m happy to share that I’m starting a new position as SDE - I at OneClick IT Consultancy Pvt Ltd!',
     image:
-      'https://media.licdn.com/dms/image/C4D22AQEmf57pm5HICw/feedshare-shrink_800/0/1669216956413?e=1674086400&v=beta&t=m3fGG1p9KR7Dtdl0GwVV-T15Kq-H_yGPm2kOP6e6nJ8',
+      'https://i.pinimg.com/originals/14/6d/7d/146d7db866c3bb11747121d8c0bbe11e.gif',
     reactionCount: 106,
     commentCount: 49,
     repostCount: 2,
@@ -201,7 +199,7 @@ const userData = [
     postDescription:
       'Brains, like hearts, go where they are appreciated.Thank you GalaxE.Solutions',
     image:
-      'https://media.licdn.com/dms/image/sync/D5618AQECaZwu4Kfi0Q/companyUpdate-article-image-shrink_627_1200/0/1671098591768/Dell-deadline_800x400-04png?e=1674086400&v=beta&t=w2KoPvB9VOZeIrPqiIIdSeYHs81nbVwvQttufIuUQBk',
+      'https://media.tenor.com/09RWWOCKGNAAAAAM/hera-pheri-phir-hera-pheri.gif',
     reactionCount: 275,
     commentCount: 15,
     repostCount: 10,
@@ -216,8 +214,7 @@ const userData = [
     postTime: '1w',
     postDescription:
       'Happiness = Contributing towards society... we can create a better and beautiful world for all of us, its just a matter of choice.',
-    image:
-      'https://media.licdn.com/dms/image/sync/C4D27AQEA4tAeB37Ywg/articleshare-shrink_1280_800/0/1670312112170?e=1671807600&v=beta&t=LNoClDMVKZuPrC8d5EzLDc6jZiCNShvEW3g3yl-XVRQ',
+    image: 'https://media.tenor.com/i18SeImsrXgAAAAM/abell46s-reface.gif',
     reactionCount: 934,
     commentCount: 2,
     repostCount: 1,
@@ -233,7 +230,7 @@ const userData = [
     postDescription:
       'I’m happy to share that I’m starting a new position as Assistant General Manager at Justdial!',
     image:
-      'https://media.licdn.com/dms/image/sync/D4D18AQF1gUF9aDxZZw/companyUpdate-article-image-shrink_627_1200/0/1653563177325/050422FBAD-TIIBrandAwareness-TalentThrivesHere-01png?e=1674086400&v=beta&t=nePBBvf6OYe18aG-PCzYnp5_GnMHncD8_G-NhuraD2c',
+      'https://media.tenor.com/vKMxaaYIiHYAAAAM/sitting-at-home-remembering-the-school-memories-alone.gif',
     reactionCount: 24,
     commentCount: 4,
     repostCount: 2,
@@ -248,8 +245,7 @@ const userData = [
     postTime: '6d',
     postDescription:
       'Thank you for always supporting me and appreciating my hardwork , special thanks to Renuka Singh for helping me achieve every milestone with your guidance 🙌🙇🏻‍♀️',
-    image:
-      'https://media.licdn.com/dms/image/C4D22AQETPD_MN6jyCg/feedshare-shrink_800/0/1670264343107?e=1674086400&v=beta&t=6s51nrd8s8sqGDLpvD8D7D1nmDuVj36dKlQouVbSL0U',
+    image: 'https://media.tenor.com/zF0k07v-v_kAAAAM/vasooli-golmaal3.gif',
     reactionCount: 46,
     commentCount: 9,
     repostCount: 5,
@@ -264,8 +260,7 @@ const userData = [
     postTime: '1w',
     postDescription:
       'I got my TCS NQT scorecard held in Oct, 2022. Please let me know Tata Consultancy Services',
-    image:
-      'https://media.licdn.com/dms/image/sync/C5627AQFE1rUKHPWg7Q/articleshare-shrink_800/0/1670863599163?e=1671807600&v=beta&t=8B38Zp3qCr9iJJhAVuyT1U_q9Wp2OO-rd-rmihSMpyM',
+    image: 'https://media.tenor.com/CbRC449ZYIIAAAAM/welcome-nana-patekar.gif',
     reactionCount: 1377,
     commentCount: 33,
     repostCount: 3,
@@ -279,8 +274,7 @@ const userData = [
     jobTitle: 'Human Resource Specialist',
     postTime: '4d',
     postDescription: 'Designation- Senior HR Operation Specialist',
-    image:
-      'https://media.licdn.com/dms/image/D4D22AQHPKe-LFd38LA/feedshare-shrink_2048_1536/0/1670753009045?e=1674086400&v=beta&t=YO1P0vImoOH2s_xYXJGt2M27zaVyqkudLJqizA4isL8',
+    image: 'https://media.tenor.com/iXhV4Mntu74AAAAM/welcome-control-uday.gif',
     reactionCount: 114,
     commentCount: 89,
     repostCount: 2,
@@ -295,8 +289,7 @@ const userData = [
     postTime: '6d',
     postDescription:
       'It’s unfortunate that my time at Better has come to an end.',
-    image:
-      'https://media.licdn.com/dms/image/C4D22AQHxx98eI9RbzQ/feedshare-shrink_800/0/1670589804515?e=1674086400&v=beta&t=5VAAM17xkJX9s8IWVJsWfYcLUyjK9zstTQtP9Tc9f6c',
+    image: 'https://media.tenor.com/7_ghqmrR_EkAAAAM/golmaal3-johnny-lever.gif',
     reactionCount: 1275,
     commentCount: 113,
     repostCount: 21,
@@ -312,7 +305,7 @@ const userData = [
     postDescription:
       'I’m happy to share that I’m starting a new position as Backend Developer at',
     image:
-      'https://media.licdn.com/dms/image/sync/D4D18AQEkk17u7CDY9A/companyUpdate-article-image-shrink_627_1200/0/1666855999141/AdvisorySM1jpg?e=1674086400&v=beta&t=4bs8coL7vsJHF0qhIWwlIZukdEgAWJtAuVYrvU65zFY',
+      'https://media.tenor.com/lhc3dKiwaPMAAAAM/dhamaal-javed-jaffrey-mama-will-be-so-proud-of-you.gif',
     reactionCount: 7358,
     commentCount: 32,
     repostCount: 25,
@@ -328,7 +321,7 @@ const userData = [
     postDescription:
       'Being disabled should not mean being disqualified from having access',
     image:
-      'https://media.licdn.com/dms/image/C4D22AQHy5_rn7CFD2Q/feedshare-shrink_800/0/1670315519449?e=1674086400&v=beta&t=I5bI9I9fkInKKd5BP4N0Gig5ZZpJI5A3oN7EoZxbFU8',
+      'https://media.tenor.com/lhc3dKiwaPMAAAAM/dhamaal-javed-jaffrey-mama-will-be-so-proud-of-you.gif',
     reactionCount: 688,
     commentCount: 103,
     repostCount: 82,
@@ -343,8 +336,7 @@ const userData = [
     postTime: '4d',
     postDescription:
       'HR is someone who is equally hated by the management as well as the employees.',
-    image:
-      'https://media.licdn.com/dms/image/C5622AQG2gnIkLazEnw/feedshare-shrink_800/0/1669558599009?e=1674086400&v=beta&t=_CTtHNHF3CnaeID1oSDx7QSaiKaUawWEuvylcu77NsQ',
+    image: 'https://media.tenor.com/12flE7vVhe4AAAAM/dhamaal-javed-jaffrey.gif',
     reactionCount: 14630,
     commentCount: 334,
     repostCount: 1,
@@ -359,8 +351,7 @@ const userData = [
     postTime: 'Complete mobile responsive web',
     postDescription:
       'HR is someone who is equally hated by the management as well as the employees.',
-    image:
-      'https://media.licdn.com/dms/image/sync/C4D27AQEA4tAeB37Ywg/articleshare-shrink_1280_800/0/1670312112170?e=1671872400&v=beta&t=CG9c_DxiU7g341w9sduIS7ZIFC6cwMiVEaSRWS8zlA8',
+    image: 'https://media.tenor.com/miw2XTvexPkAAAAM/dhamaal-javed-jaffrey.gif',
     reactionCount: 31,
     commentCount: 21,
     repostCount: 4,
@@ -375,8 +366,7 @@ const userData = [
     postTime: 'Complete mobile responsive web',
     postDescription:
       'Please do like share and subscribe to our YouTube channel guide me through for career guidance and job updates.',
-    image:
-      'https://media.licdn.com/dms/image/C4D22AQHXHFzvcF9rTA/feedshare-shrink_800/0/1670294693205?e=1674086400&v=beta&t=XtLsJ6RIEtgGtFqxPALo-RPKYLYNH5icLrpkkEFc0Bo',
+    image: 'https://media.tenor.com/RTMrNfb1gicAAAAM/atank-babubhai.gif',
     reactionCount: 31,
     commentCount: 121,
     repostCount: 69,
@@ -392,7 +382,7 @@ const userData = [
     postDescription:
       'Im beyond thrilled to announce that I have been selected to join the BVEC Code',
     image:
-      'https://media.licdn.com/dms/image/C4D22AQHfnS7yhjgtaA/feedshare-shrink_800/0/1670341598946?e=1674086400&v=beta&t=bOz_w14rq4X63mtChlb6JljtXsb8Grd8CLlTa6hYdrw',
+      'https://media.tenor.com/Di10Y9EicDAAAAAd/rajpal-yadav-chup-chup-ke.gif',
     reactionCount: 24,
     commentCount: 3,
     repostCount: 1,
@@ -407,7 +397,7 @@ const userData = [
     postTime: '1w',
     postDescription: 'What do you think about it',
     image:
-      'https://media.licdn.com/dms/image/C4D22AQGe-tTurzN5Qg/feedshare-shrink_800/0/1661342566682?e=1674086400&v=beta&t=B2atVJlTX4is3IJjZsp88lXTz-DZ2nFD31GIvOnlkoo',
+      'https://media.tenor.com/eRcEkwojxqAAAAAM/bhagam-bhag-aurtein-chahiye-aurtein.gif',
     reactionCount: 10,
     commentCount: 12,
     repostCount: 54,
@@ -423,7 +413,7 @@ const userData = [
     postDescription:
       'The database is an important part of software and management solution',
     image:
-      'https://media.licdn.com/dms/image/D4D1DAQHyX-_Gb6l_wA/ssu-carousel-card-shrink_400_400/0/1668617177961?e=1671872400&v=beta&t=T38uvvbpDhGaKGKpGxU-yjluP1q-sT0QzuliLh147Tw',
+      'https://media.tenor.com/Id_bKoaBGkcAAAAM/bhagam-bhag-akshay-kumar-naughty.gif',
     reactionCount: 327,
     commentCount: 39,
     repostCount: 29,
@@ -438,8 +428,7 @@ const userData = [
     postTime: '1w',
     postDescription:
       'With so much hype around the Metaverse, it’s easy to be sceptical.',
-    image:
-      'https://media.licdn.com/dms/image/C4D22AQETPD_MN6jyCg/feedshare-shrink_800/0/1670264343107?e=1674086400&v=beta&t=6s51nrd8s8sqGDLpvD8D7D1nmDuVj36dKlQouVbSL0U',
+    image: 'https://media.tenor.com/9IVmLRYNCrQAAAAM/bhagam-bhag-aeyy-heyy.gif',
     reactionCount: 2421,
     commentCount: 124,
     repostCount: 237,
@@ -454,7 +443,7 @@ const userData = [
     postTime: '1w',
     postDescription: '2000 + interview questions for programmers !!!!',
     image:
-      'https://media.licdn.com/dms/image/sync/D5618AQHXiEvyC0x-kA/companyUpdate-article-image-shrink_627_1200/0/1670883780017/SF-22-14_Developer-Paid-Media_Final_I-UTAMpng?e=1674086400&v=beta&t=_qGZ_V1SMdJ4kL5sas2QJCP1ruIvqA5wwaR37YzksZs',
+      'https://media.tenor.com/9BxykLhnhV8AAAAM/liyo-lyo-lyo-suna-kya-ye-bhi-meri-galati-hai-johnny-lever.gif',
     reactionCount: 279,
     commentCount: 76,
     repostCount: 32,
@@ -469,7 +458,7 @@ const userData = [
     postTime: '1w',
     postDescription: 'Thats where the money is 😂😂',
     image:
-      'https://media.licdn.com/dms/image/sync/D4E18AQE8MjVNrrvXqQ/companyUpdate-article-image-shrink_1280/0/1666957817125/Operationalleadgenbpng?e=1674086400&v=beta&t=B2h0L3noSyN-UnwwIYaVqnwYZiPBy7mhaHg8ffo-I1Y',
+      'https://media.tenor.com/8AsAUiBOEvMAAAAM/iski-guarantee-mai-nahi-de-sakta-johnny-lever.gif',
     reactionCount: 8024,
     commentCount: 241,
     repostCount: 39,
@@ -485,7 +474,7 @@ const userData = [
     postDescription:
       'Being disabled should not mean being disqualified from having access',
     image:
-      'https://media.licdn.com/dms/image/C5622AQFX2lMYAm9jag/feedshare-shrink_800/0/1670394023904?e=1674086400&v=beta&t=c1ICo1OLRIEOBly4D0FyMHOkZuu9nyTrAJj4S4xUHMM',
+      'https://media.tenor.com/59ECh-JCpfUAAAAM/abhi-theek-karke-deta-hoon-johnny-lever.gif',
     reactionCount: 689,
     commentCount: 103,
     repostCount: 82,
@@ -501,7 +490,7 @@ const userData = [
     postDescription:
       'I’m happy to share that I’m starting a new position as SDE - I at OneClick IT Consultancy Pvt Ltd!',
     image:
-      'https://media.licdn.com/dms/image/C5622AQFcQz-Z_NCc5Q/feedshare-shrink_800/0/1670394023016?e=1674086400&v=beta&t=4j1VfzVW-lP1JsaEe5EHAIIZtUigk7_sKquZP05CQZg',
+      'https://media.tenor.com/tYaTvtWlTF4AAAAM/abhi-mereko-samajh-me-aaya-iska-actually-problem-kya-hai-johnny-lever.gif',
     reactionCount: 106,
     commentCount: 49,
     repostCount: 2,
@@ -514,10 +503,9 @@ const userData = [
     authorName: 'Madhulika Agrawal',
     jobTitle: 'Test Lead| Functional| Agile|Api',
     postTime: '2w',
-    postDescription:
-      'Brains, like hearts, go where they are appreciated.Thank you GalaxE.Solutions',
+    postDescription: 'CHALTI KYA KHANDALA!!!',
     image:
-      'https://media.licdn.com/dms/image/C5622AQEJDNNhIbzt0w/feedshare-shrink_800/0/1670394022119?e=1674086400&v=beta&t=5c85wfv_XMIL-rYVYvjeaTnk9ptTq2vxydP2-KD3Taw',
+      'https://media.tenor.com/JB3FAWvWU-QAAAAM/dhol-rajpal-yadav-maru-stares-at-ritu-tanushree-dutta.gif',
     reactionCount: 275,
     commentCount: 15,
     repostCount: 10,
@@ -533,7 +521,7 @@ const userData = [
     postDescription:
       'Happiness = Contributing towards society... we can create a better and beautiful world for all of us, its just a matter of choice.',
     image:
-      'https://media.licdn.com/dms/image/C4E22AQEYNPXOn7aIGw/feedshare-shrink_800/0/1671112100822?e=1674086400&v=beta&t=MQEPUNdbwY2q3RWdRtaZahWos2i_ZuhIi-89o456yW4',
+      'https://media.tenor.com/uOX8Fn7teA4AAAAM/accha-acting-hai-rajpal-yadav.gif',
     reactionCount: 934,
     commentCount: 2,
     repostCount: 1,
@@ -549,7 +537,7 @@ const userData = [
     postDescription:
       'I’m happy to share that I’m starting a new position as Assistant General Manager at Justdial!',
     image:
-      'https://media.licdn.com/dms/image/C5622AQGH5al2UtRBlg/feedshare-shrink_800/0/1670510032238?e=1674086400&v=beta&t=wmXaby-qPexJyWSfVtOxsx4OTqx6ZZQfCD9jqs11sjY',
+      'https://media.tenor.com/tXx67mRIfVkAAAAM/chup-chup-ke-rajpal-yadav-bandya.gif',
     reactionCount: 24,
     commentCount: 4,
     repostCount: 2,
@@ -565,7 +553,7 @@ const userData = [
     postDescription:
       'Thank you for always supporting me and appreciating my hardwork , special thanks to Renuka Singh for helping me achieve every milestone with your guidance 🙌🙇🏻‍♀️',
     image:
-      'https://media.licdn.com/dms/image/C5622AQHiLaOt_DXsPA/feedshare-shrink_800/0/1670510032302?e=1674086400&v=beta&t=9txiTypL4-cThNEsMv0Om37bej0W6A52NV_3CxEf2uE',
+      'https://media.tenor.com/C6EVEgx5PqsAAAAM/main-expert-chup-chupke.gif',
     reactionCount: 46,
     commentCount: 9,
     repostCount: 5,
@@ -581,7 +569,7 @@ const userData = [
     postDescription:
       'I got my TCS NQT scorecard held in Oct, 2022. Please let me know Tata Consultancy Services',
     image:
-      'https://media.licdn.com/dms/image/C4D22AQGgLLGusk5xIw/feedshare-shrink_800/0/1670496647886?e=1674086400&v=beta&t=w7TV52s0lvG2yw5De9F9jIgREKd1E_byUW_YjG8cPQE',
+      'https://media.tenor.com/bQGoG03a2OYAAAAM/chup-chup-ke-rajpal-yadav-bandya-aap-do-na.gif',
     reactionCount: 137,
     commentCount: 53,
     repostCount: 7,
@@ -595,8 +583,7 @@ const userData = [
     jobTitle: 'Human Resource Specialist',
     postTime: '4d',
     postDescription: 'Designation- Senior HR Operation Specialist',
-    image:
-      'https://media.licdn.com/dms/image/sync/C5627AQFE1rUKHPWg7Q/articleshare-shrink_800/0/1670863599163?e=1671872400&v=beta&t=GV-cm1eZ8mZ73S0m8bw4AlIVP8td6e7YDOwZMazFBqE',
+    image: 'https://media.tenor.com/V0nk86I79BQAAAAM/rajpal-yadav.gif',
     reactionCount: 17,
     commentCount: '',
     repostCount: '',
@@ -612,7 +599,7 @@ const userData = [
     postDescription:
       'It’s unfortunate that my time at Better has come to an end.',
     image:
-      'https://media.licdn.com/dms/image/sync/D5618AQECaZwu4Kfi0Q/companyUpdate-article-image-shrink_627_1200/0/1671098591768/Dell-deadline_800x400-04png?e=1674086400&v=beta&t=w2KoPvB9VOZeIrPqiIIdSeYHs81nbVwvQttufIuUQBk',
+      'https://media.tenor.com/0YTbbLG-4uIAAAAM/gazab-bezzati-hai-yaar-panchayat.gif',
     reactionCount: 1132,
     commentCount: 3,
     repostCount: 1,
@@ -625,10 +612,11 @@ const userData = [
     authorName: 'Baibhav Aggrabal',
     jobTitle: 'Backend Developer | Mern | Html | Css',
     postTime: '1w',
-    postDescription:
-      'I’m happy to share that I’m starting a new position as Serial Killer at Aircampus',
-    image:
-      'https://images.hindustantimes.com/img/2022/10/13/550x309/Twitter_Video_Chucky_Dog_1665650427991_1665650440939_1665650440939.PNG',
+    postDescription: 'NAMASTE BHAI LOOG!!!!!! KYA BOLTI PUBLIC!',
+    // image:
+    //   'https://images.hindustantimes.com/img/2022/10/13/550x309/Twitter_Video_Chucky_Dog_1665650427991_1665650440939_1665650440939.PNG',
+    // image:
+    image: 'https://media.tenor.com/fMBqeMeMLFEAAAAM/chutiya-katan.gif',
     reactionCount: 7358,
     commentCount: 32,
     repostCount: 25,
@@ -639,7 +627,7 @@ const postContainer = document.querySelector('.posts');
 // userData
 
 const renderHTML = function () {
-  for (let i = 0; i < 500; i++) {
+  for (let i = 0; i < userData.length; i++) {
     const html = `
           <div class="post">
           <div class="reactor-box flex">
@@ -720,8 +708,7 @@ viewBox="0 0 24 24">
             </li>
           </ul>
           
-        </div>
-                <section class="create_comment_box">
+          <section class="create_comment_box">
           <div class="cmnt_box">
             <img class="cmnt_img" src="https://avatars.githubusercontent.com/u/91982512?v=4" alt="">
             <div class="cmnt_area">
@@ -744,7 +731,8 @@ viewBox="0 0 24 24">
 
           </div>
         </section>
-                <section class="read_comment" style="margin-bottom:2rem";>
+
+                        <section class="read_comment" style="margin-bottom:2rem";>
           <div class="read_cmnt_box">
             <div class="cmntr_img">
               <img
@@ -772,11 +760,12 @@ viewBox="0 0 24 24">
             </div>
           </div>
           <p class="load_more">Load more comments</p>
-
-
         </section>
+        </div>
+        
+
   `;
-    userData.push(userData[i]);
+    // userData.push(userData[i]);
     postContainer.insertAdjacentHTML('afterbegin', html);
   }
 };
@@ -817,7 +806,7 @@ togglerWork.addEventListener('click', function () {
   document.body.classList.remove('disable-scroll');
 });
 
-//# ------------------------------- POST POPUP ------------------------------- */
+//# ------------------------------- POST POPUP------------------------------- */
 const overlay = document.querySelector('.overlay');
 const postInput = document.querySelector('.start-post');
 const postPopup = document.querySelector('.post-popup');
@@ -845,6 +834,7 @@ let postData = [];
 btnPost.addEventListener('click', () => {
   if (postText.value) {
     const html = `
+<<<<<<< HEAD
            <div class="post" data-id="${count}">
           <div class="poster-box flex">
             <div class="poster-info flex">
@@ -863,67 +853,128 @@ btnPost.addEventListener('click', () => {
               <i class="ph-plus-bold"></i>
               <p>Follow</p>
             </div>
+=======
+    <div class="post" data-id="${count}">
+      <div class="poster-box flex">
+        <div class="poster-info flex">
+          <img
+            src="https://avatars.githubusercontent.com/u/91982512?v=4"
+            alt=""
+          />
+          <div class="poster-text flex">
+            <p class="poster-name">Prakasss lal</p>
+            <p class="poster-job">Senior Web Developer</p>
+            <p class="posted-time flex">
+              <span>1s ago</span>
+              <span class="middot">&middot;</span>
+              <i class="ph-globe-hemisphere-east-fill"></i>
+            </p>
+>>>>>>> 4c574a9311413f79de29a15664f89aaee463cbdb
           </div>
-
-          <div class="post-description">
-            <p>${postText.value}</p>
-          </div>
-
-          <div class="post-image">
-            <img
-              src=""
-              alt="">
-          </div>
-
-          <div class="reaction-count-box flex">
-            <div class="left">
-              <p class="likes-count"></p>
-            </div>
-
-            <div class="right flex">
-              <p></p>
-              &middot;
-              <p></p>
-            </div>
-          </div>
-
-          <ul class="react-box flex">
-            <li>
-              <svg class="btn-like" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
-  <path d="M19.46 11l-3.91-3.91a7 7 0 01-1.69-2.74l-.49-1.47A2.76 2.76 0 0010.76 1 2.75 2.75 0 008 3.74v1.12a9.19 9.19 0 00.46 2.85L8.89 9H4.12A2.12 2.12 0 002 11.12a2.16 2.16 0 00.92 1.76A2.11 2.11 0 002 14.62a2.14 2.14 0 001.28 2 2 2 0 00-.28 1 2.12 2.12 0 002 2.12v.14A2.12 2.12 0 007.12 22h7.49a8.08 8.08 0 003.58-.84l.31-.16H21V11zM19 19h-1l-.73.37a6.14 6.14 0 01-2.69.63H7.72a1 1 0 01-1-.72l-.25-.87-.85-.41A1 1 0 015 17l.17-1-.76-.74A1 1 0 014.27 14l.66-1.09-.73-1.1a.49.49 0 01.08-.7.48.48 0 01.34-.11h7.05l-1.31-3.92A7 7 0 0110 4.86V3.75a.77.77 0 01.75-.75.75.75 0 01.71.51L12 5a9 9 0 002.13 3.5l4.5 4.5H19z"></path>
-</svg>
-              <span class="btn-like" style="user-select: none;">Like</span>
-            </li>
-            <li>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
-  <path d="M7 9h10v1H7zm0 4h7v-1H7zm16-2a6.78 6.78 0 01-2.84 5.61L12 22v-4H8A7 7 0 018 4h8a7 7 0 017 7zm-2 0a5 5 0 00-5-5H8a5 5 0 000 10h6v2.28L19 15a4.79 4.79 0 002-4z"></path>
-</svg>
-              <span style="user-select: none;">Comment</span>
-            </li>
-            <li class="repost-li">
-<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-width="24" height="24"
-viewBox="0 0 24 24">
-    <path d="M 7.1601562 3 L 8.7617188 5 L 18 5 C 18.551 5 19 5.448 19 6 L 19 15 L 16 15 L 20 20 L 24 15 L 21 15 L 21 6 C 21 4.346 19.654 3 18 3 L 7.1601562 3 z M 4 4 L 0 9 L 3 9 L 3 18 C 3 19.654 4.346 21 6 21 L 16.839844 21 L 15.238281 19 L 6 19 C 5.449 19 5 18.552 5 18 L 5 9 L 8 9 L 4 4 z"></path>
-</svg>
-              <span style="user-select: none;">Repost</span>
-            </li>
-            <li>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
-  <path d="M21 3L0 10l7.66 4.26L16 8l-6.26 8.34L14 24l7-21z"></path>
-</svg>
-              <span style="user-select: none;">Send</span>
-            </li>
-          </ul>
         </div>
+        <div class="follow flex">
+          <i class="ph-plus-bold"></i>
+          <p>Follow</p>
+        </div>
+      </div>
+
+      <div class="post-description">
+        <p>${postText.value}</p>
+      </div>
+
+      <div class="post-image">
+        <img src="" alt="" />
+      </div>
+
+      <div class="reaction-count-box flex">
+        <div class="left">
+          <p class="likes-count"></p>
+        </div>
+
+        <div class="right flex">
+          <p></p>
+          &middot;
+          <p></p>
+        </div>
+      </div>
+
+      <ul class="react-box flex">
+        <li>
+          <svg
+            class="btn-like"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            data-supported-dps="24x24"
+            fill="currentColor"
+            class="mercado-match"
+            width="24"
+            height="24"
+            focusable="false"
+          >
+            <path
+              d="M19.46 11l-3.91-3.91a7 7 0 01-1.69-2.74l-.49-1.47A2.76 2.76 0 0010.76 1 2.75 2.75 0 008 3.74v1.12a9.19 9.19 0 00.46 2.85L8.89 9H4.12A2.12 2.12 0 002 11.12a2.16 2.16 0 00.92 1.76A2.11 2.11 0 002 14.62a2.14 2.14 0 001.28 2 2 2 0 00-.28 1 2.12 2.12 0 002 2.12v.14A2.12 2.12 0 007.12 22h7.49a8.08 8.08 0 003.58-.84l.31-.16H21V11zM19 19h-1l-.73.37a6.14 6.14 0 01-2.69.63H7.72a1 1 0 01-1-.72l-.25-.87-.85-.41A1 1 0 015 17l.17-1-.76-.74A1 1 0 014.27 14l.66-1.09-.73-1.1a.49.49 0 01.08-.7.48.48 0 01.34-.11h7.05l-1.31-3.92A7 7 0 0110 4.86V3.75a.77.77 0 01.75-.75.75.75 0 01.71.51L12 5a9 9 0 002.13 3.5l4.5 4.5H19z"
+            ></path>
+          </svg>
+          <span class="btn-like" style="user-select: none;">Like</span>
+        </li>
+        <li>
+          <svg class="btn-comment"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            data-supported-dps="24x24"
+            fill="currentColor"
+            class="mercado-match"
+            width="24"
+            height="24"
+            focusable="false"
+          >
+            <path
+              d="M7 9h10v1H7zm0 4h7v-1H7zm16-2a6.78 6.78 0 01-2.84 5.61L12 22v-4H8A7 7 0 018 4h8a7 7 0 017 7zm-2 0a5 5 0 00-5-5H8a5 5 0 000 10h6v2.28L19 15a4.79 4.79 0 002-4z"
+            ></path>
+          </svg>
+          <span class="btn-comment" style="user-select: none;">Comment</span>
+        </li>
+        <li class="repost-li">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            x="0px"
+            y="0px"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M 7.1601562 3 L 8.7617188 5 L 18 5 C 18.551 5 19 5.448 19 6 L 19 15 L 16 15 L 20 20 L 24 15 L 21 15 L 21 6 C 21 4.346 19.654 3 18 3 L 7.1601562 3 z M 4 4 L 0 9 L 3 9 L 3 18 C 3 19.654 4.346 21 6 21 L 16.839844 21 L 15.238281 19 L 6 19 C 5.449 19 5 18.552 5 18 L 5 9 L 8 9 L 4 4 z"
+            ></path>
+          </svg>
+          <span style="user-select: none;">Repost</span>
+        </li>
+        <li>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            data-supported-dps="24x24"
+            fill="currentColor"
+            class="mercado-match"
+            width="24"
+            height="24"
+            focusable="false"
+          >
+            <path d="M21 3L0 10l7.66 4.26L16 8l-6.26 8.34L14 24l7-21z"></path>
+          </svg>
+          <span style="user-select: none;">Send</span>
+        </li>
+      </ul>
+    </div>
   `;
     //todo:
     // const fragment = document.createRange().createContextualFragment(html);
     //todo:
     const obj = {
       id: count++,
-      likes: 0,
-      comments: 0,
+      likesCount: 0,
+      commentCount: 0,
+      comments: [],
     };
     postData.push(obj);
     postBox.insertAdjacentHTML('afterbegin', html);
@@ -931,9 +982,12 @@ viewBox="0 0 24 24">
     overlay.classList.add('hidden');
     document.body.classList.remove('disable-scroll');
     postText.value = '';
+  } else {
+    alert('अबे कुछ तो लिखो बे');
   }
 });
 
+//# --------------------------------- LIKE FN -------------------------------- */
 document.body.addEventListener('click', function (e) {
   if (
     e.target.classList.contains('btn-like') &&
@@ -941,11 +995,109 @@ document.body.addEventListener('click', function (e) {
   ) {
     for (let i = 0; i < postData.length; i++) {
       if (e.target.closest('.post').dataset.id == postData[i].id) {
-        postData[i].likes++;
-        e.target.parentElement.parentElement.previousElementSibling.children[0].children[0].textContent = `Parkasss nadee and ${postData[i].likes} others`;
+        postData[i].likesCount++;
+        e.target.parentElement.parentElement.previousElementSibling.children[0].children[0].textContent = `Parkasss nadee and ${postData[i].likesCount} others`;
       }
     }
   }
 });
 
-//# --------------------------------- OVERLAY -------------------------------- */
+//# ----------------------------------- COMMENT INPUT RENDER FN ----------------------------------- */
+document.body.addEventListener('click', function (e) {
+  if (e.target.classList.contains('btn-comment')) {
+    if (e.target.parentElement.parentElement.nextElementSibling) return;
+    else {
+      e.target.classList.add('active');
+      const html = `
+            <section class="create_comment_box">
+          <div class="cmnt_box">
+            <img class="cmnt_img" src="https://avatars.githubusercontent.com/u/91982512?v=4" alt="">
+            <div class="cmnt_area">
+              <input class="add_comment" placeholder="Add a comment...">
+              <div class="emoji">
+                <div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24"
+                    fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                    <path
+                      d="M8 10.5A1.5 1.5 0 119.5 12 1.5 1.5 0 018 10.5zm6.5 1.5a1.5 1.5 0 10-1.5-1.5 1.5 1.5 0 001.5 1.5zm7.5 0A10 10 0 1112 2a10 10 0 0110 10zm-2 0a8 8 0 10-8 8 8 8 0 008-8zm-8 4a6 6 0 01-4.24-1.76l-.71.76a7 7 0 009.89 0l-.71-.71A6 6 0 0112 16z">
+                    </path>
+                  </svg></div>
+                <div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24"
+                    fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                    <path
+                      d="M19 4H5a3 3 0 00-3 3v10a3 3 0 003 3h14a3 3 0 003-3V7a3 3 0 00-3-3zm1 13a1 1 0 01-.29.71L16 14l-2 2-6-6-4 4V7a1 1 0 011-1h14a1 1 0 011 1zm-2-7a2 2 0 11-2-2 2 2 0 012 2z">
+                    </path>
+                  </svg></div>
+              </div>
+            </div>
+          </div>
+          <button class="btn-post-comment hidden">Post</button>
+        </section>
+    `;
+      e.target.parentElement.parentElement.parentElement.insertAdjacentHTML(
+        'beforeend',
+        html
+      );
+    }
+  }
+});
+
+//# --------------------- COMMENT POST BUTTON HIDE AND SHOW FN -------------------- */
+const postsContainer = document.querySelector('.posts'); //# DONT TOUCH THIS.
+postContainer.addEventListener('input', function (e) {
+  if (e.target.classList.contains('add_comment') && e.target.value.length > 0) {
+    e.target.parentElement.parentElement.nextElementSibling.classList.remove(
+      'hidden'
+    );
+  } else e.target.parentElement.parentElement.nextElementSibling.classList.add('hidden');
+});
+
+//# --------------------------- ADD COMMENT FN --------------------------- */
+
+document.body.addEventListener('click', function (e) {
+  if (e.target.classList.contains('btn-post-comment')) {
+    for (let i = 0; i < postData.length; i++) {
+      if (e.target.parentElement.parentElement.dataset.id == postData[i].id) {
+        postData[i].comments.push(
+          e.target.parentElement.children[0].children[1].children[0].value
+        );
+        postData[i].commentCount++;
+        e.target.parentElement.parentElement.children[3].children[1].children[0].textContent = `${postData[i].commentCount} Comments.`;
+      }
+    }
+    //# render comment html
+    const html = `
+            <section class="read_comment">
+          <div class="read_cmnt_box">
+            <div class="cmntr_img">
+              <img
+                src="${userData[0].reactorImage}"
+                alt="">
+            </div>
+
+
+            <div class="cmnt_text_box">
+
+              <div class="cmnt_text">
+                <div class="flex">
+                  <div class="cmntr_name">
+                    <h4>Parkasss lal</h4> <span>• 3rd+</span>
+                  </div>
+                  <div class="time">1s •••</div>
+                </div>
+                <p class="occupation">Software Developer | 19k + followers </p>
+                <p class="cmnt_msg_text">${e.target.parentElement.children[0].children[1].children[0].value}</p>
+              </div>
+              <div class="cmnt_reaction">
+                <p class="like">Like</p>
+                <p>|</p>
+                <p class="reply">Reply</p>
+              </div>
+            </div>
+          </div>
+        </section>
+    `;
+    e.target.parentElement.parentElement.insertAdjacentHTML('beforeend', html);
+    e.target.parentElement.children[0].children[1].children[0].value = '';
+    e.target.classList.add('hidden');
+  }
+});

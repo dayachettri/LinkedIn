@@ -906,6 +906,11 @@ img {
   margin-bottom: 3.2rem;
 }
 
+.time {
+  font-size: 1.4rem;
+  color: var(--gray);
+}
+
 /*# ------------------------------- WORK POPUP ------------------------------- */
 
 .work_popup {
@@ -1017,16 +1022,16 @@ img {
 
 .post-popup {
   max-width: 552px;
-  /* max-height: px; */
   background-color: var(--white);
   border-radius: 1rem;
   position: absolute;
   margin: 0 auto;
-  top: 35%;
+  top: 37%;
   left: 50%;
   transform: translate(-50%, -50%);
   box-shadow: 0px 0px 10px var(--silver);
   z-index: 20;
+  padding: 0.5rem 2rem;
 }
 
 .close-postPopup {
@@ -1178,7 +1183,6 @@ img {
   padding-bottom: 4rem;
   user-select: none;
   color: var(--gray);
-  margin-top: -20px;
 }
 
 .cmnt_box {
@@ -1208,11 +1212,31 @@ img {
 .add_comment {
   border: none;
   outline: none;
+  width: 80%;
 }
 
 .emoji {
   display: flex;
   gap: 2rem;
+}
+
+.btn-post-comment {
+  border: none;
+  outline: none;
+  background-color: var(--blue);
+  font-family: inherit;
+  padding: 0.5rem 1.5rem;
+  border-radius: 20px;
+  color: var(--white);
+  font-weight: var(--weight-bold);
+  margin-left: 5rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+.btn-post-comment:hover {
+  background-color: rgb(64, 64, 114);
 }
 
 /*=======================================================READ COMMENT===========================================*/
@@ -1223,7 +1247,6 @@ img {
   padding: 10px;
   user-select: none;
   color: var(--gray);
-  margin-top: -10px;
 }
 
 .read_cmnt_box {
@@ -1249,10 +1272,22 @@ img {
   gap: 0.5rem;
 }
 
+.cmntr_name span {
+  font-size: 1.4rem;
+  color: var(--gray);
+}
+
+.cmntr_name h4 {
+  font-size: 1.4rem;
+  color: var(--charcoal);
+  font-weight: var(--weight-bold);
+}
+
 .occupation {
   padding: 0.2rem 0;
-  font-size: 0.9em;
+  font-size: 1.4rem;
   color: var(--gray);
+  margin: 0.5rem 0;
 }
 
 .cmntr_name:hover {
@@ -1276,6 +1311,8 @@ img {
 
 .cmnt_msg_text {
   padding: 1rem 0;
+  font-size: 1.4rem;
+  color: var(--charcoal);
 }
 
 .load_more {
@@ -1446,6 +1483,13 @@ img {
 .see-all {
   padding: 1rem 2rem;
   border-bottom: 1px solid var(--silver);
+  font-weight: var(--weight-bold);
+}
+
+.discover {
+  text-align: center;
+  font-size: 1.4rem;
+  padding-top: 1.4rem;
   font-weight: var(--weight-bold);
 }
 

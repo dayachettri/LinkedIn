@@ -19,7 +19,6 @@ togglerWork.addEventListener('click', function () {
   document.body.classList.remove('disable-scroll');
 });
 
-
 //# -------------------------- Message popup toggle -------------------------- */
 
 const togglerDown = document.querySelector('.downArrow');
