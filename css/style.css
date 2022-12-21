@@ -418,7 +418,6 @@ img {
   font-size: 1.4rem;
   color: var(--charcoal);
 }
-
 .reaction-count-box {
   padding: 1.2rem;
   border-bottom: 1px solid var(--silver);
@@ -1102,6 +1101,15 @@ img {
 .icons-footer {
   display: flex;
   align-items: center;
+}
+
+.icons-footer label {
+  cursor: pointer;
+}
+
+.icons-footer input {
+  display: none;
+  cursor: pointer;
 }
 
 .icons-footer svg {
