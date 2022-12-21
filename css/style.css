@@ -1347,8 +1347,9 @@ img {
   border-radius: 10px 0 10px 10px;
   box-shadow: 0 0 10px var(--silver);
   position: fixed;
-  top: 6.5rem;
-  right: 31rem;
+  top: 6rem;
+  right: 22%;
+  z-index: 1000;
 }
 
 .me_container {
