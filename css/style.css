@@ -659,6 +659,7 @@ img {
   /* justify-content: space-around; */
   align-items: center;
   font-size: 1.4rem;
+  cursor: pointer;
 }
 
 .attachment-option span {
@@ -1453,3 +1454,99 @@ img {
   padding-bottom: 1rem;
   color: var(--gray);
 }
+
+/* #--------------------------------- PHOTO POPUP ------------------------------------------- */
+
+.photo_popup {
+  width: 552px;
+  margin-top: 10rem;
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: 0 0 10px var(--silver);
+  position: fixed;
+  right: 31%;
+  top: -7rem;
+  z-index: 1000;
+}
+
+.photo_popup-heading {
+  padding: 1.5rem;
+  border-bottom: 1px solid var(--silver);
+}
+
+.photo_popup-heading p {
+  font-size: 22px;
+  color: var(--charcoal);
+}
+
+.photo_popup-heading i {
+  font-size: 25px;
+  color: var(--charcoal);
+  cursor: pointer;
+}
+
+.photo_popup-img {
+  padding: 5rem 0;
+  justify-content: center;
+  border-bottom: 1px solid var(--silver);
+}
+
+.photo_popup-img p {
+  font-size: 18px;
+  font-weight: var(--weight-bolder);
+  color: var(--blue);
+  padding: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.photo_popup-img p:hover {
+  background-color: var(--light-blue);
+}
+
+.photo_popup-btn {
+  justify-content: flex-end;
+  /* margin: 1rem; */
+  padding: 1rem;
+}
+
+.photo_popup-btn button {
+  padding: 0.5rem 2rem;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.btn-cancel button {
+  border: 1px solid var(--blue);
+  color: var(--blue);
+  border-radius: 50px;
+  background-color: var(--white);
+  margin-right: 1rem;
+}
+
+.btn-cancel button:hover {
+  background-color: var(--light-blue);
+  outline: 1px solid var(--blue);
+}
+
+.btn-done button {
+  color: var(--gray);
+  border-radius: 50px;
+  background-color: var(--body-bg);
+  margin-right: 1rem;
+  cursor: not-allowed;
+}
+
+/* .view_profile {
+  border: 1.5px solid var(--blue);
+  padding: 0.3rem 0;
+  cursor: pointer;
+}
+
+.view_profile:hover {
+  outline: 1px solid var(--blue);
+  background-color: var(--light-blue);
+} */
