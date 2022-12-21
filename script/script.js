@@ -828,7 +828,16 @@ closePostPopup.addEventListener('click', function () {
 const postBox = document.querySelector('.posts');
 const btnPost = document.querySelector('.footer-post');
 const postText = document.querySelector('.talk-about');
+const imageInput = document.querySelector('#image-input');
+let uploadedImage = '';
 
+imageInput.addEventListener('change', function (e) {
+  const reader = new FileReader();
+  reader.addEventListener('load', () => {
+    uploadedImage = reader.result;
+  });
+  reader.readAsDataURL(this.files[0]);
+});
 let count = 0;
 let postData = [];
 btnPost.addEventListener('click', () => {
@@ -862,7 +871,7 @@ btnPost.addEventListener('click', () => {
       </div>
 
       <div class="post-image">
-        <img src="" alt="" />
+        <img src="${uploadedImage}" alt="" />
       </div>
 
       <div class="reaction-count-box flex">
@@ -954,6 +963,7 @@ btnPost.addEventListener('click', () => {
       likesCount: 0,
       commentCount: 0,
       comments: [],
+      // image: uploadedImage, //useuful when connected to backend.
     };
     postData.push(obj);
     postBox.insertAdjacentHTML('afterbegin', html);
@@ -962,12 +972,7 @@ btnPost.addEventListener('click', () => {
     document.body.classList.remove('disable-scroll');
     postText.value = '';
   } else {
-    alert('अबे कुछ तो लिखो बे');
-    alert('एक बार बोला न कुछ दाल');
-    alert('अबे भाई ने बोला कुछ डालने का मतलब डालने का');
-    alert('अबे साले अँधा है क्या अलर्ट नहीं दीखता है ?');
-    alert('मेरेको लगता है तेरा गेम बजाना ही पड़ेगा');
-    alert('निकल पहली फुर्सत में निकल');
+    alert('Post description cannot be empty.');
   }
 });
 
@@ -1086,7 +1091,7 @@ document.body.addEventListener('click', function (e) {
   }
 });
 
-// #--------------------------Me(profile) popup----------------------------
+// #--------------------------Me(profile) popup---------------------------- */
 
 const profilePopup = document.querySelector('.profile_popup');
 document.body.addEventListener('click', e => {
@@ -1095,7 +1100,7 @@ document.body.addEventListener('click', e => {
   }
 });
 
-// #------------------------------- PHOTO POPUP---------------------------------
+// #------------------------------- PHOTO POPUP--------------------------------- */
 
 const photoPopup = document.querySelector('.photo_popup');
 const imgAttachment = document.querySelector('.img_attachment');
