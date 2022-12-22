@@ -320,8 +320,7 @@ const userData = [
     postTime: '1w',
     postDescription:
       'Being disabled should not mean being disqualified from having access',
-    image:
-      'https://media.tenor.com/lhc3dKiwaPMAAAAM/dhamaal-javed-jaffrey-mama-will-be-so-proud-of-you.gif',
+    image: 'https://media.tenor.com/XQL1RYJG-k4AAAAM/ainsley-harriott.gif',
     reactionCount: 688,
     commentCount: 103,
     repostCount: 82,
@@ -1148,4 +1147,24 @@ vidCancelBtn.addEventListener('click', function () {
   videoPopup.classList.add('display_block');
   overlay.classList.add('hidden');
   document.body.classList.remove('disable-scroll');
+});
+
+//# ----------------------------- RIGHT ASIDE (HOME PAGE) -----------------------------
+
+const moreNews = document.querySelector('.for_more');
+const showMore = document.querySelector('.show-more');
+
+const lessNews = document.querySelector('.for_less');
+const showLess = document.querySelector('.show-less');
+
+showMore.addEventListener('click', () => {
+  moreNews.classList.remove('display_block');
+  showMore.classList.add('display_block');
+  showLess.classList.remove('display_block');
+});
+
+showLess.addEventListener('click', () => {
+  moreNews.classList.add('display_block');
+  showMore.classList.remove('display_block');
+  showLess.classList.add('display_block');
 });
