@@ -116,8 +116,8 @@ border-radius: 50%;
 .invite_reaction{
     display: flex;
     align-items: center;
-    gap: 1rem;
     font-size: 1.6rem;
+    gap: 0.8rem;
 }
 .followers{
     display: flex;
@@ -127,4 +127,53 @@ border-radius: 50%;
 }
 .card_info h2:hover{
     text-decoration: underline;
+}
+.artdeco_btn{
+    border: 1.2px solid var(--blue);
+    padding: 0.8rem 2rem;
+    border-radius: 2rem;
+    color: var(--blue);
+    font-weight: var(--weight-bold);
+    background-color: var(--white);
+}
+.artdeco_btn_muted{
+    padding: 0.8rem 1rem;
+    background-color: var(--white);
+    border: none;
+    font-size: 1.6rem;
+}
+.artdeco_btn:hover{
+    background-color: var(--light-blue);
+    cursor: pointer;
+}
+.artdeco_btn_muted:hover{
+    background-color: var(--silver);
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.personal_contact{
+    border-top: 1px solid var(--silver);
+    border-bottom: 1px solid var(--silver);
+    margin: 2rem 0;
+    padding: 2rem 0;
+}
+.blue{
+    color: var(--blue);
+    font-weight: var(--weight-bold);
+}
+.email{
+    border: 1px solid var(--charcoal);
+    padding: 0.8rem 1rem;
+    font-size: 1.6rem;
+    text-align:start;
+    margin: 1.4rem 0;
+    border-radius: 0.4rem;
+}
+.more{
+    margin-top: 1rem;
+    font-size: 1.4rem;
+    color: var(--gray);
+}
+.add_prsnl{
+    margin-bottom: 1rem;
 }
