@@ -44,3 +44,62 @@
 .left_part button svg {
   margin-right: 10px;
 }
+
+/* #--------------------------------- RIGHT ASIDE -------------------------------------------- */
+
+.job_seeker_guidance {
+  background-color: var(--white);
+  border-radius: 1rem;
+  border: 1px solid var(--silver);
+}
+
+.rightSide_heading {
+  padding: 2.8rem 1.5rem 1rem 1.5rem;
+}
+
+.rightSide_heading h3 {
+  font-size: 15px;
+  color: var(--charcoal);
+}
+
+.rightSide_heading p {
+  color: var(--gray);
+  margin-top: 0.5rem;
+}
+
+.rightSide_improve {
+  background-color: var(--input-bg);
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+}
+
+.rightSide_improve:hover {
+  background-color: var(--hover-blue);
+}
+
+.rightSide_improve img {
+  width: 80px;
+  height: 55px;
+  border-radius: 8px;
+}
+
+.rightSide_intro {
+  font-size: 14px;
+  color: var(--charcoal);
+  padding: 1rem 1.5rem;
+}
+
+.rightSide_intro p {
+  line-height: 2rem;
+}
+
+.rightSide_intro a {
+  color: var(--gray);
+  justify-content: flex-start;
+  margin: 1rem 0;
+}
+
+.rightSide_intro a:hover {
+  color: var(--blue);
+  text-decoration: underline;
+}

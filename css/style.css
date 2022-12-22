@@ -807,6 +807,11 @@ img {
   font-size: 1.2rem;
 }
 
+.help-center-row a:hover {
+  color: var(--blue);
+  text-decoration: underline;
+}
+
 .help-center-row {
   justify-content: space-evenly;
   margin-top: 1rem;
