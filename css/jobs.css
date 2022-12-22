@@ -1,0 +1,46 @@
+@import url(/css/style.css);
+
+/* #------------------------------------- LEFT ASIDE --------------------------------------------- */
+
+.connections {
+  border-radius: 1rem;
+  overflow: hidden;
+  background-color: var(--white);
+  padding: 0rem 2rem;
+  border: 1px solid var(--silver);
+}
+
+.connections li {
+  justify-content: flex-start;
+  font-size: 15px;
+  font-weight: var(--weight-bold);
+  margin: 2.5rem 0;
+  color: var(--charcoal);
+  cursor: pointer;
+}
+
+.connections p {
+  margin-left: 1rem;
+}
+
+.left_part button {
+  background-color: var(--light-hover);
+  border: 1px solid var(--blue);
+  border-radius: 50px;
+  color: var(--blue);
+  font-weight: var(--weight-bold);
+  padding: 1rem 0;
+  width: 100%;
+  justify-content: center;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.left_part button:hover {
+  background-color: var(--light-blue);
+  outline: 1px solid var(--blue);
+}
+
+.left_part button svg {
+  margin-right: 10px;
+}
