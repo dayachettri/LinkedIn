@@ -5,7 +5,6 @@ const workPopup = document.querySelector('.work_popup');
 const workIcon = document.querySelector('.nine-dots');
 
 document.body.addEventListener('click', e => {
-  console.log(e.target);
   if (e.target.parentElement.classList.contains('nine-dots')) {
     workPopup.classList.remove('display_block');
     overlay.classList.remove('hidden');
@@ -18,7 +17,6 @@ togglerWork.addEventListener('click', function () {
   overlay.classList.add('hidden');
   document.body.classList.remove('disable-scroll');
 });
-
 
 //# -------------------------- Message popup toggle -------------------------- */
 
@@ -33,5 +31,3 @@ togglerUp.addEventListener('click', function () {
 togglerDown.addEventListener('click', function () {
   messageBlock.classList.add('display_block');
 });
-
-// export default workPopup;
