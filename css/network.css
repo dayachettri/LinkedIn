@@ -15,6 +15,7 @@
     background-color: var(--white);
     border-radius: 1rem;
     padding: 1.2rem;
+    height: 104rem;
  
 }
 .network_menu{
@@ -125,8 +126,13 @@ border-radius: 50%;
     gap:0.4rem;
     margin-top: 0.6rem;
 }
+.followers:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
 .card_info h2:hover{
     text-decoration: underline;
+    cursor: pointer;
 }
 .artdeco_btn{
     border: 1.2px solid var(--blue);
@@ -141,6 +147,8 @@ border-radius: 50%;
     background-color: var(--white);
     border: none;
     font-size: 1.6rem;
+    font-weight:var(--weight-bold);
+    color: var(--gray);
 }
 .artdeco_btn:hover{
     background-color: var(--light-blue);
@@ -176,4 +184,53 @@ border-radius: 50%;
 }
 .add_prsnl{
     margin-bottom: 1rem;
+}
+.more_blue{
+    text-align: center;
+    color: var(--blue);
+    font-size: 1.6rem;
+    font-weight: var(--weight-bold);
+    padding: 1rem;
+}
+.more_blue:hover{
+    background-color: var(--light-blue);
+    cursor: pointer;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.6rem;
+    margin-top: 10px;
+    
+}
+.ppl{
+    border: 1px solid var(--silver);
+    border-radius: 1.2rem;
+}
+.btn2{
+    padding: 1rem 5rem;
+    margin-top: 0.8rem;
+}
+.no_bdr_btm{
+    border-bottom: none;
+}
+.bdr_design{
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.u_know{
+    margin-top: 1.5rem;
+}
+.frm_aircmpus{
+    font-size: 1.6rem;
+    margin-top: 2rem;
+    margin-bottom: 1.8rem;
+    color: var(--charcoal);
+}
+.grid3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.6rem;
+    margin-top: 1rem;
+    
 }
