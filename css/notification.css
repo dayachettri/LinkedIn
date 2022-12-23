@@ -84,3 +84,7 @@
   color: var(--blue);
   text-decoration: underline;
 }
+
+.help-center {
+  margin-top: 0;
+}
