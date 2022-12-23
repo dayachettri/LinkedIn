@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link type="image/png" sizes="120x120" rel="icon" href="./img/favicon.png">
   <link rel="stylesheet" href="/css/login.css">
   <title>LinkedIn</title>
 </head>
@@ -94,29 +95,51 @@
 
       <div class="maincta">
         <button class="join">Join now</button>
-        <a class="sign" href="/pages/signin.html">Sign in</a>
+        <a class="sign" href="/index.html">Sign Up</a>
       </div>
 
 
   </header>
 
   <section class="hero">
-    <!-- <form action=""> -->
     <div class="left-section">
       <h1>Welcome to your<br>professional community</h1>
-      <input class="email" type="email" name="input" placeholder="Email or phone number" required>
-      <input class="password" type="password" name="pass" placeholder="Password" required>
+      <input type="email" id="email" name="input" placeholder="Email or phone number" required>
+      <input type="password" id="password" name="pass" placeholder="Password" required>
       <a href="#">Forgot password?</a>
-      <a href="/pages/signin.html"><input class="mainbtn " type="submit" value="Sign Up"></a>
+      <!-- <a id="redirect" href="">SIGN IN</a> -->
+      <a id="redirect" href=""><input class="mainbtn " type="submit" value="Sign In"></a>
     </div>
-    <!-- </form> -->
     <div class="right-section">
     </div>
   </section>
-  <!-- javascript -->
-  <script src="/script/signup.js"></script>
-  <script>
 
+  <!-- javascript  -->
+  <!-- <script src="/script/signup.js"></script> -->
+  <!-- <script src="/script/script.js"></script> -->
+  <script>
+    const authData = JSON.parse(localStorage.getItem('auth'));
+    const signinEmail = document.querySelector('#email');
+    const signinPassword = document.querySelector('#password');
+    const form = document.querySelector('#signup');
+    const redirect = document.querySelector('#redirect');
+
+    const validation = function (e) {
+      console.log(signinEmail.value, signinPassword.value);
+      console.log(e.target);
+      for (let i = 0; i < authData.length; i++) {
+        if (
+          authData[i].email == signinEmail.value &&
+          authData[i].password == signinPassword.value
+        ) {
+          redirect.href = 'home.html'
+        } else {
+          alert('INVALID EMAIL OR PASSWORD');
+        }
+      }
+    };
+
+    redirect.addEventListener('click', validation);
   </script>
 </body>
 
