@@ -1,0 +1,295 @@
+.grid-3-col {
+  margin: 0 auto;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: minmax(0, 15fr) minmax(250px, 6fr);
+  gap: 2rem;
+  padding-right: 5px;
+  margin-top: 8rem;
+  height: calc(100vh - 8rem);
+  overflow: hidden;
+}
+
+
+.msg_left,
+.msg_right,
+.page_right {
+  background-color: white;
+}
+
+.left-page {
+  display: flex;
+  border: 1px solid rgb(211, 211, 211);
+  border-radius: 5px;
+}
+
+.msg_left,
+.msg_right {
+  border: 1px solid rgba(211, 211, 211, 0.479);
+  border-radius: 5px;
+}
+
+.msg_right {
+  width: 455px;
+}
+
+.img_chat span {
+  font-size: 14px;
+}
+
+.chats {
+  cursor: pointer;
+}
+
+.chats:hover {
+  background-color: rgba(211, 211, 211, 0.322);
+}
+
+.scroll_left {
+  overflow: hidden;
+  overflow-y: scroll;
+  height: 610px;
+}
+
+.scroll_right {
+  overflow: hidden;
+  overflow-y: scroll;
+  height: 300px;
+}
+
+.messege_block-img {
+  padding: 8px 2px;
+}
+
+
+.messege_block-img p {
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.message_block-controls svg {
+  margin-top: 5px;
+}
+
+.message_block-controls svg:hover {
+  background-color: rgba(211, 211, 211, 0.486);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.message_search {
+  padding: 4px;
+}
+
+.search-box input {
+  height: 20px;
+}
+
+.single_msgName {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding: 3px 8px;
+  line-height: 20px;
+}
+
+.single_msg_Icon i {
+  font-size: 25px;
+  padding: 5px;
+  color: var(--charcoal);
+}
+
+.single_msg_Icon i:hover {
+  background-color: lightgray;
+  border-radius: 50%;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.single_msgName_center img {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-left: 6px;
+}
+
+.single_msgName_center h3 {
+  font-size: 15px;
+  padding: 10px;
+}
+
+.single_msgName_center span {
+  font-weight: 100;
+}
+
+.single_msgName_center p {
+  font-size: 13px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+.personal_msg {
+  padding: 5px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.left_msg_name {
+  line-height: 20px;
+}
+
+.left_msg_name p {
+  font-weight: 600;
+}
+
+.img_msg img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.msg_name {
+  padding: 10px;
+  line-height: 20px;
+}
+
+.msg_name span {
+  font-weight: 10;
+}
+
+.msg_name h3 {
+  font-weight: 500;
+}
+
+.msg_name p {
+  font-size: 13px;
+}
+
+.write_msg {
+  padding: 10px;
+}
+
+.write_msg textarea {
+  width: 100%;
+  font-size: 15px;
+  height: 10rem;
+  padding: 3px;
+  border: none;
+  outline: none;
+  background-color: var(--body-bg);
+}
+
+.center_last {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding: 10px;
+}
+
+.msg_imageIcon i {
+  font-size: 23px;
+  margin: 0 5px;
+  color: var(--charcoal);
+  cursor: pointer;
+}
+
+.msg_imageIcon i:hover {
+  background-color: lightgray;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.msg_send_btn button {
+  padding: 4px 7px;
+  border-radius: 10px;
+  border: none;
+  background-color: lightgray;
+}
+
+.msg_send_btn i {
+  font-size: 25px;
+  margin: 0 5px;
+  color: var(--charcoal);
+}
+
+.msg_send_btn i:hover {
+  background-color: lightgray;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.msg_send_btn {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+
+
+@media (max-width: 991px) {
+  .page_right {
+    display: none;
+  }
+
+  .grid-3-col {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: minmax(0, 25fr);
+    position: fixed;
+    max-width: 100%;
+  }
+
+  .msg_left {
+    width: 330px;
+  }
+
+  .single_msgName_center {
+    display: none;
+  }
+
+  .scroll_right {
+    height: 320px;
+  }
+}
+
+@media (max-width: 640px) {
+
+  .grid-3-col {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: minmax(0, 20fr);
+    max-width: 100%;
+    height: 100vh;
+    margin-top: 0;
+  }
+
+  #navbar {
+    display: none;
+  }
+
+  .msg_left {
+    display: none;
+  }
+
+  .single_msgName_center {
+    display: initial;
+  }
+
+  .msg_right {
+    width: 700px;
+  }
+
+  .write_msg textarea {
+    height: 8rem;
+  }
+
+  .single_msg_Icon {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+}
