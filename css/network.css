@@ -1,0 +1,236 @@
+*{  padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+.network_page{
+    display: grid;
+    grid-template-columns: minmax(300px,7fr) minmax(0,17fr);
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 113rem;
+    margin-top: 8rem;
+}
+.left_aside_network{
+    font-size: 1.6rem;
+    background-color: var(--white);
+    border-radius: 1rem;
+    padding: 1.2rem;
+    height: 104rem;
+ 
+}
+.network_menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--gray);
+    gap: 1rem;
+}
+.network_icon{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: var(--gray);
+    gap: 1.6rem;
+    padding: 0.8rem;
+    
+}
+.show_less{
+    padding: 1rem;
+    align-items: center;
+    border-bottom: 1px solid var(--gray);
+
+}
+.show_less svg{
+    margin-left: 0.8rem;   
+}
+.ad{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1.5rem;
+    gap: 1rem;
+    font-size: 1.3rem;
+    color: var(--gray);
+}
+.skills{
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--gray);
+}
+.skills img{
+    margin-top: 2rem;
+    width: 25%;
+}
+.hiring{
+    text-align: center;
+    margin: 2rem 0;
+}
+.bdr{
+    border: 1px solid var(--blue);
+
+}
+.personal_contact{
+    text-align:center ;
+}
+.invitation_box{
+    /* display: flex; */
+    /* justify-content: space-between; */
+    align-items: center;
+    background-color: var(--white);
+    border-radius: 1rem;
+    margin-left: 1.6rem;
+    padding: 1rem;
+}
+.invitation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--silver);
+}
+.invitation p{
+    padding: 20px;
+    font-size: 1.6rem;
+    color: var(--charcoal);
+}
+.card_info img{
+width: 72px;
+height: 72px;
+border-radius: 50%;
+}
+.card_info{
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: var(--gray);
+}
+.card_info h2{
+    color: var(--charcoal);
+    margin-bottom: 0.6rem;
+}
+.invitation_card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--silver);
+}
+.invite_reaction{
+    display: flex;
+    align-items: center;
+    font-size: 1.6rem;
+    gap: 0.8rem;
+}
+.followers{
+    display: flex;
+    align-items: center;
+    gap:0.4rem;
+    margin-top: 0.6rem;
+}
+.followers:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.card_info h2:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.artdeco_btn{
+    border: 1.2px solid var(--blue);
+    padding: 0.8rem 2rem;
+    border-radius: 2rem;
+    color: var(--blue);
+    font-weight: var(--weight-bold);
+    background-color: var(--white);
+}
+.artdeco_btn_muted{
+    padding: 0.8rem 1rem;
+    background-color: var(--white);
+    border: none;
+    font-size: 1.6rem;
+    font-weight:var(--weight-bold);
+    color: var(--gray);
+}
+.artdeco_btn:hover{
+    background-color: var(--light-blue);
+    cursor: pointer;
+}
+.artdeco_btn_muted:hover{
+    background-color: var(--silver);
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.personal_contact{
+    border-top: 1px solid var(--silver);
+    border-bottom: 1px solid var(--silver);
+    margin: 2rem 0;
+    padding: 2rem 0;
+}
+.blue{
+    color: var(--blue);
+    font-weight: var(--weight-bold);
+}
+.email{
+    border: 1px solid var(--charcoal);
+    padding: 0.8rem 1rem;
+    font-size: 1.6rem;
+    text-align:start;
+    margin: 1.4rem 0;
+    border-radius: 0.4rem;
+}
+.more{
+    margin-top: 1rem;
+    font-size: 1.4rem;
+    color: var(--gray);
+}
+.add_prsnl{
+    margin-bottom: 1rem;
+}
+.more_blue{
+    text-align: center;
+    color: var(--blue);
+    font-size: 1.6rem;
+    font-weight: var(--weight-bold);
+    padding: 1rem;
+}
+.more_blue:hover{
+    background-color: var(--light-blue);
+    cursor: pointer;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.6rem;
+    margin-top: 10px;
+    
+}
+.ppl{
+    border: 1px solid var(--silver);
+    border-radius: 1.2rem;
+}
+.btn2{
+    padding: 1rem 5rem;
+    margin-top: 0.8rem;
+}
+.no_bdr_btm{
+    border-bottom: none;
+}
+.bdr_design{
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.u_know{
+    margin-top: 1.5rem;
+}
+.frm_aircmpus{
+    font-size: 1.6rem;
+    margin-top: 2rem;
+    margin-bottom: 1.8rem;
+    color: var(--charcoal);
+}
+.grid3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.6rem;
+    margin-top: 1rem;
+    
+}
