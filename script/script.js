@@ -87,7 +87,7 @@ const userData = [
     authorName: 'Swen Mehra',
     jobTitle: 'Senior UX/UI Designer at Auspicious',
     postTime: '1w',
-    postDescription: 'What do you think about it',
+    postDescription: 'Right now Abhilash & Ashutosh to Daya.😎',
     image:
       'https://media.tenor.com/Rw1hAv1o_6sAAAAC/phir-hera-pheri-rajpal-yadav.gif',
     reactionCount: 10,
@@ -1168,3 +1168,5 @@ showLess.addEventListener('click', () => {
   showMore.classList.remove('display_block');
   showLess.classList.add('display_block');
 });
+
+

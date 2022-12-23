@@ -117,6 +117,10 @@ img {
   align-items: center;
 }
 
+.not-allowed:hover {
+  cursor: not-allowed;
+}
+
 /*--------------------------------preloader-----------------------------*/
 
 #loader-bg {
