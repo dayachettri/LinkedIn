@@ -117,6 +117,10 @@ img {
   align-items: center;
 }
 
+.not-allowed:hover {
+  cursor: not-allowed;
+}
+
 /*--------------------------------preloader-----------------------------*/
 
 #loader-bg {
@@ -765,18 +769,39 @@ img {
 .show-more {
   margin-top: 2rem;
   cursor: pointer;
+  justify-content: flex-start;
+  width: 45%;
+  border-radius: 2.5px;
+  color: var(--gray);
+  font-size: 1.4rem;
+  font-weight: var(--weight-bold);
 }
 
 .show-more span {
-  padding: 0.4rem 2.5rem;
-  border-radius: 2.5px;
-  font-weight: var(--weight-bold);
-  font-size: 1.4rem;
-  color: var(--gray);
+  padding: 0.4rem 1rem 0.4rem 1.5rem;
 }
 
-.show-more :hover {
-  background-color: var(--gray);
+.show-more:hover {
+  background-color: var(--hover-light);
+}
+
+.show-less {
+  margin-top: 2rem;
+  cursor: pointer;
+  justify-content: flex-start;
+  width: 45%;
+  border-radius: 2.5px;
+  color: var(--gray);
+  font-size: 1.4rem;
+  font-weight: var(--weight-bold);
+}
+
+.show-less span {
+  padding: 0.4rem 1rem 0.4rem 1.5rem;
+}
+
+.show-less:hover {
+  background-color: var(--hover-light);
 }
 
 .help-center {
@@ -784,6 +809,11 @@ img {
   position: sticky;
   top: 8rem;
   font-size: 1.2rem;
+}
+
+.help-center-row a:hover {
+  color: var(--blue);
+  text-decoration: underline;
 }
 
 .help-center-row {
