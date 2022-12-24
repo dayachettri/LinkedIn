@@ -64,6 +64,7 @@ li:hover > svg {
 .maincta {
   display: flex;
   align-items: center;
+  gap: 0.5rem;
 }
 
 .join {

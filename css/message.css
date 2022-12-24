@@ -268,10 +268,6 @@
     margin-top: 0;
   }
 
-  #navbar {
-    display: none;
-  }
-
   .msg_left {
     display: none;
   }
@@ -285,7 +281,7 @@
   }
 
   .write_msg textarea {
-    height: 8rem;
+    height: 7rem;
   }
 
   .single_msg_Icon {

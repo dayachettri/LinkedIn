@@ -104,6 +104,8 @@
   text-decoration: underline;
 }
 
+/* #-------------------------------------------------- MEDIA QUERY ----------------------------------------------------------- */
+
 @media (max-width: 990px) {
   .aside-right {
     display: none;
