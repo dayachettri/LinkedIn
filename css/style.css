@@ -338,6 +338,7 @@ img {
   border-radius: 1rem;
   background-color: var(--white);
   margin-bottom: 1rem;
+  border: 1px solid var(--silver);
 }
 
 .reactor-box {
@@ -462,6 +463,7 @@ img {
   border-radius: 1rem;
   overflow: hidden;
   background-color: var(--white);
+  border: 1px solid var(--silver);
 }
 
 .identity-img {
@@ -565,6 +567,7 @@ img {
   top: 8rem;
   font-weight: var(--weight-bold);
   color: var(--gray);
+  border: 1px solid var(--silver);
 }
 
 .recent-box p {
@@ -619,6 +622,7 @@ img {
   height: 12rem;
   color: var(--gray);
   font-weight: var(--weight-bold);
+  border: 1px solid var(--silver);
 }
 
 .profile-post {
@@ -719,6 +723,7 @@ img {
   border-radius: 1rem;
   background-color: var(--white);
   padding: 10px;
+  border: 1px solid var(--silver);
 }
 
 .aside-right {
