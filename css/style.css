@@ -1486,11 +1486,19 @@ img {
 }
 
 .sign_out {
-  margin-top: 1.5rem;
+  margin-top: 1rem 0;
   font-size: 1.6rem;
-  padding: 0 0 0 1rem;
+  padding: 1rem;
   padding-bottom: 1rem;
+  cursor: pointer;
+}
+
+.sign_out a {
   color: var(--gray);
+}
+
+.sign_out:hover {
+  background-color: var(--body-bg);
 }
 
 /* #--------------------------------- PHOTO POPUP ------------------------------------------- */

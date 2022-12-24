@@ -1168,5 +1168,3 @@ showLess.addEventListener('click', () => {
   showMore.classList.remove('display_block');
   showLess.classList.add('display_block');
 });
-
-
