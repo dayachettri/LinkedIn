@@ -45,6 +45,54 @@
   margin-right: 10px;
 }
 
+/* #---------------------------------- CENTER PART ------------------------------------------- */
+
+.job_suggestions {
+  border: 1px solid var(--silver);
+  padding: 2rem;
+  background-color: var(--white);
+  border-radius: 10px;
+}
+
+.suggested_job-title {
+  color: var(--charcoal);
+  margin-bottom: 0.3rem;
+}
+
+.suggested_job-title i {
+  font-size: 25px;
+}
+.job-options {
+  border: 1px solid var(--blue);
+  justify-content: flex-start;
+  padding: 0.3rem;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.job-options:hover {
+  background-color: var(--hover-blue);
+  outline: 1px solid var(--blue);
+}
+
+.job-options p {
+  color: var(--blue);
+  font-size: 14px;
+  font-weight: var(--weight-bold);
+  margin: 0 0.5rem;
+}
+
+.job-options svg {
+  color: var(--blue);
+  margin-left: 1rem;
+}
+
+.option-rows {
+  justify-content: left;
+  gap: 2rem;
+}
+
 /* #--------------------------------- RIGHT ASIDE -------------------------------------------- */
 
 .job_seeker_guidance {
