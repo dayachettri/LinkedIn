@@ -152,6 +152,14 @@
   text-decoration: underline;
 }
 
+.recommendation_block {
+  background-color: var(--white);
+  border-radius: 10px;
+  border: 1px solid var(--silver);
+  padding: 2rem;
+  margin-top: 1.5rem;
+}
+
 /* #-------------------------------------------------- MEDIA QUERY ----------------------------------------------------------- */
 
 @media (max-width: 990px) {
