@@ -135,7 +135,7 @@ window.onload = async () => {
       </ul>
             <section class="create_comment_box">
           <div class="cmnt_box">
-            <img class="cmnt_img" src="https://avatars.githubusercontent.com/u/91982512?v=4" alt="">
+            <img class="cmnt_img" src="https://wallpaperaccess.com/full/2514661.jpg" alt="">
             <div class="cmnt_area">
               <input class="add_comment" placeholder="Add a comment...">
               <div class="emoji">
@@ -263,7 +263,7 @@ btnPost.addEventListener('click', () => {
       <div class="poster-box flex">
         <div class="poster-info flex">
           <img
-            src="https://avatars.githubusercontent.com/u/91982512?v=4"
+            src="https://wallpaperaccess.com/full/2514661.jpg"
             alt=""
           />
           <div class="poster-text flex">
@@ -379,7 +379,7 @@ btnPost.addEventListener('click', () => {
       reactorImage:
         'https://media.licdn.com/dms/image/C4E03AQEgiylGPPDJHQ/profile-displayphoto-shrink_400_400/0/1589355915977?e=1676505600&v=beta&t=j9BclcehrATV_hDgGruYX0IACrLRVy8kZgJyJBiQJ_g',
       reactorName: 'Devik roy',
-      authorImage: 'https://avatars.githubusercontent.com/u/19223819?v=4',
+      authorImage: 'https://wallpaperaccess.com/full/2514661.jpg',
       authorName: 'Rahul Singh',
       jobTitle: 'Marketing | startup',
       postTime: '1s',
@@ -390,8 +390,7 @@ btnPost.addEventListener('click', () => {
       repostCount: 0,
       comments: [
         {
-          commentatorImage:
-            'https://avatars.githubusercontent.com/u/91982512?v=4',
+          commentatorImage: 'https://wallpaperaccess.com/full/2514661.jpg',
           commentatorName: 'Daya Don',
           commentatorDesignation: 'Pro player',
           comment: [],
@@ -438,7 +437,7 @@ document.body.addEventListener('click', function (e) {
       const html = `
           <section class="create_comment_box">
           <div class="cmnt_box">
-            <img class="cmnt_img" src="https://avatars.githubusercontent.com/u/91982512?v=4" alt="">
+            <img class="cmnt_img" src="https://wallpaperaccess.com/full/2514661.jpg" alt="">
             <div class="cmnt_area">
               <input class="add_comment" placeholder="Add a comment...">
               <div class="emoji">
