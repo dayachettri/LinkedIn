@@ -1,0 +1,33 @@
+{
+  "networks": [
+    {
+      "coverPhoto": "",
+      "profilePhoto": "",
+      "profileName": "",
+      "profileDesignation": "",
+      "commonFollowers": "",
+      "tags": ""
+    },
+    {
+      "coverPhoto": "",
+      "profilePhoto": "",
+      "profileName": "",
+      "profileDesignation": "",
+      "commonFollowers": "",
+      "tags": ""
+    }
+  ]
+}
+
+{
+  "jobs":[
+    {
+      "companyImage": "",
+      "companyPost": "",
+      "companyName": "",
+      "jobLocation": "",
+      "companyMutualImg": "",
+      "companyMutualText": "1 mutual connection with the hiring team",
+    }
+  ]
+}

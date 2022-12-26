@@ -60,7 +60,7 @@ window.onload = async () => {
         </div>
 
         <div class="right flex">
-          <p>${post.commentCount} Comments</p>
+          <p class="comment-count">${post.commentCount} Comments</p>
           &middot;
           <p></p>
         </div>
@@ -296,7 +296,7 @@ btnPost.addEventListener('click', () => {
         </div>
 
         <div class="right flex">
-          <p></p>
+          <p class="comment-count"></p>
           &middot;
           <p></p>
         </div>
@@ -436,7 +436,7 @@ document.body.addEventListener('click', function (e) {
     else {
       e.target.classList.add('active');
       const html = `
-            <section class="create_comment_box">
+          <section class="create_comment_box">
           <div class="cmnt_box">
             <img class="cmnt_img" src="https://avatars.githubusercontent.com/u/91982512?v=4" alt="">
             <div class="cmnt_area">
@@ -489,8 +489,15 @@ document.body.addEventListener('click', function (e) {
           e.target.parentElement.children[0].children[1].children[0].value
         );
         userData[i].commentCount++;
-
-        e.target.parentElement.parentElement.children[4].children[1].children[0].textContent = `${userData[i].commentCount} Comments`;
+        console.log(
+          e.target.parentElement.parentElement.children[4].children[1]
+            .children[0]
+        );
+        // e.target.parentElement.parentElement.children[4].children[1].children[0].textContent = `${userData[i].commentCount} Comments`;
+        console.log(e.target, e.path);
+        e.path[2].querySelector(
+          '.comment-count'
+        ).textContent = `${userData[i].commentCount} Comments`;
       }
     }
     //# render comment html
