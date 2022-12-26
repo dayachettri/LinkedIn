@@ -467,7 +467,7 @@ img {
 }
 
 .identity-img {
-  background: url(https://media.licdn.com/dms/image/C4D16AQFSzFIBalvPxA/profile-displaybackgroundimage-shrink_200_800/0/1662794400367?e=1676505600&v=beta&t=1ltsT07gWqRLWHhGrowdrAwjg3xVI6qnLmUjn_mRtno);
+  background: var(--black);
   background-position: center;
   background-size: cover;
   height: 5.6rem;
@@ -480,6 +480,7 @@ img {
   width: 72px;
   height: 72px;
   margin-bottom: 2.4rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .identity-text {
