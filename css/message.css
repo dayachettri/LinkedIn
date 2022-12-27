@@ -10,7 +10,6 @@
   overflow: hidden;
 }
 
-
 .msg_left,
 .msg_right {
   background-color: white;
@@ -61,7 +60,6 @@
 .messege_block-img {
   padding: 8px 2px;
 }
-
 
 .messege_block-img p {
   font-size: 15px;
@@ -231,6 +229,9 @@
   border-radius: 50%;
   padding: 5px;
 }
+.help-center {
+  top: 0;
+}
 
 .msg_send_btn {
   display: flex;
@@ -238,8 +239,6 @@
   gap: 1rem;
   cursor: pointer;
 }
-
-
 
 @media (max-width: 991px) {
   .page_right {
@@ -269,7 +268,6 @@
 }
 
 @media (max-width: 640px) {
-
   .grid-3-col {
     justify-content: center;
     display: grid;

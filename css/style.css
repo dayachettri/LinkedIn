@@ -169,11 +169,11 @@ img {
   font-size: 4rem;
   margin-left: 0.5rem;
 }
-
 .loader {
-  height: 5px;
+  height: 2px;
+  margin-top: 2.5rem;
   align-self: center;
-  width: 17rem;
+  width: 15rem;
   background-color: lightgrey;
   border-radius: 5px;
 }
@@ -181,8 +181,8 @@ img {
 .loading {
   background-color: #0e76a8;
   width: 7rem;
-  height: 5px;
-  animation: animation 1.8s infinite;
+  height: 2px;
+  animation: animation 1.2s infinite;
   border-radius: 5px;
 }
 
@@ -192,7 +192,7 @@ img {
   }
 
   50% {
-    transform: translateX(10rem);
+    transform: translateX(8rem);
   }
 
   100% {
@@ -572,7 +572,6 @@ img {
   top: 8rem;
   font-weight: var(--weight-bold);
   color: var(--gray);
-  border: 1px solid var(--silver);
 }
 
 .recent-box p {
@@ -827,7 +826,8 @@ img {
 }
 
 .help-center-row {
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 2rem;
   margin-top: 1rem;
 }
 
