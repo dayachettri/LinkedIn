@@ -1,5 +1,13 @@
 'use strict';
+//# ------------------------------- CHANGE NAME ------------------------------ */
+const fullName = document.querySelectorAll('.fullName');
+const storedName = JSON.parse(localStorage.getItem('auth'));
+const displayName = storedName[0]['name'];
+fullName.forEach(item => {
+  item.textContent = displayName;
+});
 
+//# ------------------------------------ * ----------------------------------- */
 let userData;
 let id;
 const posts = document.querySelector('.posts');
@@ -515,7 +523,7 @@ document.body.addEventListener('click', function (e) {
               <div class="cmnt_text">
                 <div class="flex">
                   <div class="cmntr_name">
-                    <h4>Professor</h4> <span>• 3rd+</span>
+                    <h4>${displayName}</h4> <span>• 3rd+</span>
                   </div>
                   <div class="time">1s •••</div>
                 </div>

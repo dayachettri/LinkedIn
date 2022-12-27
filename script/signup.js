@@ -2,10 +2,12 @@
 const email = document.querySelector('.email');
 const password = document.querySelector('.password');
 const btnSignUp = document.querySelector('.mainbtn');
+const fullName = document.querySelector('.name');
 const auth = [];
 const authentication = function (e) {
   if (email.value && password.value) {
     const obj = {
+      name: fullName.value,
       email: email.value,
       password: password.value,
     };
