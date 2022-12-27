@@ -170,9 +170,10 @@ img {
 }
 
 .loader {
-  height: 5px;
+  height: 2px;
+  margin-top: 2rem;
   align-self: center;
-  width: 17rem;
+  width: 15rem;
   background-color: lightgrey;
   border-radius: 5px;
 }
@@ -180,8 +181,8 @@ img {
 .loading {
   background-color: #0e76a8;
   width: 7rem;
-  height: 5px;
-  animation: animation 1.8s infinite;
+  height: 2px;
+  animation: animation 1.2s infinite;
   border-radius: 5px;
 }
 
@@ -191,7 +192,7 @@ img {
   }
 
   50% {
-    transform: translateX(10rem);
+    transform: translateX(8rem);
   }
 
   100% {
