@@ -275,7 +275,7 @@ btnPost.addEventListener('click', () => {
             alt=""
           />
           <div class="poster-text flex">
-            <p class="poster-name">Prakasss lal</p>
+            <p class="poster-name">${displayName}</p>
             <p class="poster-job">CS Professor at Harvard University</p>
             <p class="posted-time flex">
               <span>1s ago</span>
