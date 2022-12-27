@@ -2,7 +2,7 @@
 //# ------------------------------- CHANGE NAME ------------------------------ */
 const fullName = document.querySelectorAll('.fullName');
 const storedName = JSON.parse(localStorage.getItem('auth'));
-const displayName = storedName[0]['name'];
+const displayName = storedName?.[0]['name'] ?? 'Professor';
 fullName.forEach(item => {
   item.textContent = displayName;
 });
