@@ -43,8 +43,26 @@
   padding: 1rem;
   align-items: center;
   border-bottom: 1px solid var(--gray);
+  font-weight: var(--weight-bold) ;
+  color: var(--charcoal);
 }
-
+.show_less:hover{
+  background-color: var(--silver);
+  width: 12rem;
+  border-radius: 1rem;
+}
+.show_more {
+  padding: 1rem;
+  align-items: center;
+  border-bottom: 1px solid var(--gray);
+  font-weight: var(--weight-bold) ;
+  color: var(--charcoal);
+}
+.show_more:hover{
+  background-color: var(--silver);
+  width: 13rem;
+  border-radius: 1rem;
+}
 .show_less svg {
   margin-left: 0.8rem;
 }
@@ -249,6 +267,7 @@
   border: 1px solid var(--silver);
   border-radius: 1.2rem;
   cursor: pointer;
+  width: 250px;
 }
 .trending_card:hover{
   box-shadow: 1px 2px 5px var(--silver);
@@ -282,15 +301,20 @@
   padding-left: 1rem;
   overflow: hidden;
   height: 33px;
-  /* width: 180px; */
 }
 
-.grid {
+/* .grid{
   display: grid;
-  grid-template-columns: auto auto auto;
-  gap:  1rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap:1rem;
 }
+ */
 
+.trending_people_box.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap:1rem;
+}
 .profile_designation {
   padding-left: 1rem;
   height: 90px;
@@ -387,12 +411,11 @@ width: 96%;
 .btn2{
   width: 95%;
 }
-
-
-  .grid {
+ /* .grid {
     max-width: 720px;
     grid-template-columns: minmax(0, 1fr);
-  }
+  } */
+
 } 
 
 @media (max-width: 770px) {
