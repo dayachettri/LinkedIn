@@ -17,7 +17,7 @@
 
 .left-page {
   display: flex;
-  border: 1px solid rgb(211, 211, 211);
+  border-bottom: 1px solid rgb(211, 211, 211);
   border-radius: 5px;
 }
 
@@ -30,6 +30,7 @@
 .msg_right {
   width: 455px;
 }
+
 
 .img_chat span {
   font-size: 14px;
@@ -53,6 +54,7 @@
   overflow: hidden;
   overflow-y: scroll;
   height: 300px;
+  border-bottom: 2px solid green;
 }
 
 .messege_block-img {
@@ -89,6 +91,7 @@
   flex-wrap: nowrap;
   padding: 3px 8px;
   line-height: 20px;
+  border-bottom: 1px solid rgba(211, 211, 211, 0.685);
 }
 
 .single_msg_Icon i {
@@ -102,6 +105,10 @@
   border-radius: 50%;
   padding: 5px;
   cursor: pointer;
+}
+
+.single_msgName_center {
+  border-bottom: 1px solid rgba(211, 211, 211, 0.685);
 }
 
 .single_msgName_center img {
@@ -167,6 +174,10 @@
 
 .write_msg {
   padding: 10px;
+}
+
+.text_msg {
+  border-bottom: 1px solid rgba(211, 211, 211, 0.685);
 }
 
 .write_msg textarea {
@@ -252,6 +263,7 @@
 
   .scroll_right {
     height: 320px;
+    border-bottom: 1px solid rgba(211, 211, 211, 0.685);
   }
 }
 
