@@ -66,6 +66,7 @@ html {
   list-style-type: none;
   text-decoration: none;
 }
+
 body::-webkit-scrollbar {
   display: none;
   -ms-overflow-style: none;
@@ -425,6 +426,7 @@ img {
   font-size: 1.4rem;
   color: var(--charcoal);
 }
+
 .reaction-count-box {
   padding: 1.2rem;
   border-bottom: 1px solid var(--silver);
@@ -896,7 +898,7 @@ img {
 }
 
 .border {
-  border-bottom: 1px solid var(--silver);
+  border-bottom: 1px solid rgba(211, 211, 211, 0.685);
   padding-bottom: 1rem;
 }
 
@@ -917,7 +919,7 @@ img {
 
 .chats {
   margin-top: 2rem;
-  border-bottom: 1px solid var(--silver);
+  border-bottom: 1px solid rgba(211, 211, 211, 0.397);
   padding: 10px;
 }
 
@@ -1298,9 +1300,11 @@ img {
   display: flex;
   justify-content: flex-start;
 }
+
 .cmnt_text_box {
   flex-grow: 1;
 }
+
 .cmnt_text {
   margin-left: 0.8rem;
   padding: 8px;
