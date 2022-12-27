@@ -168,7 +168,6 @@ img {
   font-size: 4rem;
   margin-left: 0.5rem;
 }
-
 .loader {
   height: 2px;
   margin-top: 2.5rem;
@@ -571,7 +570,6 @@ img {
   top: 8rem;
   font-weight: var(--weight-bold);
   color: var(--gray);
-  border: 1px solid var(--silver);
 }
 
 .recent-box p {
