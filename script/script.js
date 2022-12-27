@@ -268,7 +268,7 @@ btnPost.addEventListener('click', () => {
           />
           <div class="poster-text flex">
             <p class="poster-name">Prakasss lal</p>
-            <p class="poster-job">Senior Web Developer</p>
+            <p class="poster-job">CS Professor at Harvard University</p>
             <p class="posted-time flex">
               <span>1s ago</span>
               <span class="middot">&middot;</span>
@@ -505,7 +505,7 @@ document.body.addEventListener('click', function (e) {
           <div class="read_cmnt_box">
             <div class="cmntr_img">
               <img
-                src="${userData[0].reactorImage}"
+                src="https://wallpaperaccess.com/full/2514661.jpg"
                 alt="">
             </div>
 
@@ -515,11 +515,11 @@ document.body.addEventListener('click', function (e) {
               <div class="cmnt_text">
                 <div class="flex">
                   <div class="cmntr_name">
-                    <h4>Parkasss lal</h4> <span>• 3rd+</span>
+                    <h4>Professor</h4> <span>• 3rd+</span>
                   </div>
                   <div class="time">1s •••</div>
                 </div>
-                <p class="occupation">Software Developer | 19k + followers </p>
+                <p class="occupation">CS Professor • Harvard </p>
                 <p class="cmnt_msg_text">${e.target.parentElement.children[0].children[1].children[0].value}</p>
               </div>
               <div class="cmnt_reaction">
