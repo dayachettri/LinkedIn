@@ -97,11 +97,69 @@
   color: var(--charcoal);
 }
 
+.recommended_jobs h2 {
+  font-size: 16px;
+}
+
 .recommended_jobs p {
+  font-size: 13px;
+  margin-top: 0.5rem;
 }
 
 .job_description img {
-  width: 5rem;
+  width: 6rem;
+}
+
+.job_description {
+  margin-top: 3rem;
+  align-items: flex-start;
+  border-bottom: 1px solid var(--silver);
+  cursor: pointer;
+}
+
+.job_description:hover h3 {
+  text-decoration: underline;
+}
+
+.left_flex {
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.company_description {
+  padding: 1rem;
+}
+
+.company_description h3 {
+  color: var(--blue);
+  font-size: 14px;
+}
+
+.company_description h4 {
+  font-size: 13px;
+  font-weight: var(--weight-bold);
+  color: var(--charcoal);
+  margin: 0.5rem 0;
+}
+
+.company_description p {
+  color: var(--gray);
+}
+
+.company_description img {
+  width: 3rem;
+  border-radius: 50px;
+  margin-top: 8px;
+}
+
+.company_description span {
+  color: var(--gray);
+}
+
+.job_description svg {
+  color: var(--charcoal);
+  width: 2.5rem;
+  margin-right: 1rem;
 }
 
 /* #--------------------------------- RIGHT ASIDE -------------------------------------------- */
