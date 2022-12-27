@@ -170,9 +170,10 @@ img {
 }
 
 .loader {
-  height: 5px;
+  height: 2px;
+  margin-top: 2.5rem;
   align-self: center;
-  width: 17rem;
+  width: 15rem;
   background-color: lightgrey;
   border-radius: 5px;
 }
@@ -180,8 +181,8 @@ img {
 .loading {
   background-color: #0e76a8;
   width: 7rem;
-  height: 5px;
-  animation: animation 1.8s infinite;
+  height: 2px;
+  animation: animation 1.2s infinite;
   border-radius: 5px;
 }
 
@@ -191,7 +192,7 @@ img {
   }
 
   50% {
-    transform: translateX(10rem);
+    transform: translateX(8rem);
   }
 
   100% {
@@ -363,6 +364,7 @@ img {
 
 .reactor img {
   width: 24px;
+  height: 24px;
   border-radius: 50%;
 }
 
@@ -376,6 +378,7 @@ img {
 
 .poster-box img {
   width: 48px;
+  height: 48px;
   border-radius: 50%;
 }
 
@@ -467,7 +470,7 @@ img {
 }
 
 .identity-img {
-  background: url(https://media.licdn.com/dms/image/C4D16AQFSzFIBalvPxA/profile-displaybackgroundimage-shrink_200_800/0/1662794400367?e=1676505600&v=beta&t=1ltsT07gWqRLWHhGrowdrAwjg3xVI6qnLmUjn_mRtno);
+  background: var(--black);
   background-position: center;
   background-size: cover;
   height: 5.6rem;
@@ -480,6 +483,7 @@ img {
   width: 72px;
   height: 72px;
   margin-bottom: 2.4rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .identity-text {
@@ -822,7 +826,8 @@ img {
 }
 
 .help-center-row {
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 2rem;
   margin-top: 1rem;
 }
 
@@ -1342,6 +1347,8 @@ img {
 
 .cmntr_img img {
   border-radius: 50%;
+  width: 40px;
+  height: 40px;
 }
 
 .cmnt_reaction {
