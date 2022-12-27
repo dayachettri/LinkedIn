@@ -93,6 +93,17 @@
   gap: 2rem;
 }
 
+.recommended_jobs {
+  color: var(--charcoal);
+}
+
+.recommended_jobs p {
+}
+
+.job_description img {
+  width: 5rem;
+}
+
 /* #--------------------------------- RIGHT ASIDE -------------------------------------------- */
 
 .job_seeker_guidance {
