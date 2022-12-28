@@ -98,16 +98,18 @@
 }
 
 .recommended_jobs h2 {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .recommended_jobs p {
-  font-size: 13px;
+  font-size: 15px;
   margin-top: 0.5rem;
 }
 
 .job_description img {
   width: 6rem;
+  margin-top: 1.5rem;
+  margin-right: 1rem;
 }
 
 .job_description {
@@ -132,11 +134,11 @@
 
 .company_description h3 {
   color: var(--blue);
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .company_description h4 {
-  font-size: 13px;
+  font-size: 15px;
   font-weight: var(--weight-bold);
   color: var(--charcoal);
   margin: 0.5rem 0;
@@ -148,6 +150,7 @@
 
 .company_description img {
   width: 3rem;
+  height: 3rem;
   border-radius: 50px;
   margin-top: 8px;
 }
@@ -175,7 +178,7 @@
 }
 
 .rightSide_heading h3 {
-  font-size: 15px;
+  font-size: 17px;
   color: var(--charcoal);
 }
 
@@ -201,7 +204,7 @@
 }
 
 .rightSide_intro {
-  font-size: 14px;
+  font-size: 16px;
   color: var(--charcoal);
   padding: 1rem 1.5rem;
 }
