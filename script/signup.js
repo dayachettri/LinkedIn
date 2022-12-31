@@ -8,6 +8,7 @@ const authentication = function (e) {
   if (email.value && password.value) {
     const obj = {
       name: fullName.value,
+      image: 'https://wallpaperaccess.com/full/2514661.jpg',
       email: email.value,
       password: password.value,
     };
