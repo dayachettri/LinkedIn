@@ -1,4 +1,4 @@
-# Linkedin
+# Linkedin https://linkdn.netlify.app/
 
 A LinkedIn clone made using HTML, CSS and JAVASCIRPT.
 
@@ -9,5 +9,4 @@ Contributors:-
 3. Daya Chettri (TL)
 4. Shweta Luthra (TM)
 
-## HOSTED LINK
-https://linkdn.netlify.app/
+
